@@ -1,0 +1,1148 @@
+# Translation of Plugins - WP Mobile Menu &#8211; The Mobile-Friendly Responsive Menu - Stable (latest release) in Vietnamese
+# This file is distributed under the same license as the Plugins - WP Mobile Menu &#8211; The Mobile-Friendly Responsive Menu - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-12-19 03:05:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Plugins - WP Mobile Menu &#8211; The Mobile-Friendly Responsive Menu - Stable (latest release)\n"
+
+#: includes/class-wp-mobile-menu-options.php:1551
+msgid "3rd Level Menu Text"
+msgstr "Văn bản trình đơn cấp độ 3"
+
+#: includes/class-wp-mobile-menu-options.php:1331
+#: includes/class-wp-mobile-menu-options.php:1421
+msgid "Menu Icon Color"
+msgstr "Màu biểu tượng menu"
+
+#: includes/class-wp-mobile-menu-options.php:697
+msgid "Logo Image Height"
+msgstr "Chiều cao hình ảnh logo"
+
+#: includes/class-wp-mobile-menu-options.php:688
+msgid "Logo Image for Retina devices"
+msgstr "Hình ảnh logo cho thiết bị Retina"
+
+#: includes/class-wp-mobile-menu-options.php:679
+msgid "Logo Image"
+msgstr "Hình ảnh logo"
+
+#: includes/class-wp-mobile-menu-core.php:184
+#: includes/plugin-settings/lib/class-admin-page.php:325
+msgid "Support"
+msgstr "Hỗ trơ"
+
+#: includes/class-wp-mobile-menu-core.php:183
+msgid "Docs"
+msgstr "Tài liệu"
+
+#. Author of the plugin
+msgid "Freshlight Lab"
+msgstr "Phòng thí nghiệm Freshlight"
+
+#: includes/class-wp-mobile-menu-options.php:265
+msgid "Header Style"
+msgstr "Kiểu Header"
+
+#: includes/class-wp-mobile-menu-options.php:255
+#: includes/class-wp-mobile-menu-options.php:271
+msgid "Header Menu"
+msgstr "Menu Header"
+
+#: includes/class-wp-mobile-menu-options.php:254
+#: includes/class-wp-mobile-menu-options.php:270
+msgid "Hamburger Menu"
+msgstr "Menu Hamburger"
+
+#: includes/class-wp-mobile-menu-options.php:253
+msgid "Choose the style of your Mobile Menu"
+msgstr "Chọn kiểu Menu di động của bạn"
+
+#. Author URI of the plugin
+msgid "https://www.freshlightlab.com/"
+msgstr "https://www.freshlightlab.com/"
+
+#: includes/plugin-settings/lib/class-admin-tab.php:114
+msgid "Font Options"
+msgstr "Tùy chọn phông chữ"
+
+#: includes/plugin-settings/lib/class-admin-tab.php:106
+msgid "Getting started"
+msgstr "Bắt đầu"
+
+#: includes/plugin-settings/lib/class-admin-page.php:331
+msgid "Version "
+msgstr "Phiên bản:"
+
+#: includes/class-wp-mobile-menu-options.php:1325
+#: includes/plugin-settings/lib/class-admin-page.php:312
+#: includes/plugin-settings/lib/class-admin-tab.php:118
+msgid "Alerts"
+msgstr "Cảnh báo"
+
+#: includes/plugin-settings/lib/class-admin-page.php:267
+msgid "The Footer menu isnt assigned."
+msgstr "Menu Chân trang không được chỉ định."
+
+#: includes/plugin-settings/lib/class-admin-page.php:256
+msgid "The Right menu isnt assigned."
+msgstr "Menu bên phải không được chỉ định."
+
+#: includes/class-wp-mobile-menu-options.php:356
+msgid "Use the Find element button and click in the elements you want to hide. When you are done hit the Save Changes button.<br>Example: .menu , #nav</p>"
+msgstr "Sử dụng nút Tìm phần tử và nhấp vào các phần tử bạn muốn ẩn. Khi bạn hoàn tất, hãy nhấn vào nút Lưu thay đổi. <br>Ví dụ: .menu, #nav</p>"
+
+#: includes/class-wp-mobile-menu-options.php:1643
+msgid "Give your Website an App look and feel"
+msgstr "Cung cấp cho Trang web của bạn một giao diện Ứng dụng"
+
+#: includes/class-wp-mobile-menu-options.php:1609
+msgid "Increase your shop revenue (Business Version)"
+msgstr "Tăng doanh thu cho cửa hàng của bạn (Phiên bản Doanh nghiệp)"
+
+#: includes/class-wp-mobile-menu-options.php:523
+msgid "This will able to cache the dynamic CSS. If enable it you might not see the changes you unless you purge the cache of your cache plugin."
+msgstr "Nó sẽ có thể lưu vào bộ đệm dynamic CSS. Nếu bật nó, bạn có thể không thấy các thay đổi trừ khi bạn xóa bộ nhớ cache của plugin bộ nhớ cache của mình."
+
+#: includes/class-wp-mobile-menu-options.php:520
+msgid "Cache Dynamic CSS"
+msgstr "Bộ nhớ đêm Dynamic CSS"
+
+#: includes/plugin-settings/lib/class-admin-tab.php:110
+msgid "Visibility options"
+msgstr "Tùy chọn hiển thị"
+
+#: includes/plugin-settings/lib/class-admin-tab.php:131
+#: includes/plugin-settings/lib/class-admin-tab.php:139
+#: includes/plugin-settings/lib/class-admin-tab.php:171
+msgid "Main Options"
+msgstr "Tùy chọn chính"
+
+#: includes/class-wp-mobile-menu-core.php:600
+#: includes/class-wp-mobile-menu-core.php:636
+#: includes/class-wp-mobile-menu-core.php:646
+#: includes/class-wp-mobile-menu-core.php:673
+msgid "Main navigation for mobile devices"
+msgstr "Điều hướng chính cho thiết bị di động"
+
+#: includes/class-wp-mobile-menu-options.php:378
+msgid "If you somehow couldn't find the necessary elements using the visual tool to pick elements just create a new ticket in our <a href=\"https://www.wpmobilemenu.com/support-contact/?utm_source=wprepo-dash&utm_medium=user%20website&utm_campaign=hide_original_menu_help\" target=\"_blank\">support page</a> with your site url and a screenshot of the element you want to hide. We reply fast."
+msgstr "If you somehow couldn't find the necessary elements using the visual tool to pick elements just create a new ticket in our <a href=\"https://www.wpmobilemenu.com/support-contact/?utm_source=wprepo-dash&utm_medium=user%20website&utm_campaign=hide_original_menu_help\" target=\"_blank\">support page</a> with your site url and a screenshot of the element you want to hide. We reply fast."
+
+#: includes/plugin-settings/lib/class-admin-tab.php:177
+msgid "Left Panel"
+msgstr "Bảng điều khiển bên trái"
+
+#: includes/plugin-settings/lib/class-admin-tab.php:145
+msgid "Right Panel"
+msgstr "Bảng điều khiển bên phải"
+
+#: includes/class-wp-mobile-menu-options.php:1648
+msgid "Upgrade now!"
+msgstr "Nâng cấp"
+
+#: includes/class-wp-mobile-menu-options.php:113
+#: includes/plugin-settings/lib/class-admin-tab.php:158
+msgid "Footer"
+msgstr "Chân trang"
+
+#: includes/class-wp-mobile-menu-options.php:1617
+msgid "Upgrade to Business!"
+msgstr "Nâng cấp lên Doanh nghiệp!"
+
+#: includes/class-wp-mobile-menu-options.php:125
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/plugin-settings/lib/class-admin-tab.php:126
+msgid "Import and Export"
+msgstr "Nhập và Xuất"
+
+#: includes/class-wp-mobile-menu-options.php:371
+msgid "Enable only for admin users. This will disable the Mobile Menu for all the visitors of your site except the administrator users."
+msgstr "Chỉ bật cho người dùng quản trị. Điều này sẽ tắt Menu di động cho tất cả khách truy cập trang web của bạn ngoại trừ người dùng quản trị viên."
+
+#: includes/class-wp-mobile-menu-options.php:367
+msgid "Testing Mode (only visible for admins)."
+msgstr "Bật Chế độ kiểm tra (chỉ hiển thị cho quản trị viên)."
+
+#: includes/class-wp-mobile-menu-core.php:1168
+#: includes/class-wp-mobile-menu-options.php:224
+msgid "Professional Demo"
+msgstr "Demo chuyên nghiệp"
+
+#: includes/class-wp-mobile-menu-core.php:1133
+#: includes/class-wp-mobile-menu-options.php:189
+msgid "WooCommerce Shop Demo (Business)"
+msgstr "Bản giới thiệu WooCommerce Shop (Doanh nghiệp)"
+
+#: includes/class-wp-mobile-menu-core.php:1126
+#: includes/class-wp-mobile-menu-core.php:1161
+#: includes/class-wp-mobile-menu-core.php:1196
+#: includes/class-wp-mobile-menu-options.php:150
+#: includes/class-wp-mobile-menu-options.php:184
+#: includes/class-wp-mobile-menu-options.php:219
+msgid "See Demo Site"
+msgstr "Xem trang web demo"
+
+#: includes/class-wp-mobile-menu-core.php:1103
+#: includes/class-wp-mobile-menu-core.php:1105
+#: includes/class-wp-mobile-menu-core.php:1138
+#: includes/class-wp-mobile-menu-core.php:1140
+#: includes/class-wp-mobile-menu-core.php:1173
+#: includes/class-wp-mobile-menu-core.php:1175
+#: includes/class-wp-mobile-menu-options.php:158
+#: includes/class-wp-mobile-menu-options.php:160
+#: includes/class-wp-mobile-menu-options.php:194
+#: includes/class-wp-mobile-menu-options.php:196
+#: includes/class-wp-mobile-menu-options.php:229
+#: includes/class-wp-mobile-menu-options.php:231
+msgid "Import Demo"
+msgstr "Nhập Demo"
+
+#: includes/class-wp-mobile-menu-core.php:1100
+#: includes/class-wp-mobile-menu-options.php:155
+msgid "Free Demo"
+msgstr "Demo Miễn phi"
+
+#: includes/class-wp-mobile-menu-core.php:1094
+msgid "This process will import the settings from the official demos. The logos should be assigned after the import."
+msgstr "Quá trình này sẽ nhập các cài đặt từ các bản trình diễn chính thức. Các biểu trưng phải được chỉ định sau khi nhập."
+
+#: includes/class-wp-mobile-menu-core.php:1091
+msgid "Import the Mobile Menu Official Demos"
+msgstr "Nhập bản Demos chính thức của Menu dành cho thiết bị di động"
+
+#: includes/class-wp-mobile-menu-core.php:820
+msgid "Organization Logo"
+msgstr "Logo của tổ chức"
+
+#: includes/class-wp-mobile-menu-options.php:1411
+#: includes/class-wp-mobile-menu-options.php:1501
+msgid "Cancel Button Color"
+msgstr "Màu nút hủy"
+
+#: includes/class-wp-mobile-menu-options.php:580
+msgid "Choose if you want to enable the header shadow at the bottom of the header."
+msgstr "Chọn xem bạn có muốn bật bóng tiêu đề ở cuối tiêu đề hay không."
+
+#: includes/class-wp-mobile-menu-options.php:576
+msgid "Header Shadow."
+msgstr "Bóng tiêu đề."
+
+#: includes/class-wp-mobile-menu-options.php:431
+msgid "When you open a submenu it automatically closes the other submenus that are open."
+msgstr "Khi bạn mở một menu con, nó sẽ tự động đóng các menu con khác đang mở."
+
+#: includes/class-wp-mobile-menu-options.php:428
+msgid "Automatically Close Submenus"
+msgstr "Tự động đóng menu các menu con"
+
+#: includes/class-wp-mobile-menu-core.php:422
+msgid "Right Menu Button"
+msgstr "Nút menu bên phải"
+
+#: includes/class-wp-mobile-menu-core.php:507
+msgid "Left Menu Button"
+msgstr "Nút menu bên trái"
+
+#: includes/plugin-settings/lib/class-admin-tab.php:150
+msgid "General"
+msgstr "Tổng quan"
+
+#: includes/class-wp-mobile-menu-options.php:790
+#: includes/class-wp-mobile-menu-options.php:1049
+msgid "Choose if you want to display an image, icon or an animated icon."
+msgstr "Chọn nếu bạn muốn hiển thị hình ảnh, biểu tượng hoặc biểu tượng động."
+
+#: includes/class-wp-mobile-menu-options.php:547
+msgid "Import Settings"
+msgstr "Nhập dữ liệu cài đặt"
+
+#: includes/class-wp-mobile-menu-options.php:542
+msgid "Export"
+msgstr "Xuất dữ liệu"
+
+#: includes/class-wp-mobile-menu-options.php:540
+msgid "Export Settings"
+msgstr "Xuất dữ liệu cài đặt"
+
+#: includes/class-wp-mobile-menu-options.php:352
+msgid "Hide Elements"
+msgstr "Ẩn các phần tử"
+
+#: includes/class-wp-mobile-menu-options.php:333
+msgid "Enable only in Mobiles devices. This will disable the Mobile Menu Visibilty option above (using resolution width trigger)."
+msgstr "Chỉ bật trong các thiết bị Điện thoại di động. Thao tác này sẽ vô hiệu hóa tùy chọn Độ hiển thị Menu Di động ở trên (sử dụng trình kích hoạt độ rộng độ phân giải)."
+
+#: includes/class-wp-mobile-menu-options.php:329
+msgid "Enable only in Mobile devices"
+msgstr "Chỉ bật trong các thiết bị Điện thoại di động"
+
+#: includes/class-wp-mobile-menu-options.php:340
+msgid "Mobile Menu Visibility(Width Trigger)"
+msgstr "Khả năng hiển thị menu trên thiết bị di động (Kích hoạt chiều rộng)"
+
+#: includes/class-wp-mobile-menu-options.php:73
+msgid "Icon"
+msgstr "Icon"
+
+#: includes/class-wp-mobile-menu-core.php:1255
+#: includes/class-wp-mobile-menu-core.php:1257
+#: includes/class-wp-mobile-menu-options.php:549
+msgid "Import"
+msgstr "Nhập dữ liệu"
+
+#: includes/class-wp-mobile-menu-core.php:1240
+msgid "Choose the settings file from your computer:"
+msgstr "Chọn tệp cài đặt từ máy tính của bạn:"
+
+#: includes/class-wp-mobile-menu-core.php:1215
+msgid "This tool allows you to import the settings of WP Mobile Menu that were previously exported from other website."
+msgstr "Công cụ này cho phép bạn nhập các cài đặt của WP Mobile Menu đã được xuất trước đó từ trang web khác."
+
+#: includes/class-wp-mobile-menu-core.php:1212
+msgid "Import the Mobile Menu settings from a txt file"
+msgstr "Nhập cài đặt Menu Di động từ tệp txt"
+
+#: includes/class-wp-mobile-menu-core.php:1080
+msgid "The settings are exactly the same has the current ones. Nothing was imported."
+msgstr "Các cài đặt hoàn toàn giống nhau có những cài đặt hiện tại. Không có gì được nhập khẩu."
+
+#: includes/class-wp-mobile-menu-core.php:1075
+msgid "Something went wrong. Upload a new file and try again."
+msgstr "Đã xảy ra lỗi. Tải lên một tệp mới và thử lại."
+
+#: includes/class-wp-mobile-menu-core.php:1071
+msgid "Settings Imported successfully."
+msgstr "Đã nhập thành công cài đặt."
+
+#: includes/class-wp-mobile-menu-core.php:1062
+msgid "The file is empty. Upload a new file and try again."
+msgstr "Tệp trống. Tải lên một tệp mới và thử lại."
+
+#: includes/class-wp-mobile-menu-core.php:943
+msgid "Mobile Filter Shop"
+msgstr "Cửa hàng bộ lọc di động"
+
+#: includes/class-wp-mobile-menu-core.php:921
+msgid "Right Menu Top"
+msgstr "Đầu menu bên phải"
+
+#: includes/class-wp-mobile-menu-core.php:899
+msgid "Left Menu Top"
+msgstr "Đầu menu bên trái"
+
+#: includes/class-wp-mobile-menu-core.php:613
+#: includes/class-wp-mobile-menu-core.php:686
+msgid "Assign a menu to the "
+msgstr "Gán một menu cho"
+
+#: includes/class-wp-mobile-menu-options.php:1521
+#: includes/class-wp-mobile-menu-options.php:1561
+msgid "3rd Level Text Color Hover"
+msgstr "Di chuột màu văn bản cấp độ 3"
+
+#: includes/class-wp-mobile-menu-options.php:1541
+#: includes/class-wp-mobile-menu-options.php:1581
+msgid "3rd Level Background Color Hover"
+msgstr "Di chuột màu nền cấp độ 3"
+
+#: includes/class-wp-mobile-menu-options.php:1531
+#: includes/class-wp-mobile-menu-options.php:1571
+msgid "3rd Level Background Color"
+msgstr "Màu nền cấp độ 3"
+
+#: includes/class-wp-mobile-menu-options.php:1511
+msgid "3rd Level Text Color"
+msgstr "Màu văn bản cấp 3"
+
+#: includes/class-wp-mobile-menu-options.php:1296
+msgid "Menu Items Border Color"
+msgstr "Menu Mục Màu viền"
+
+#: includes/class-wp-mobile-menu-options.php:833
+#: includes/class-wp-mobile-menu-options.php:1091
+msgid "Open Link Url"
+msgstr "Mở Url liên kết"
+
+#: includes/class-wp-mobile-menu-options.php:832
+#: includes/class-wp-mobile-menu-options.php:1090
+msgid "Open Menu"
+msgstr "Mở menu"
+
+#: includes/class-wp-mobile-menu-options.php:627
+msgid "Right"
+msgstr "Phải"
+
+#: includes/class-wp-mobile-menu-options.php:626
+msgid "Center"
+msgstr "Giữa"
+
+#: includes/class-wp-mobile-menu-options.php:625
+msgid "Left"
+msgstr "Trái"
+
+#: includes/class-wp-mobile-menu-options.php:691
+msgid "Upload your logo image for retina devices"
+msgstr "Tải lên hình ảnh biểu trưng của bạn cho các thiết bị retina"
+
+#: includes/class-wp-mobile-menu-options.php:672
+msgid "Chose the Header Branding ( Logo/Text )."
+msgstr "Chọn Thương hiệu Tiêu đề (Biểu trưng / Văn bản)."
+
+#: includes/class-wp-mobile-menu-options.php:558
+msgid "Choose if you want to have the Header Fixed or scrolling with the content."
+msgstr "Chọn xem bạn muốn Sửa tiêu đề hoặc cuộn với nội dung."
+
+#: includes/class-wp-mobile-menu-options.php:554
+msgid "Sticky Header"
+msgstr "Tiêu đề dính"
+
+#: includes/class-wp-mobile-menu-options.php:460
+msgid "Custom JS"
+msgstr "JS tùy chỉnh"
+
+#: includes/class-wp-mobile-menu-options.php:451
+msgid "Custom CSS"
+msgstr "CSS tùy chỉnh"
+
+#: includes/class-wp-mobile-menu-options.php:535
+msgid "<p>If you are having issues with sticky elements that dont assume a sticky behaviour, enter the ids or class name that identify that element.</p>"
+msgstr "<p>Nếu bạn đang gặp sự cố với các phần tử cố định không có hành vi cố định, hãy nhập id hoặc tên lớp xác định phần tử đó.</p>"
+
+#: includes/class-wp-mobile-menu-options.php:531
+msgid "Sticky Html Elements"
+msgstr "Các yếu tố html dính"
+
+#: includes/class-wp-mobile-menu-options.php:511
+msgid "Enter the Submenu Icon Font Size"
+msgstr "Nhập kích thước phông chữ biểu tượng menu con"
+
+#: includes/class-wp-mobile-menu-options.php:508
+msgid "Submenu Icon Font Size"
+msgstr "Kích thước phông chữ biểu tượng menu con"
+
+#: includes/class-wp-mobile-menu-options.php:499
+msgid "Submenu Close Icon"
+msgstr "Biểu tượng Đóng menu con"
+
+#: includes/class-wp-mobile-menu-options.php:490
+msgid "Submenu Open Icon"
+msgstr "Biểu tượng Mở menu con"
+
+#: includes/class-wp-mobile-menu-options.php:481
+msgid "Enter the Close Icon Font Size"
+msgstr "Nhập kích thước phông chữ biểu tượng đóng"
+
+#: includes/class-wp-mobile-menu-options.php:478
+msgid "Close Icon Font Size"
+msgstr "Đóng Kích thước Phông chữ Biểu tượng"
+
+#: includes/class-wp-mobile-menu-options.php:469
+msgid "Close Icon"
+msgstr "Đóng biểu tượng"
+
+#: includes/class-wp-mobile-menu-options.php:443
+msgid "Choose the size of the menu items border.<a href=\"/wp-admin/admin.php?page=mobile-menu-options&tab=colors\" target=\"_blank\">Click here</a> to adjust the color."
+msgstr "Chọn kích thước của đường viền các mục menu. <a href=\"/wp-admin/admin.php?page=mobile-menu-options&tab=colors\" target=\"_blank\"> Nhấp vào đây </a> để điều chỉnh màu sắc."
+
+#: includes/class-wp-mobile-menu-options.php:439
+msgid "Menu Items Border Size"
+msgstr "Menu Mục Kích thước đường viền"
+
+#: includes/class-wp-mobile-menu-options.php:319
+msgid "Choose the display type for the mobile menu."
+msgstr "Chọn kiểu hiển thị cho menu di động."
+
+#: includes/class-wp-mobile-menu-options.php:316
+msgid "Menu Display Type"
+msgstr "Loại hiển thị menu"
+
+#: includes/class-wp-mobile-menu-options.php:385
+msgid "Check the desired elements"
+msgstr "Kiểm tra các yếu tố mong muốn"
+
+#: includes/class-wp-mobile-menu-options.php:382
+msgid "Hide elements by default"
+msgstr "Ẩn các phần tử theo mặc định"
+
+#: includes/class-wp-mobile-menu-options.php:129
+msgid "Colors"
+msgstr "Màu sắc"
+
+#: includes/class-wp-mobile-menu-options.php:109
+#: includes/plugin-settings/lib/class-admin-tab.php:154
+msgid "Header"
+msgstr "Header"
+
+#: includes/class-wp-mobile-menu-core.php:720
+msgid "Right Mobile Menu"
+msgstr "Menu Di động bên trái"
+
+#: includes/class-wp-mobile-menu-core.php:719
+msgid "Left Mobile Menu"
+msgstr "Menu di động bên trái"
+
+#. Description of the plugin
+msgid "An easy to use WordPress responsive mobile menu. Keep your mobile visitors engaged."
+msgstr "Một menu di động đáp ứng WordPress dễ sử dụng. Thu hút khách truy cập trên thiết bị di động của bạn."
+
+#. Plugin URI of the plugin
+msgid "https://www.wpmobilemenu.com/"
+msgstr "https://www.wpmobilemenu.com/"
+
+#. Plugin Name of the plugin
+msgid "Mobile Menu"
+msgstr "Menu di động"
+
+#: includes/plugin-settings/lib/class-mobile-menu-options.php:356
+msgid "Container of type %s, does not exist."
+msgstr "Vùng chứa loại %s, không tồn tại."
+
+#: includes/plugin-settings/lib/class-mobile-menu-options.php:346
+msgid "%s needs a %s parameter."
+msgstr "%s cần tham số %s."
+
+#: includes/plugin-settings/lib/class-mobile-menu-options.php:164
+msgid "All option IDs per namespace must be unique. The id %s has been used multiple times."
+msgstr "Tất cả các ID tùy chọn trên mỗi vùng tên phải là duy nhất. Id %s đã được sử dụng nhiều lần."
+
+#: includes/plugin-settings/lib/class-option-select-categories.php:35
+#: includes/plugin-settings/lib/class-option-select-pages.php:27
+#: includes/plugin-settings/lib/class-option-select-post-types.php:27
+#: includes/plugin-settings/lib/class-option-select-posts.php:36
+msgid "Select"
+msgstr "Lựa chọn"
+
+#: includes/plugin-settings/lib/class-option-save.php:18
+msgid "Save Changes"
+msgstr "Lưu thay đổi"
+
+#: includes/plugin-settings/lib/class-option-multicheck.php:40
+msgid "Select All"
+msgstr "Chọn tất cả"
+
+#: includes/plugin-settings/lib/class-option-multicheck-pages.php:28
+#: includes/plugin-settings/lib/class-option-multicheck-posts.php:35
+#: includes/plugin-settings/lib/class-option-select-pages.php:34
+#: includes/plugin-settings/lib/class-option-select-posts.php:42
+msgid "Untitled %s"
+msgstr "Không có tiêu đề %s"
+
+#: includes/plugin-settings/lib/class-option-upload.php:269
+msgid "Use image"
+msgstr "Sử dụng hình ảnh"
+
+#: includes/plugin-settings/lib/class-option-upload.php:266
+msgid "Select Image"
+msgstr "Chọn ảnh"
+
+#: includes/plugin-settings/lib/class-option-file.php:192
+msgid "Use file"
+msgstr "Sử dụng tệp"
+
+#: includes/plugin-settings/lib/class-option-file.php:190
+msgid "Select File"
+msgstr "Chọn tập tin"
+
+#: includes/plugin-settings/lib/class-option-enable.php:65
+msgid "Disabled"
+msgstr "Tắt"
+
+#: includes/plugin-settings/lib/class-option-enable.php:62
+msgid "Enabled"
+msgstr "Bật"
+
+#: includes/plugin-settings/lib/class-option-ajax-button.php:100
+msgid "Please wait..."
+msgstr "Xin chờ..."
+
+#: includes/plugin-settings/lib/class-option-ajax-button.php:95
+msgid "Click me"
+msgstr "Nhấp vào"
+
+#: includes/plugin-settings/lib/class-option-ajax-button.php:87
+msgid "Something went wrong"
+msgstr "Đã xảy ra lỗi"
+
+#: includes/plugin-settings/lib/class-option-ajax-button.php:30
+#: includes/plugin-settings/lib/class-option-ajax-button.php:33
+msgid "Security check failed, please refresh the page and try again."
+msgstr "Kiểm tra bảo mật không thành công, vui lòng làm mới trang và thử lại."
+
+#: includes/plugin-settings/lib/class-meta-box.php:32
+msgid "More Options"
+msgstr "Tùy chọn khác"
+
+#: includes/plugin-settings/lib/class-admin-page.php:427
+msgid "Settings reset to default."
+msgstr "Cài đặt đặt lại về mặc định."
+
+#: includes/plugin-settings/lib/class-admin-page.php:424
+msgid "Settings saved."
+msgstr "Đã lưu cài đặt."
+
+#: includes/class-wp-mobile-menu-options.php:1431
+msgid "Text Before Right Icon"
+msgstr "Văn bản trước biểu tượng bên phải"
+
+#: includes/class-wp-mobile-menu-options.php:1401
+#: includes/class-wp-mobile-menu-options.php:1491
+msgid "Submenu Text Color"
+msgstr "Màu văn bản menu con"
+
+#: includes/class-wp-mobile-menu-options.php:1391
+#: includes/class-wp-mobile-menu-options.php:1481
+msgid "Submenu Background Color"
+msgstr "Màu nền menu con"
+
+#: includes/class-wp-mobile-menu-options.php:1381
+#: includes/class-wp-mobile-menu-options.php:1471
+msgid "Hover Text Color"
+msgstr "Màu chữ rê chuột"
+
+#: includes/class-wp-mobile-menu-options.php:1371
+#: includes/class-wp-mobile-menu-options.php:1461
+msgid "Background Hover Color"
+msgstr "Màu nền di chuột"
+
+#: includes/class-wp-mobile-menu-options.php:1361
+#: includes/class-wp-mobile-menu-options.php:1451
+msgid "Text Color"
+msgstr "Màu chữ"
+
+#: includes/class-wp-mobile-menu-options.php:1351
+#: includes/class-wp-mobile-menu-options.php:1441
+msgid "Background Color"
+msgstr "Màu nền"
+
+#: includes/class-wp-mobile-menu-options.php:1341
+msgid "Text After Left Icon"
+msgstr "Văn bản Sau Biểu tượng Bên trái"
+
+#: includes/class-wp-mobile-menu-options.php:1316
+msgid "Header Text Color"
+msgstr "Màu chữ đầu trang"
+
+#: includes/class-wp-mobile-menu-options.php:1306
+msgid "Header Background Color"
+msgstr "Màu nền của tiêu đề"
+
+#: includes/class-wp-mobile-menu-options.php:1286
+msgid "Overlay Background Color"
+msgstr "Màu nền lớp phủ"
+
+#: includes/class-wp-mobile-menu-options.php:1265
+msgid "Right Menu Font"
+msgstr "Phông chữ menu bên phải"
+
+#: includes/class-wp-mobile-menu-options.php:1255
+msgid "Enter the Right Menu Content Padding"
+msgstr "Nhập phần đệm nội dung của menu bên phải"
+
+#: includes/class-wp-mobile-menu-options.php:1252
+msgid "Right Menu Content Padding"
+msgstr "Đệm nội dung menu bên phải"
+
+#: includes/class-wp-mobile-menu-options.php:1231
+#: includes/class-wp-mobile-menu-options.php:1243
+msgid "Enter the Right Menu Panel Width"
+msgstr "Nhập chiều rộng bảng menu bên phải"
+
+#: includes/class-wp-mobile-menu-options.php:1222
+msgid "Pixels"
+msgstr "Pixels "
+
+#: includes/class-wp-mobile-menu-options.php:1181
+msgid "Enter the Right Background image opacity"
+msgstr "Nhập độ mờ của hình nền bên phải"
+
+#: includes/class-wp-mobile-menu-options.php:1173
+msgid "upload your right menu background image(this will override the Background color option)"
+msgstr "tải lên hình nền menu bên phải của bạn (điều này sẽ ghi đè tùy chọn Màu nền)"
+
+#: includes/class-wp-mobile-menu-options.php:1161
+msgid "Enter the Right Icon Right Margin"
+msgstr "Nhập biểu tượng bên phải Lề phải"
+
+#: includes/class-wp-mobile-menu-options.php:1158
+msgid "Icon Right Margin"
+msgstr "Biểu tượng Lề phải"
+
+#: includes/class-wp-mobile-menu-options.php:1149
+msgid "Enter the Right Icon Top Margin"
+msgstr "Nhập biểu tượng bên phải Lề trên cùng"
+
+#: includes/class-wp-mobile-menu-options.php:1079
+msgid "Upload your right menu icon image"
+msgstr "Tải lên hình ảnh biểu tượng menu bên phải của bạn"
+
+#: includes/class-wp-mobile-menu-options.php:1067
+msgid "Enter the Right Icon Font Size"
+msgstr "Nhập Kích thước Phông chữ Biểu tượng Bên phải"
+
+#: includes/class-wp-mobile-menu-options.php:72
+#: includes/class-wp-mobile-menu-options.php:657
+msgid "Image"
+msgstr "Hình ảnh"
+
+#: includes/class-wp-mobile-menu-options.php:1089
+msgid "Open the Right Menu Panel or open a Link url."
+msgstr "Mở Bảng menu bên phải hoặc mở url liên kết."
+
+#: includes/class-wp-mobile-menu-options.php:1125
+msgid "Text Before Icon Font"
+msgstr "Văn bản trước Phông chữ Biểu tượng"
+
+#: includes/class-wp-mobile-menu-options.php:1119
+msgid "Enter the text that will appear before the Icon."
+msgstr "Nhập văn bản sẽ xuất hiện trước Biểu tượng."
+
+#: includes/class-wp-mobile-menu-options.php:1116
+msgid "Text Before Icon"
+msgstr "Văn bản trước biểu tượng"
+
+#: includes/class-wp-mobile-menu-options.php:309
+msgid "Select the menu that will open in the right side."
+msgstr "Chọn menu sẽ mở ở phía bên phải."
+
+#: includes/class-wp-mobile-menu-options.php:121
+#: includes/class-wp-mobile-menu-options.php:306
+#: includes/plugin-settings/lib/class-admin-tab.php:166
+msgid "Right Menu"
+msgstr "Menu phải"
+
+#: includes/class-wp-mobile-menu-options.php:1007
+msgid "Left Menu Font"
+msgstr "Phông chữ menu bên trái"
+
+#: includes/class-wp-mobile-menu-options.php:997
+msgid "Enter the Left Menu Content Padding"
+msgstr "Nhập phần đệm nội dung của menu bên trái"
+
+#: includes/class-wp-mobile-menu-options.php:994
+msgid "Left Menu Content Padding"
+msgstr "Phần đệm nội dung trên menu bên trái"
+
+#: includes/class-wp-mobile-menu-options.php:982
+#: includes/class-wp-mobile-menu-options.php:1240
+msgid "Menu Panel Width(Percentage)"
+msgstr "Chiều rộng bảng menu (Phần trăm)"
+
+#: includes/class-wp-mobile-menu-options.php:973
+#: includes/class-wp-mobile-menu-options.php:985
+msgid "Enter the Left Menu Panel Width"
+msgstr "Nhập chiều rộng bảng menu bên trái"
+
+#: includes/class-wp-mobile-menu-options.php:970
+#: includes/class-wp-mobile-menu-options.php:1228
+msgid "Menu Panel Width(Pixels)"
+msgstr "Chiều rộng bảng menu (pixels)"
+
+#: includes/class-wp-mobile-menu-options.php:965
+#: includes/class-wp-mobile-menu-options.php:1223
+msgid "Percentage"
+msgstr "Phần trăm"
+
+#: includes/class-wp-mobile-menu-options.php:963
+#: includes/class-wp-mobile-menu-options.php:1221
+msgid "Choose the width units."
+msgstr "Chọn đơn vị chiều rộng."
+
+#: includes/class-wp-mobile-menu-options.php:959
+#: includes/class-wp-mobile-menu-options.php:1217
+msgid "Menu Panel Width Units"
+msgstr "Đơn vị chiều rộng bảng menu"
+
+#: includes/class-wp-mobile-menu-options.php:953
+#: includes/class-wp-mobile-menu-options.php:1211
+msgid "<a href=\"https://webgradients.com/\" target=\"_blank\">Click here</a> to get your desired Gradient, just press the copy button and paste in this field."
+msgstr "<a href=\"https://webgradients.com/\" target=\"_blank\"> Nhấp vào đây </a> để nhận Gradient mong muốn của bạn, chỉ cần nhấn nút sao chép và dán vào trường này."
+
+#: includes/class-wp-mobile-menu-options.php:950
+#: includes/class-wp-mobile-menu-options.php:1208
+msgid "Panel Background Gradient Css"
+msgstr "Bảng nền Gradient Css"
+
+#: includes/class-wp-mobile-menu-options.php:943
+#: includes/class-wp-mobile-menu-options.php:1201
+msgid "Unset"
+msgstr "Bỏ đặt"
+
+#: includes/class-wp-mobile-menu-options.php:942
+#: includes/class-wp-mobile-menu-options.php:1200
+msgid "Initial"
+msgstr "Ban đầu"
+
+#: includes/class-wp-mobile-menu-options.php:941
+#: includes/class-wp-mobile-menu-options.php:1199
+msgid "Inherit"
+msgstr "Thừa kế"
+
+#: includes/class-wp-mobile-menu-options.php:940
+#: includes/class-wp-mobile-menu-options.php:1198
+msgid "Cover"
+msgstr "Cover"
+
+#: includes/class-wp-mobile-menu-options.php:939
+#: includes/class-wp-mobile-menu-options.php:1197
+msgid "Contain"
+msgstr "Chứa"
+
+#: includes/class-wp-mobile-menu-options.php:938
+#: includes/class-wp-mobile-menu-options.php:1196
+msgid "Auto"
+msgstr "Tự động"
+
+#: includes/class-wp-mobile-menu-options.php:936
+#: includes/class-wp-mobile-menu-options.php:1194
+msgid "Select the Background image size type. <a href=\"https://www.w3schools.com/cssref/css3_pr_background-size.asp\" target=\"_blank\">See the CSS Documentation</a>"
+msgstr "Chọn loại kích thước hình nền. <a href=\"https://www.w3schools.com/cssref/css3_pr_background-size.asp\" target=\"_blank\"> Xem Tài liệu CSS </a>"
+
+#: includes/class-wp-mobile-menu-options.php:932
+#: includes/class-wp-mobile-menu-options.php:1191
+msgid "Panel Background Image Size"
+msgstr "Kích thước hình nền bảng điều khiển"
+
+#: includes/class-wp-mobile-menu-options.php:922
+msgid "Enter the Left Background image opacity"
+msgstr "Nhập độ mờ của hình nền bên trái"
+
+#: includes/class-wp-mobile-menu-options.php:919
+#: includes/class-wp-mobile-menu-options.php:1178
+msgid "Panel Background Image Opacity"
+msgstr "Độ mờ của hình nền bảng điều khiển"
+
+#: includes/class-wp-mobile-menu-options.php:914
+msgid "Upload your left menu background image(this will override the Background color option)"
+msgstr "Tải lên hình nền menu bên trái của bạn (điều này sẽ ghi đè tùy chọn Màu nền)"
+
+#: includes/class-wp-mobile-menu-options.php:911
+#: includes/class-wp-mobile-menu-options.php:1170
+msgid "Panel Background Image"
+msgstr "Hình nền bảng điều khiển"
+
+#: includes/class-wp-mobile-menu-options.php:902
+msgid "Enter the Left Icon Left Margin"
+msgstr "Nhập biểu tượng bên trái Lề trái"
+
+#: includes/class-wp-mobile-menu-options.php:899
+msgid "Icon Left Margin"
+msgstr "Biểu tượng Lề trái"
+
+#: includes/class-wp-mobile-menu-options.php:890
+msgid "Enter the Left Icon Top Margin"
+msgstr "Nhập biểu tượng bên trái Lề trên cùng"
+
+#: includes/class-wp-mobile-menu-options.php:887
+#: includes/class-wp-mobile-menu-options.php:1146
+msgid "Icon Top Margin"
+msgstr "Biểu tượng Lề trên cùng"
+
+#: includes/class-wp-mobile-menu-options.php:821
+msgid "Upload your left menu icon image"
+msgstr "Tải lên hình ảnh biểu tượng menu bên trái của bạn"
+
+#: includes/class-wp-mobile-menu-options.php:817
+#: includes/class-wp-mobile-menu-options.php:1076
+msgid "Icon Image"
+msgstr "Hình ảnh biểu tượng"
+
+#: includes/class-wp-mobile-menu-options.php:808
+msgid "Enter the Left Icon Font Size"
+msgstr "Nhập Kích thước Phông chữ Biểu tượng Bên trái"
+
+#: includes/class-wp-mobile-menu-options.php:805
+#: includes/class-wp-mobile-menu-options.php:1064
+msgid "Icon Font Size"
+msgstr "Kích thước phông chữ biểu tượng"
+
+#: includes/class-wp-mobile-menu-options.php:472
+#: includes/class-wp-mobile-menu-options.php:493
+#: includes/class-wp-mobile-menu-options.php:502
+#: includes/class-wp-mobile-menu-options.php:799
+#: includes/class-wp-mobile-menu-options.php:1058
+msgid "<div class=\"mobmenu-icon-holder\"></div><a href=\"#\" class=\"mobmenu-icon-picker button\">Select menu icon</a>"
+msgstr "<div class=\"mobmenu-icon-holder\"></div><a href=\"#\" class=\"mobmenu-icon-picker button\">Chọn biểu tượng menu</a>"
+
+#: includes/class-wp-mobile-menu-options.php:796
+#: includes/class-wp-mobile-menu-options.php:1055
+msgid "Icon Font"
+msgstr "Phông chữ biểu tượng"
+
+#: includes/class-wp-mobile-menu-options.php:786
+#: includes/class-wp-mobile-menu-options.php:1045
+msgid "Icon Type"
+msgstr "Loại biểu tượng"
+
+#: includes/class-wp-mobile-menu-options.php:851
+#: includes/class-wp-mobile-menu-options.php:1109
+msgid "Choose it the link will open in the same window or in the new window."
+msgstr "Chọn nó, liên kết sẽ mở trong cùng một cửa sổ hoặc trong cửa sổ mới."
+
+#: includes/class-wp-mobile-menu-options.php:847
+#: includes/class-wp-mobile-menu-options.php:1105
+msgid "Icon Link Url Target"
+msgstr "Mục tiêu url liên kết biểu tượng"
+
+#: includes/class-wp-mobile-menu-options.php:841
+#: includes/class-wp-mobile-menu-options.php:1099
+msgid "Enter the Icon Link Url."
+msgstr "Nhập Url Liên kết Biểu tượng."
+
+#: includes/class-wp-mobile-menu-options.php:838
+#: includes/class-wp-mobile-menu-options.php:1096
+msgid "Icon Link URL"
+msgstr "URL liên kết biểu tượng"
+
+#: includes/class-wp-mobile-menu-options.php:831
+msgid "Open the Left Menu Panel or open a Link url."
+msgstr "Mở Bảng menu bên trái hoặc mở url liên kết."
+
+#: includes/class-wp-mobile-menu-options.php:827
+#: includes/class-wp-mobile-menu-options.php:1085
+msgid "Icon Action"
+msgstr "Hành động biểu tượng"
+
+#: includes/class-wp-mobile-menu-options.php:867
+msgid "Text After Icon Font"
+msgstr "Văn bản Sau Phông chữ Biểu tượng"
+
+#: includes/class-wp-mobile-menu-options.php:861
+msgid "Enter the text that will appear after the Icon."
+msgstr "Nhập văn bản sẽ xuất hiện sau Biểu tượng."
+
+#: includes/class-wp-mobile-menu-options.php:858
+msgid "Text After Icon"
+msgstr "Văn bản sau biểu tượng"
+
+#: includes/plugin-settings/lib/class-admin-tab.php:142
+#: includes/plugin-settings/lib/class-admin-tab.php:174
+msgid "Menu Icon"
+msgstr "Biểu tượng Menu"
+
+#: includes/class-wp-mobile-menu-options.php:772
+#: includes/class-wp-mobile-menu-options.php:1031
+msgid "Choose if you want to open the submenu by click in the Parent Menu item."
+msgstr "Chọn xem bạn có muốn mở menu con hay không bằng cách nhấp vào mục Menu chính."
+
+#: includes/class-wp-mobile-menu-options.php:768
+#: includes/class-wp-mobile-menu-options.php:1027
+msgid "Parent Link open submenu"
+msgstr "Mở menu con của Liên kết chính"
+
+#: includes/class-wp-mobile-menu-options.php:289
+msgid "Select the menu that will open in the left side."
+msgstr "Chọn menu sẽ mở ở phía bên trái."
+
+#: includes/class-wp-mobile-menu-options.php:117
+#: includes/class-wp-mobile-menu-options.php:286
+#: includes/plugin-settings/lib/class-admin-tab.php:162
+msgid "Left Menu"
+msgstr "Menu bên trái"
+
+#: includes/class-wp-mobile-menu-options.php:751
+#: includes/class-wp-mobile-menu-options.php:870
+#: includes/class-wp-mobile-menu-options.php:1010
+#: includes/class-wp-mobile-menu-options.php:1128
+#: includes/class-wp-mobile-menu-options.php:1268
+msgid "Select a style"
+msgstr "Chọn một kiểu"
+
+#: includes/class-wp-mobile-menu-options.php:748
+msgid "Header Menu Font"
+msgstr "Phông chữ Menu Header"
+
+#: includes/class-wp-mobile-menu-options.php:649
+msgid "Enter the header Logo/Text right margin (only used whit Header Right Alignment)"
+msgstr "Nhập lề phải Biểu trưng / Văn bản của tiêu đề (chỉ được sử dụng đối với Căn chỉnh phải của Tiêu đề)"
+
+#: includes/class-wp-mobile-menu-options.php:646
+msgid "Header Logo/Text Right Margin"
+msgstr "Biểu trưng tiêu đề / Lề phải văn bản"
+
+#: includes/class-wp-mobile-menu-options.php:637
+msgid "Enter the header Logo/Text left margin (only used whit Header Left Alignment)"
+msgstr "Nhập lề trái của tiêu đề Biểu trưng / Văn bản (chỉ được sử dụng tùy theo Căn chỉnh bên trái của tiêu đề)"
+
+#: includes/class-wp-mobile-menu-options.php:634
+msgid "Header Logo/Text Left Margin"
+msgstr "Biểu trưng tiêu đề / Văn bản Lề trái"
+
+#: includes/class-wp-mobile-menu-options.php:611
+msgid "Enter the header text font size"
+msgstr "Nhập kích thước phông chữ của văn bản tiêu đề"
+
+#: includes/class-wp-mobile-menu-options.php:608
+msgid "Header Text Font Size"
+msgstr "Kích thước phông chữ của văn bản tiêu đề"
+
+#: includes/class-wp-mobile-menu-options.php:602
+msgid "Enter the desired text for the Mobile Header. If not specified it will use the site title."
+msgstr "Nhập văn bản mong muốn cho Tiêu đề di động. Nếu không được chỉ định, nó sẽ sử dụng tiêu đề trang web."
+
+#: includes/class-wp-mobile-menu-options.php:599
+msgid "Header Text"
+msgstr "Nội Dung Đầu Trang"
+
+#: includes/class-wp-mobile-menu-options.php:590
+msgid "Enter the height of the header"
+msgstr "Nhập chiều cao của tiêu đề"
+
+#: includes/class-wp-mobile-menu-options.php:587
+msgid "Header Height"
+msgstr "Chiều cao tiêu đề"
+
+#: includes/class-wp-mobile-menu-options.php:732
+msgid "Enter the logo/text top margin"
+msgstr "Nhập biểu trưng / văn bản lề trên cùng"
+
+#: includes/class-wp-mobile-menu-options.php:729
+msgid "Logo/Text Top Margin"
+msgstr "Lề trên cùng của Logo / Văn bản"
+
+#: includes/class-wp-mobile-menu-options.php:723
+msgid "Enter you alternative logo URL. If you leave it blank it will use the Site URL."
+msgstr "Nhập URL biểu trưng thay thế của bạn. Nếu bạn để trống, nó sẽ sử dụng URL của trang web."
+
+#: includes/class-wp-mobile-menu-options.php:720
+msgid "Alternative Logo URL"
+msgstr "URL biểu trưng thay thế"
+
+#: includes/class-wp-mobile-menu-options.php:713
+msgid "Choose if you want to disable the logo url to avoid being redirect to the homepage or alternative home url when touching the header logo."
+msgstr "Chọn nếu bạn muốn tắt url biểu trưng để tránh bị chuyển hướng đến trang chủ hoặc url trang chủ thay thế khi chạm vào biểu trưng tiêu đề."
+
+#: includes/class-wp-mobile-menu-options.php:709
+msgid "Disable Logo URL "
+msgstr "Tắt URL biểu trưng"
+
+#: includes/class-wp-mobile-menu-options.php:700
+msgid "Enter the height of the logo"
+msgstr "Nhập chiều cao của logo"
+
+#: includes/class-wp-mobile-menu-options.php:682
+msgid "Upload your logo image"
+msgstr "Tải lên hình ảnh biểu trưng của bạn"
+
+#: includes/class-wp-mobile-menu-options.php:658
+msgid "Text"
+msgstr "Văn bản"
+
+#: includes/plugin-settings/lib/class-admin-tab.php:134
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/class-wp-mobile-menu-options.php:669
+msgid "Site Logo"
+msgstr "Logo của Trang"
+
+#: includes/class-wp-mobile-menu-options.php:569
+msgid "Choose if you want to disable the logo/text so it will only display the menu icons in the header."
+msgstr "Chọn nếu bạn muốn tắt logo / văn bản để nó chỉ hiển thị các biểu tượng menu trong tiêu đề."
+
+#: includes/class-wp-mobile-menu-options.php:565
+msgid "Disable Logo/Text"
+msgstr "Tắt biểu trưng / văn bản"
+
+#: includes/class-wp-mobile-menu-options.php:281
+#: includes/class-wp-mobile-menu-options.php:301
+#: includes/class-wp-mobile-menu-options.php:560
+#: includes/class-wp-mobile-menu-options.php:571
+#: includes/class-wp-mobile-menu-options.php:582
+#: includes/class-wp-mobile-menu-options.php:715
+#: includes/class-wp-mobile-menu-options.php:774
+#: includes/class-wp-mobile-menu-options.php:1033
+msgid "No"
+msgstr "Không "
+
+#: includes/class-wp-mobile-menu-options.php:280
+#: includes/class-wp-mobile-menu-options.php:300
+#: includes/class-wp-mobile-menu-options.php:559
+#: includes/class-wp-mobile-menu-options.php:570
+#: includes/class-wp-mobile-menu-options.php:581
+#: includes/class-wp-mobile-menu-options.php:714
+#: includes/class-wp-mobile-menu-options.php:773
+#: includes/class-wp-mobile-menu-options.php:1032
+msgid "Yes"
+msgstr "Có "
+
+#: includes/class-wp-mobile-menu-options.php:463
+msgid "Put your custom JS rules here"
+msgstr "Đặt các quy tắc JS tùy chỉnh của bạn ở đây"
+
+#: includes/class-wp-mobile-menu-options.php:454
+msgid "Put your custom CSS rules here"
+msgstr "Đặt các quy tắc CSS tùy chỉnh của bạn ở đây"
+
+#: includes/class-wp-mobile-menu-options.php:335
+#: includes/class-wp-mobile-menu-options.php:373
+#: includes/class-wp-mobile-menu-options.php:434
+#: includes/class-wp-mobile-menu-options.php:526
+msgid "Off"
+msgstr "Tắt "
+
+#: includes/class-wp-mobile-menu-options.php:334
+#: includes/class-wp-mobile-menu-options.php:372
+#: includes/class-wp-mobile-menu-options.php:433
+#: includes/class-wp-mobile-menu-options.php:525
+msgid "On"
+msgstr "Bật "
+
+#: includes/class-wp-mobile-menu-options.php:296
+msgid "Enable Right Menu"
+msgstr "Bật menu bên phải"
+
+#: includes/class-wp-mobile-menu-options.php:276
+msgid "Enable Left Menu"
+msgstr "Bật menu bên trái"
+
+#: includes/class-wp-mobile-menu-options.php:343
+msgid "The Mobile menu will appear at this window size. Place it at 5000 to be always visible. "
+msgstr "Menu Di động sẽ xuất hiện ở kích thước cửa sổ này. Đặt nó ở 5000 để luôn được hiển thị."
+
+#: includes/class-wp-mobile-menu-core.php:183
+msgid "Documentation"
+msgstr "Tài liệu"
+
+#: includes/class-wp-mobile-menu-options.php:105
+msgid "General Options"
+msgstr "Tùy chọn chung"
+
+#: includes/class-wp-mobile-menu-options.php:97
+msgid "Mobile Menu Options"
+msgstr "Tùy chọn menu di động"
+
+#: includes/class-wp-mobile-menu-options.php:76
+msgid "Slideout Push Content"
+msgstr "Nội dung đẩy trượt"
+
+#: includes/class-wp-mobile-menu-options.php:77
+msgid "Slideout Over Content"
+msgstr "Slideout Over Content"
+
+#: includes/class-wp-mobile-menu-options.php:64
+msgid "Choose one menu"
+msgstr "Chọn một menu"
+
+#: includes/class-wp-mobile-menu-core.php:932
+msgid "Right Menu Bottom"
+msgstr "Dưới cùng của menu bên phải"
+
+#: includes/class-wp-mobile-menu-core.php:832
+msgid "Logo Header Menu"
+msgstr "Menu tiêu đề logo"
+
+#: includes/class-wp-mobile-menu-core.php:910
+msgid "Left Menu Bottom"
+msgstr "Menu bên trái phía dưới"
+
+#: includes/class-wp-mobile-menu-core.php:160
+msgid "Remove Icon Selection"
+msgstr "Xóa lựa chọn biểu tượng"
