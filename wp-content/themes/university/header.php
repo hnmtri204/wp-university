@@ -16,7 +16,7 @@
                 $sitename = get_bloginfo('title');
                 $fictional = explode(" ", $sitename);
                 ?>
-                <a href="#"><strong><?php echo $fictional[0]; ?></strong> <?php echo $fictional[1]; ?></a>
+                <a href="<?php echo esc_url(site_url("/")); ?>"><strong><?php echo $fictional[0]; ?></strong> <?php echo $fictional[1]; ?></a>
             </h1>
             <a href="" class="js-search-trigger site-header__search-trigger"><i class="fa fa-search" aria-hidden="true"></i></a>
             <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>

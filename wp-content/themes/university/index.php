@@ -12,34 +12,34 @@ get_header();
 </div>
 <?php
 while (have_posts()) :
-    the_post();
+  the_post();
 ?>
-<div class="container container--narrow page-section">
-  <div class="post-item">
-    <h2 class="headline headline--medium headline--post-title">
-      <a href="<?php echo get_permalink() ?>"><?php echo get_the_title(); ?></a>
-    </h2>
+  <div class="container container--narrow page-section">
+    <div class="post-item">
+      <h2 class="headline headline--medium headline--post-title">
+        <a href="<?php echo get_permalink() ?>"><?php echo get_the_title(); ?></a>
+      </h2>
 
-    <div class="metabox">
-      <p>
-        Posted by
-        <?php the_author_posts_link(); ?>
-        on <?php the_time('d/m/y'); ?> in
-        <?php echo get_the_category_list(', '); ?>
-      </p>
-    </div>
+      <div class="metabox">
+        <p>
+          Posted by
+          <?php the_author_posts_link(); ?>
+          on <?php the_time('d/m/y'); ?> in
+          <?php echo get_the_category_list(', '); ?>
+        </p>
+      </div>
 
-    <div class="generic-content">
-      <p>
-      <?php the_excerpt(); ?>
-      </p>
-      <p>
-        <a class="btn btn--blue" href="<?php echo get_permalink() ?>">Continue reading &raquo;</a>
-      </p>
+      <div class="generic-content">
+        <p>
+          <?php the_excerpt(); ?>
+        </p>
+        <p>
+          <a class="btn btn--blue" href="<?php echo get_permalink() ?>">Continue reading &raquo;</a>
+        </p>
+      </div>
     </div>
   </div>
-</div>
-<?php endwhile; 
+<?php endwhile;
 echo paginate_links();
 ?>
 <?php

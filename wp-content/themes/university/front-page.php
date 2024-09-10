@@ -20,23 +20,50 @@ get_header();
         'posts_per_page' => '2',
         'post_type' => 'event'
       ));
+
       while ($homepageEvents->have_posts()) {
-        $homepageEvents->the_post(); ?>
+        $homepageEvents->the_post();
+
+        // Get the event date stored in a custom field
+        $eventDate = get_post_meta(get_the_ID(), 'event_date', true); // Assuming 'event_date' is your custom field
+
+        $eventDate = get_post_meta(get_the_ID(), 'event_date', true);
+        $eventDate = get_post_meta(get_the_ID(), 'event_date', true);
+        if ($eventDate) {
+          // Format the event date
+          $eventDateFormatted = date('F j, Y', strtotime($eventDate));
+        } else {
+          $eventDateFormatted = 'Event Date Not Set';  // Handle cases where the event date is not available
+        }
+
+      ?>
         <div class="event-summary">
           <a class="event-summary__date t-center" href="#">
-            <span class="event-summary__month"><?php the_time('M'); ?></span>
-            <span class="event-summary__day"><?php the_time('d') ?></span>
+            <?php if ($eventDateFormatted !== 'N/A') { ?>
+              <span class="event-summary__month"><?php echo date("M", strtotime($eventDateFormatted)); ?></span>
+              <span class="event-summary__day"><?php echo date("d", strtotime($eventDateFormatted)); ?></span>
+            <?php } else { ?>
+              <span class="event-summary__month">N/A</span>
+              <span class="event-summary__day">N/A</span>
+            <?php } ?>
           </a>
           <div class="event-summary__content">
             <h5 class="event-summary__title headline headline--tiny"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-            <p><?php echo wp_trim_words(get_the_content(), 18); ?> <a href="<?php the_permalink(); ?>" class="nu gray">Learn more</a></p>
+            <p><?php
+                if (has_excerpt()) {
+                  echo get_the_excerpt();
+                } else {
+                  echo wp_trim_words(get_the_content(), 18);
+                }
+                ?>
+              <a href="<?php echo esc_url(get_the_permalink()); ?>" class="nu gray">Read more</a>
+            </p>
           </div>
         </div>
       <?php } ?>
-
       <p class="t-center no-margin"><a href="<?php echo get_post_type_archive_link('event'); ?>" class="btn btn--blue">View All Events</a></p>
-
     </div>
+
   </div>
 
   <div class="full-width-split__two">
@@ -65,7 +92,7 @@ get_header();
                 echo wp_trim_words(get_the_content(), 18);
               }
               ?>
-              <a href="<?php the_permalink(); ?>" class="nu gray"> Read more</a>
+              <a href="<?php echo esc_url(get_the_permalink()); ?>" class="nu gray"> Read more </a>
             </p>
           </div>
         </div>
@@ -83,7 +110,7 @@ get_header();
       <?php
       $slider_posts = new WP_Query(array(
         'post_type' => 'post',
-        'posts_per_page' => 3, 
+        'posts_per_page' => 3,
       ));
 
       while ($slider_posts->have_posts()) {
@@ -106,42 +133,6 @@ get_header();
     <div class="slider__bullets glide__bullets" data-glide-el="controls[nav]"></div>
   </div>
 </div>
-
-
-<!-- <div class="hero-slider">
-  <div data-glide-el="track" class="glide__track">
-    <div class="glide__slides">
-      <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/bus.jpg') ?>)">
-        <div class="hero-slider__interior container">
-          <div class="hero-slider__overlay">
-            <h2 class="headline headline--medium t-center">Free Transportation</h2>
-            <p class="t-center">All students have free unlimited bus fare.</p>
-            <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/apples.jpg') ?>)">
-        <div class="hero-slider__interior container">
-          <div class="hero-slider__overlay">
-            <h2 class="headline headline--medium t-center">An Apple a Day</h2>
-            <p class="t-center">Our dentistry program recommends eating apples.</p>
-            <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/bread.jpg') ?>)">
-        <div class="hero-slider__interior container">
-          <div class="hero-slider__overlay">
-            <h2 class="headline headline--medium t-center">Free Food</h2>
-            <p class="t-center">Fictional University offers lunch plans for those in need.</p>
-            <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="slider__bullets glide__bullets" data-glide-el="controls[nav]"></div>
-  </div>
-</div> -->
 <?php
 get_footer();
 
