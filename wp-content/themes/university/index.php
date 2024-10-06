@@ -1,47 +1,51 @@
-<?php
-get_header();
-?>
+<?php get_header(); ?>
+
 <div class="page-banner">
-  <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('images/ocean.jpg') ?>)"></div>
+  <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('images/library-hero.jpg') ?>)"></div>
   <div class="page-banner__content container container--narrow">
-    <h1 class="page-banner__title">Welcome to our blog!</h1>
+    <h1 class="page-banner__title">Blog</h1>
     <div class="page-banner__intro">
-      <p>Keep up with our latest news.</p>
+      <p>lorem</p>
     </div>
   </div>
 </div>
-<?php
-while (have_posts()) :
-  the_post();
-?>
-  <div class="container container--narrow page-section">
-    <div class="post-item">
-      <h2 class="headline headline--medium headline--post-title">
-        <a href="<?php echo get_permalink() ?>"><?php echo get_the_title(); ?></a>
-      </h2>
 
-      <div class="metabox">
-        <p>
-          Posted by
-          <?php the_author_posts_link(); ?>
-          on <?php the_time('d/m/y'); ?> in
-          <?php echo get_the_category_list(', '); ?>
-        </p>
-      </div>
+<div class="container container--narrow page-section">
+  <?php
+  $allPostsQuery = new WP_Query(array(
+    'posts_per_page' => -1,
+  ));
 
-      <div class="generic-content">
-        <p>
+  if ($allPostsQuery->have_posts()) {
+    while ($allPostsQuery->have_posts()) {
+      $allPostsQuery->the_post(); ?>
+
+      <div class="post-item">
+        <h2 class="headline headline--medium">
+          <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+        </h2>
+
+        <div class="metabox">
+          <p>
+            Posted By <?php the_author_posts_link(); ?> on the day <?php the_time('d/m/Y'); ?>
+            in <?php echo get_the_category_list(', '); ?>
+          </p>
+        </div>
+
+        <div class="generic-content">
           <?php the_excerpt(); ?>
-        </p>
-        <p>
-          <a class="btn btn--blue" href="<?php echo get_permalink() ?>">Continue reading &raquo;</a>
-        </p>
+          <p><a class="btn btn--blue" href="<?php the_permalink(); ?>">Continue reading &raquo;</a></p>
+        </div>
       </div>
-    </div>
-  </div>
-<?php endwhile;
-echo paginate_links();
-?>
-<?php
-get_footer();
-?>
+
+    <?php }
+  } else { ?>
+    <p>There are currently no posts.</p>
+  <?php }
+
+  wp_reset_postdata(); 
+  ?>
+
+</div>
+
+<?php get_footer(); ?>

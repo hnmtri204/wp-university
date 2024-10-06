@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.6.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-09-02 19:35:40+0000\n"
+"PO-Revision-Date: 2024-09-14 09:46:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -192,77 +192,77 @@ msgstr "Nếu bạn là tác giả plugin, bạn có thể tìm hiểu thêm v�
 msgid "If you are a plugin author, you can learn more about <a href=\"https://developer.wordpress.org/plugins/privacy/adding-the-personal-data-eraser-to-your-plugin/\">how to add the Personal Data Eraser to a plugin</a>."
 msgstr "Nếu bạn là tác giả plugin, bạn có thể tìm hiểu thêm về <a href=\"https://developer.wordpress.org/plugins/privacy/adding-the-personal-data-eraser-to-your-plugin/\">cách thực hiện để thêm Công cụ xóa dữ liệu cá nhân vào plugin</a>."
 
-#: wp-admin/about.php:187
+#: wp-admin/about.php:212
 msgid "See everything new"
 msgstr "Xem mọi thứ mới"
 
-#: wp-admin/about.php:187
+#: wp-admin/about.php:212
 msgid "https://wordpress.org/download/releases/6-6/"
 msgstr "https://wordpress.org/download/releases/6-6/"
 
-#: wp-admin/about.php:183
+#: wp-admin/about.php:208
 msgid "For a comprehensive overview of all the new features and enhancements in WordPress 6.6, please visit the feature-showcase website."
 msgstr "Để có cái nhìn tổng quan toàn diện về tất cả các tính năng và cải tiến mới trong WordPress 6.6, vui lòng truy cập trang web giới thiệu tính năng."
 
-#: wp-admin/about.php:181
+#: wp-admin/about.php:206
 msgid "And much more"
 msgstr "Và nhiều hơn nữa"
 
-#: wp-admin/about.php:174
+#: wp-admin/about.php:199
 msgid "55+ accessibility fixes and enhancements focus on foundational aspects of the WordPress experience, particularly the data views component powering the new site editing experience and areas like the Inserter that provide a key way of interacting with blocks and patterns."
 msgstr "Hơn 55 bản sửa lỗi và cải tiến về khả năng truy cập tập trung vào các khía cạnh nền tảng của trải nghiệm WordPress, đặc biệt là thành phần chế độ xem dữ liệu hỗ trợ trải nghiệm chỉnh sửa trang web mới và các khu vực như Trình chèn cung cấp cách tương tác chính với các khối và mẫu."
 
 #. translators: %1$s: code-formatted "WP_Theme_JSON", %2$s: code-formatted
 #. "data-wp-on-async", %%: escaped percent sign, leave as %%.
-#: wp-admin/about.php:159
+#: wp-admin/about.php:184
 msgid "WordPress 6.6 includes important updates like removing redundant %1$s calls, disabling autoload for large options, eliminating unnecessary polyfill dependencies, lazy loading post embeds, introducing the %2$s directive, and a 33%% reduction in template loading time in the editor."
 msgstr "WordPress 6.6 bao gồm các cập nhật quan trọng như xóa các cuộc gọi %1$s dư thừa, vô hiệu hóa tính năng tự động tải cho các tùy chọn lớn, loại bỏ các phụ thuộc polyfill không cần thiết, lười tải bài nhúng nhúng, giới thiệu chỉ thị %2$s và giảm 33%% thời gian tải mẫu trong biên tập viên."
 
-#: wp-admin/about.php:136
+#: wp-admin/about.php:161
 msgid "Allow specific pieces of content to be customized in each instance of a synced pattern while keeping a consistent style for all instances, simplifying future updates. Currently, you can set overrides for Heading, Paragraph, Button, and Image blocks."
 msgstr "Cho phép tùy chỉnh các phần nội dung cụ thể trong từng phiên bản của mẫu được đồng bộ hóa trong khi vẫn giữ kiểu nhất quán cho tất cả các phiên bản, đơn giản hóa các bản cập nhật trong tương lai. Hiện tại, bạn có thể đặt ghi đè cho các khối Tiêu đề, Đoạn, Nút và Hình ảnh."
 
-#: wp-admin/about.php:136
+#: wp-admin/about.php:161
 msgid "Add the ability to customize content in synced patterns."
 msgstr "Thêm khả năng tùy chỉnh nội dung theo mẫu được đồng bộ hóa."
 
-#: wp-admin/about.php:119
+#: wp-admin/about.php:144
 msgid "Enjoy the ease of plugin auto-updates with the safety of rollbacks if anything goes wrong, improving your site&#8217;s security while minimizing potential downtime."
 msgstr "Tận hưởng sự dễ dàng của việc tự động cập nhật plugin cùng với tính năng khôi phục an toàn nếu có sự cố xảy ra, cải thiện tính bảo mật cho trang web của bạn đồng thời giảm thiểu thời gian ngừng hoạt động có thể xảy ra."
 
-#: wp-admin/about.php:119
+#: wp-admin/about.php:144
 msgid "Auto-update your plugins with peace of mind."
 msgstr "Tự động cập nhật plugin của bạn một cách an tâm."
 
-#: wp-admin/about.php:118
+#: wp-admin/about.php:143
 msgid "Rollbacks for plugin auto-updates"
 msgstr "Các bản khôi phục lại cho cập nhật tự động của plugin"
 
-#: wp-admin/about.php:112
+#: wp-admin/about.php:137
 msgid "See all of your pages and a preview of any selected page before you edit via a new side-by-side layout in the Site Editor."
 msgstr "Xem tất cả các trang của bạn và bản xem trước của bất kỳ trang nào đã chọn trước khi bạn chỉnh sửa thông qua bố cục cạnh nhau mới trong Trình chỉnh sửa trang."
 
-#: wp-admin/about.php:112
+#: wp-admin/about.php:137
 msgid "Simplify your workflow with a new layout built for pages."
 msgstr "Đơn giản hóa quy trình làm việc của bạn bằng bố cục mới được tạo cho các trang."
 
-#: wp-admin/about.php:111
+#: wp-admin/about.php:136
 msgid "Quick previews for pages"
 msgstr "Xem trước nhanh cho các trang"
 
-#: wp-admin/about.php:95
+#: wp-admin/about.php:120
 msgid "Block theme authors can create unlimited individual color or font sets to offer more specific design options within the same theme. These sets provide more contained design possibilities, allowing for customization without changing the site&#8217;s broader styling, beyond color or typography settings."
 msgstr "Tác giả giao diện khối có thể tạo các bộ màu hoặc phông chữ riêng lẻ không giới hạn để cung cấp các tùy chọn thiết kế cụ thể hơn trong cùng một chủ đề. Những bộ này cung cấp nhiều khả năng thiết kế khép kín hơn, cho phép tùy chỉnh mà không thay đổi kiểu dáng rộng hơn của trang web, ngoài cài đặt màu sắc hoặc kiểu chữ."
 
-#: wp-admin/about.php:95
+#: wp-admin/about.php:120
 msgid "Add more design options to any block theme."
 msgstr "Thêm nhiều tùy chọn thiết kế hơn cho bất kỳ giao diện khối nào."
 
-#: wp-admin/about.php:94
+#: wp-admin/about.php:119
 msgid "Color palettes & font sets"
 msgstr "Bảng màu & phông chữ"
 
-#: wp-admin/about.php:87
+#: wp-admin/about.php:112
 msgid "Create and deploy beautiful and coherent design elements across your sites with WordPress 6.6. A new rollback option for auto-updating plugins gives you control, flexibility, and peace of mind."
 msgstr "Tạo và triển khai các yếu tố thiết kế đẹp mắt và mạch lạc trên các trang web của bạn với WordPress 6.6. Tùy chọn khôi phục mới cho các plugin tự động cập nhật mang lại cho bạn quyền kiểm soát, tính linh hoạt và sự an tâm."
 
@@ -404,11 +404,11 @@ msgstr "Cài đặt ngay"
 msgid "Created by a worldwide team of passionate individuals"
 msgstr "Tạo ra bởi một đội ngũ toàn cầu các cá nhân đam mê."
 
-#: wp-admin/about.php:173
+#: wp-admin/about.php:198
 msgid "Accessibility improvements"
 msgstr "Cải thiện khả năng tiếp cận"
 
-#: wp-admin/about.php:154
+#: wp-admin/about.php:179
 msgid "Performance updates"
 msgstr "Cập nhật hiệu suất"
 
@@ -478,12 +478,12 @@ msgid "When using Bulk Edit, you can change the metadata (categories, author, et
 msgstr "Khi sử dụng chỉnh sửa hàng loạt, bạn có thể thay đổi siêu dữ liệu (danh mục, tác giả, v.v.) cho tất cả các bài viết được chọn cùng một lúc. Để loại bỏ một bài viết khỏi nhóm, chỉ cần nhấp vào nút %s<span class=\"screen-reader-text\">remove</span> bên cạnh tên của nó trong khu vực chỉnh sửa hàng loạt xuất hiện."
 
 #. translators: 1: WordPress Release Notes link, 2: WordPress version number.
-#: wp-admin/about.php:252
+#: wp-admin/about.php:277
 msgid "<a href=\"%1$s\">Read the WordPress %2$s Release Notes</a> for information on installation, enhancements, fixed issues, release contributors, learning resources, and the list of file changes."
 msgstr "<a href=\"%1$s\">Đọc các Ghi chú Phát hành WordPress %2$s</a> để biết thông tin về cách cài đặt, cải tiến, sửa lỗi, các đóng góp từ người phát hành, tài nguyên học tập và danh sách các thay đổi trong tệp."
 
 #. translators: 1: WordPress Field Guide link, 2: WordPress version number.
-#: wp-admin/about.php:233
+#: wp-admin/about.php:258
 msgid "Explore the <a href=\"%1$s\">WordPress %2$s Field Guide</a>. Learn about the changes in this release with detailed developer notes to help you build with WordPress."
 msgstr "Khám phá <a href=\"%1$s\">Hướng dẫn Sử dụng WordPress %2$s</a>. Tìm hiểu về các thay đổi trong phiên bản này với các ghi chú chi tiết từ nhà phát triển để giúp bạn xây dựng trang web với WordPress."
 
@@ -504,7 +504,7 @@ msgid "Your WordPress version is %1$s, however the new plugin version requires %
 msgstr "Phiên bản WordPress của bạn là %1$s, tuy nhiên phiên bản mới của plugin yêu cầu %2$s."
 
 #. translators: %s: WordPress version.
-#: wp-admin/about.php:66
+#: wp-admin/about.php:66 wp-admin/about.php:91
 msgid "https://wordpress.org/support/wordpress-version/version-%s/"
 msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 
@@ -552,7 +552,7 @@ msgstr "Tên trường tùy chỉnh mới"
 #. translators: Hidden accessibility text.
 #: wp-admin/includes/media.php:2753
 msgid "Search Media:"
-msgstr "Tìm kiếm phương tiện:"
+msgstr "Tìm kiếm media:"
 
 #: wp-admin/includes/image-edit.php:270
 msgid "Clear Crop"
@@ -759,17 +759,17 @@ msgstr "Bảng được sắp xếp theo Tiêu đề."
 #: wp-admin/includes/class-wp-posts-list-table.php:777
 #: wp-admin/includes/class-wp-posts-list-table.php:784
 msgid "Table ordered by Date."
-msgstr "Bảng được sắp xếp theo Ngày."
+msgstr "Bảng được sắp xếp theo ngày."
 
 #: wp-admin/includes/class-wp-media-list-table.php:403
 #: wp-admin/includes/class-wp-posts-list-table.php:776
 #: wp-admin/includes/class-wp-posts-list-table.php:783
 msgid "Table ordered by Comments."
-msgstr "Bảng được sắp xếp theo Bình luận."
+msgstr "Bảng được sắp xếp theo bình luận."
 
 #: wp-admin/includes/class-wp-media-list-table.php:402
 msgid "Table ordered by Uploaded To."
-msgstr "Bảng được sắp xếp theo Ngày Tải lên."
+msgstr "Bảng được sắp xếp theo ngày tải lên."
 
 #: wp-admin/includes/class-wp-media-list-table.php:401
 msgid "Table ordered by Author."
@@ -777,7 +777,7 @@ msgstr "Bảng được sắp xếp theo tác giả."
 
 #: wp-admin/includes/class-wp-media-list-table.php:400
 msgid "Table ordered by File Name."
-msgstr "Bảng được sắp xếp theo Tên File."
+msgstr "Bảng được sắp xếp theo tên tệp tin."
 
 #. translators: Hidden accessibility text.
 #: wp-admin/includes/class-wp-list-table.php:1602
@@ -971,7 +971,7 @@ msgid "Be the future of WordPress"
 msgstr "Hãy là tương lai của WordPress"
 
 #. translators: 1: Learn WordPress link, 2: Workshops link.
-#: wp-admin/about.php:212
+#: wp-admin/about.php:237
 msgid "<a href=\"%1$s\">Learn WordPress</a> is a free resource for new and experienced WordPress users. Learn is stocked with how-to videos on using various features in WordPress, <a href=\"%2$s\">interactive workshops</a> for exploring topics in-depth, and lesson plans for diving deep into specific areas of WordPress."
 msgstr "<a href=\"%1$s\">Học WordPress</a> là một nguồn tài nguyên miễn phí dành cho người dùng WordPress mới và có kinh nghiệm. Learn cung cấp các video hướng dẫn về cách sử dụng các tính năng khác nhau trong WordPress, <a href=\"%2$s\">các workshop tương tác</a> để khám phá các chủ đề chi tiết, và kế hoạch học tập để tìm hiểu sâu vào các lĩnh vực cụ thể của WordPress."
 
@@ -1008,7 +1008,7 @@ msgstr "<strong>Xem</strong> dẫn bạn đến một bản lưu trữ tác gi�
 
 #: wp-admin/upload.php:386
 msgid "<strong>Download file</strong> downloads the original media file to your device."
-msgstr "<strong>Tải xuống tệp</strong> tải xuống tệp media gốc về thiết bị của bạn."
+msgstr "<strong>Tải xuống tệp</strong> tải xuống tệp gốc trong media về thiết bị của bạn."
 
 #: wp-admin/site-editor.php:38
 msgctxt "site editor title tag"
@@ -1109,19 +1109,19 @@ msgstr "<a href=\"https://wordpress.org/documentation/article/keyboard-shortcuts
 
 #: wp-admin/edit-comments.php:230
 msgid "<a href=\"https://wordpress.org/documentation/article/understand-comment-spam/\">Documentation on Comment Spam</a>"
-msgstr "<a href=\"https://wordpress.org/documentation/article/understand-comment-spam/\">Tài liệu về bình luận Spam</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/understand-comment-spam/\">Tài liệu về bình luận rác</a>"
 
-#: wp-admin/customize.php:255
+#: wp-admin/customize.php:257
 msgid "<a href=\"https://wordpress.org/documentation/article/customizer/\">Documentation on Customizer</a>"
 msgstr "<a href=\"https://wordpress.org/documentation/article/customizer/\">Tài liệu về Công cụ tùy chỉnh</a>"
 
 #. translators: The localized WordPress download URL.
-#: wp-admin/about.php:338
+#: wp-admin/about.php:363
 msgid "https://wordpress.org/download/"
 msgstr "https://wordpress.org/download"
 
 #. translators: %s: The major version of WordPress for this branch.
-#: wp-admin/about.php:335
+#: wp-admin/about.php:360
 msgid "This is the final release of WordPress %s"
 msgstr "Đây là bản phát hành cuối cùng của WordPress %s"
 
@@ -1139,7 +1139,7 @@ msgstr "https://developer.wordpress.org/apis/wp-config-php/#wp-environment-type"
 
 #: wp-admin/upload.php:385
 msgid "<strong>Copy URL</strong> copies the URL for the media file to your clipboard."
-msgstr "<strong>Sao chép URL</strong> sao chép URL của tệp phương tiện vào bộ nhớ đệm của bạn."
+msgstr "<strong>Sao chép URL</strong> sao chép URL của tệp media vào bộ nhớ đệm của bạn."
 
 #: wp-admin/upload.php:384
 msgid "<strong>View</strong> will take you to a public display page for that file."
@@ -1147,11 +1147,11 @@ msgstr "<strong>Xem</strong> sẽ đưa bạn đến trang hiển thị công c�
 
 #: wp-admin/upload.php:383
 msgid "<strong>Delete Permanently</strong> will delete the file from the media library (as well as from any posts to which it is currently attached)."
-msgstr "<strong>Xoá Vĩnh Viễn</strong> sẽ xoá file khỏi thư viện Media (cũng như khỏi bất kỳ bài viết nào mà file đó đang được đính kèm)."
+msgstr "<strong>Xoá vĩnh viễn</strong> sẽ xoá tệp khỏi media (cũng như khỏi bất kỳ bài viết nào mà tệp đó đang được đính kèm)."
 
 #: wp-admin/upload.php:382
 msgid "<strong>Edit</strong> takes you to a simple screen to edit that individual file&#8217;s metadata. You can also reach that screen by clicking on the media file name or thumbnail."
-msgstr "<strong>Chỉnh sửa</strong> đưa bạn đến một màn hình đơn giản để chỉnh sửa dữ liệu siêu dữ liệu của tệp đó. Bạn cũng có thể đến màn hình đó bằng cách nhấp vào tên tệp media hoặc hình thu nhỏ."
+msgstr "<strong>Chỉnh sửa</strong> đưa bạn đến một màn hình đơn giản để chỉnh sửa dữ liệu siêu dữ liệu của tệp đó. Bạn cũng có thể đến màn hình đó bằng cách nhấp vào tên tệp trong media hoặc hình thu nhỏ."
 
 #: wp-admin/upload.php:380
 msgid "Hovering over a row reveals action links that allow you to manage media items. You can perform the following actions:"
@@ -1447,21 +1447,21 @@ msgid "Reach out to WordPress Core developers to ensure you'll never have this p
 msgstr "Liên hệ với các nhà phát triển WordPress Core để đảm bảo bạn sẽ không bao giờ gặp lại vấn đề này nữa."
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:332
+#: wp-admin/about.php:357
 msgid "Important! Your version of WordPress (%1$s) will stop receiving security updates in the near future. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "Quan trọng! Phiên bản WordPress của bạn (%1$s) sẽ sớm ngừng nhận các bản cập nhật bảo mật. Để bảo vệ trang web của bạn, vui lòng <a href=\"%2$s\">cập nhật lên phiên bản mới nhất của WordPress</a>."
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:329
+#: wp-admin/about.php:354
 msgid "Important! Your version of WordPress (%1$s) is no longer supported, you will not receive any security updates for your website. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "Quan trọng! Phiên bản WordPress của bạn (%1$s) không còn được hỗ trợ nữa, bạn sẽ không nhận được bất kỳ bản cập nhật bảo mật nào cho trang web của mình. Để bảo vệ trang web của bạn, vui lòng <a href=\"%2$s\">cập nhật lên phiên bản mới nhất của WordPress</a>."
 
-#: wp-admin/about.php:234
+#: wp-admin/about.php:259
 msgid "https://make.wordpress.org/core/wordpress-6-6-field-guide/"
 msgstr "https://make.wordpress.org/core/wordpress-6-5-field-guide/"
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:203
+#: wp-admin/about.php:228
 msgid "Learn more about WordPress %s"
 msgstr "Tìm hiểu thêm về WordPress %s"
 
@@ -1593,7 +1593,7 @@ msgstr "Không thể cài đặt bản cập nhật vì không thể sao chép m
 
 #: wp-admin/export-personal-data.php:42
 msgid "<strong>Media</strong> &mdash; A list of URLs for media files the user uploads."
-msgstr "<strong>Thư viện</strong> &mdash; Danh sách các địa chỉ URL file media mà người dùng tải lên."
+msgstr "<strong>media</strong> &mdash; Danh sách các địa chỉ URL tệp media mà người dùng tải lên."
 
 #: wp-admin/export-personal-data.php:39
 msgid "<strong>Community Events Location</strong> &mdash; The IP Address of the user, which populates the Upcoming Community Events dashboard widget with relevant information."
@@ -1709,11 +1709,11 @@ msgstr "WordPress là phần mềm miễn phí và là mã nguồn mở"
 #: wp-admin/menu.php:275 wp-admin/menu.php:276 wp-admin/menu.php:305
 #: wp-admin/network/menu.php:107
 msgid "Plugin File Editor"
-msgstr "Trình chỉnh sửa plugin"
+msgstr "Sửa tệp tin plugin"
 
 #: wp-admin/menu.php:255 wp-admin/menu.php:256 wp-admin/network/menu.php:82
 msgid "Theme File Editor"
-msgstr "Sửa tập tin giao diện"
+msgstr "Sửa tệp tin giao diện"
 
 #. translators: %s: Documentation URL.
 #: wp-admin/user-edit.php:856
@@ -2135,7 +2135,7 @@ msgstr "Nếu bạn không chắc chắn, hãy kiểm tra tài liệu plugin ho�
 
 #: wp-admin/erase-personal-data.php:42
 msgid "<strong>Media</strong> &mdash; A list of URLs for all media file uploads made by the user."
-msgstr "<strong>Thư viện</strong> &mdash; Danh sách các địa chỉ file upload lên bởi người dùng."
+msgstr "<strong>media</strong> &mdash; Danh sách các địa chỉ tệp tải lên bởi người dùng."
 
 #: wp-admin/erase-personal-data.php:40 wp-admin/export-personal-data.php:40
 msgid "<strong>Session Tokens</strong> &mdash; User login information, IP Addresses, Expiration Date, User Agent (Browser/OS), and Last Login."
@@ -2365,7 +2365,7 @@ msgstr "Thêm mật khẩu ứng dụng mới"
 msgid "Required to create an Application Password, but not to update the user."
 msgstr "Bắt buộc phải tạo Mật khẩu ứng dụng, nhưng không được cập nhật người dùng."
 
-#: wp-admin/about.php:273
+#: wp-admin/about.php:298
 msgid "Go to Updates"
 msgstr "Tới Cập nhật"
 
@@ -2774,7 +2774,7 @@ msgstr "%1$s được set là %2$s. Bạn không thể tải file trên web."
 #. translators: %s: ini_get()
 #: wp-admin/includes/class-wp-site-health.php:2258
 msgid "The %s function has been disabled, some media settings are unavailable because of this."
-msgstr "Chức năng %s đã bị tắt, một số thiết lập tệp phương tiện không khả dụng khi chức năng này bị tắt."
+msgstr "Chức năng %s đã bị tắt, một số thiết lập tệp media không khả dụng khi chức năng này bị tắt."
 
 #. translators: 1: file_uploads, 2: php.ini
 #: wp-admin/includes/class-wp-site-health.php:2245
@@ -2967,7 +2967,7 @@ msgstr "Tự động cập nhật có thể được bật hoặc tắt cho các
 msgid "<strong>Important:</strong> Before updating, please <a href=\"%1$s\">back up your database and files</a>. For help with updates, visit the <a href=\"%2$s\">Updating WordPress</a> documentation page."
 msgstr "<strong>Quan trọng:</strong> Trước khi cập nhật, hãy <a href=\"%1$s\">sao lưu dữ liệu và file</a>. Để biết thêm chi tiết, hãy xem tài liệu về <a href=\"%2$s\">Cập nhật WordPress</a>."
 
-#: wp-admin/customize.php:201 wp-admin/theme-install.php:433
+#: wp-admin/customize.php:203 wp-admin/theme-install.php:433
 #: wp-admin/theme-install.php:495 wp-admin/themes.php:631
 #: wp-admin/themes.php:1000 wp-admin/themes.php:1238
 msgctxt "theme"
@@ -3124,7 +3124,7 @@ msgstr "Chuyển %s lên trên"
 #: wp-admin/includes/class-wp-comments-list-table.php:377
 msgctxt "comment"
 msgid "Not spam"
-msgstr "Không phải spam"
+msgstr "Không phải bình luận rác"
 
 #: wp-admin/includes/class-wp-site-health.php:2730
 msgid "PHP Sessions"
@@ -3268,7 +3268,7 @@ msgstr "Bật cập nhật tự động"
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:433
 msgid "Auto-updates Disabled <span class=\"count\">(%s)</span>"
 msgid_plural "Auto-updates Disabled <span class=\"count\">(%s)</span>"
-msgstr[0] "Đã tắt Tự động cập nhật <span class=\"count\">(%s)</span>"
+msgstr[0] "Đã tắt tự động cập nhật <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of plugins.
 #. translators: %s: Number of themes.
@@ -3429,7 +3429,7 @@ msgstr "Sửa kiểu khối"
 
 #: wp-admin/edit-form-comment.php:123
 msgid "Spam"
-msgstr "Spam"
+msgstr "Bình luận rác"
 
 #. translators: %s: wp-config.php
 #: wp-admin/setup-config.php:423 wp-admin/setup-config.php:492
@@ -3524,7 +3524,7 @@ msgstr "Trang web của bạn đang chạy PHP phiên bản %s"
 
 #: wp-admin/includes/class-wp-media-list-table.php:259
 msgid "No media files found in Trash."
-msgstr "Không tìm thấy hình ảnh / video nào trong Thùng rác."
+msgstr "Không tìm thấy hình ảnh / video nào trong thùng rác."
 
 #. translators: Date string for upcoming events. 1: Starting month, 2: Starting
 #. day, 3: Ending month, 4: Ending day, 5: Year.
@@ -3631,11 +3631,11 @@ msgstr "<a href=\"https://wordpress.org/documentation/article/plugins-add-new-sc
 
 #: wp-admin/edit.php:326
 msgid "<a href=\"https://wordpress.org/documentation/article/pages-screen/\">Documentation on Managing Pages</a>"
-msgstr "<a href=\"https://wordpress.org/documentation/article/pages-screen/\">Tài liệu về Quản lý Trang</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/pages-screen/\">Tài liệu về quản lý trang</a>"
 
 #: wp-admin/edit.php:301
 msgid "<a href=\"https://wordpress.org/documentation/article/posts-screen/\">Documentation on Managing Posts</a>"
-msgstr "<a href=\"https://wordpress.org/documentation/article/posts-screen/\">Tài liệu về Quản lý Bài viết</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/posts-screen/\">Tài liệu về quản lý bài viết</a>"
 
 #: wp-admin/options-discussion.php:32
 msgid "<a href=\"https://wordpress.org/documentation/article/settings-discussion-screen/\">Documentation on Discussion Settings</a>"
@@ -3647,7 +3647,7 @@ msgstr "<a href=\"https://wordpress.org/documentation/article/appearance-themes-
 
 #: wp-admin/media-new.php:61
 msgid "<a href=\"https://wordpress.org/documentation/article/media-add-new-screen/\">Documentation on Uploading Media Files</a>"
-msgstr "<a href=\"https://wordpress.org/documentation/article/media-add-new-screen/\">Tài liệu về tải lên tập tin media</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/media-add-new-screen/\">Tài liệu về tải lên tập tin trong media</a>"
 
 #: wp-admin/users.php:83
 msgid "<a href=\"https://wordpress.org/documentation/article/roles-and-capabilities/\">Descriptions of Roles and Capabilities</a>"
@@ -3663,7 +3663,7 @@ msgstr "<a href=\"https://wordpress.org/documentation/article/users-your-profile
 
 #: wp-admin/options-media.php:41
 msgid "<a href=\"https://wordpress.org/documentation/article/settings-media-screen/\">Documentation on Media Settings</a>"
-msgstr "<a href=\"https://wordpress.org/documentation/article/settings-media-screen/\">Tài liệu về cài đặt phương tiện</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/settings-media-screen/\">Tài liệu về cài đặt media</a>"
 
 #: wp-admin/import.php:32
 msgid "<a href=\"https://wordpress.org/documentation/article/tools-import-screen/\">Documentation on Import</a>"
@@ -3699,7 +3699,7 @@ msgstr "<a href=\"https://wordpress.org/documentation/article/revisions/\">Quả
 
 #: wp-admin/edit-form-advanced.php:355
 msgid "<a href=\"https://wordpress.org/documentation/article/edit-media/\">Documentation on Edit Media</a>"
-msgstr "<a href=\"https://wordpress.org/documentation/article/edit-media/\">Tài liệu về Chỉnh sửa phương tiện</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/edit-media/\">Tài liệu về chỉnh sửa media</a>"
 
 #: wp-admin/plugins.php:607
 msgid "<a href=\"https://wordpress.org/documentation/article/manage-plugins/\">Documentation on Managing Plugins</a>"
@@ -3707,7 +3707,7 @@ msgstr "<a href=\"https://wordpress.org/documentation/article/manage-plugins/\">
 
 #: wp-admin/index.php:132
 msgid "<a href=\"https://wordpress.org/documentation/article/dashboard-screen/\">Documentation on Dashboard</a>"
-msgstr "<a href=\"https://wordpress.org/documentation/article/dashboard-screen/\">Tài liệu trên trang tổng quan</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/dashboard-screen/\">Tài liệu về bảng tổng quan</a>"
 
 #: wp-admin/user-new.php:301
 msgid "<a href=\"https://wordpress.org/documentation/article/users-add-new-screen/\">Documentation on Adding New Users</a>"
@@ -3807,7 +3807,7 @@ msgstr "Trang chính sách bảo mật"
 #: wp-admin/includes/template.php:2330
 msgctxt "page label"
 msgid "Posts Page"
-msgstr "Trang Bài viết"
+msgstr "Trang bài viết"
 
 #: wp-admin/includes/template.php:2326
 msgctxt "page label"
@@ -3817,7 +3817,7 @@ msgstr "Trang chủ"
 #: wp-admin/includes/template.php:2317
 msgctxt "post status"
 msgid "Sticky"
-msgstr "Đính"
+msgstr "Ghim"
 
 #: wp-admin/includes/template.php:2309
 msgctxt "post status"
@@ -3863,7 +3863,7 @@ msgstr "https://wordpress.org/documentation/article/block-themes/"
 #. published.
 #: wp-admin/includes/meta-boxes.php:252
 msgid "Publish on: %s"
-msgstr "Đăng lúc: %s"
+msgstr "Xuất bản lúc: %s"
 
 #. translators: Post date information. %s: Date on which the post is to be
 #. published.
@@ -3875,7 +3875,7 @@ msgstr "Lên lịch cho: %s"
 #. published.
 #: wp-admin/includes/meta-boxes.php:244
 msgid "Published on: %s"
-msgstr "Đã đăng lúc: %s"
+msgstr "Đã xuất bản lúc: %s"
 
 #. translators: Post date information. %s: Date on which the post is currently
 #. scheduled to be published.
@@ -4584,7 +4584,7 @@ msgstr "Không thể kiểm tra các sự kiện được lên lịch của bạ
 
 #: wp-admin/includes/class-wp-site-health.php:1642
 msgid "Scheduled events are what periodically looks for updates to plugins, themes and WordPress itself. It is also what makes sure scheduled posts are published on time. It may also be used by various plugins to make sure that planned actions are executed."
-msgstr "Các sự kiện được lên lịch sẽ giúp tìm kiếm các bản cập nhật cho plugin, giao diện và chính mã nguồn WordPress. Nó cũng đảm bảo bài viết lên lịch được đăng đúng thời gian. Nó còn có thể được sử dụng bởi các plugin khác nhau để đảm bảo rằng các hành động theo kế hoạch được thực thi."
+msgstr "Các sự kiện được lên lịch sẽ giúp tìm kiếm các bản cập nhật cho plugin, giao diện và chính mã nguồn WordPress. Nó cũng đảm bảo bài viết lên lịch được xuất bản đúng thời gian. Nó còn có thể được sử dụng bởi các plugin khác nhau để đảm bảo rằng các hành động theo kế hoạch được thực thi."
 
 #: wp-admin/includes/class-wp-site-health.php:1634
 msgid "Scheduled events are running"
@@ -5240,7 +5240,7 @@ msgstr "Máy chủ"
 
 #: wp-admin/includes/class-wp-debug-data.php:189
 msgid "Media Handling"
-msgstr "Xử lý media "
+msgstr "Xử lý media"
 
 #: wp-admin/includes/class-wp-debug-data.php:183
 msgid "Inactive Plugins"
@@ -5483,7 +5483,7 @@ msgstr "Thêm vào: %s"
 #. translators: Audio file track information. %s: Audio track number.
 #: wp-admin/includes/media.php:378
 msgid "Track %s."
-msgstr "Bài số %s."
+msgstr "Theo dõi %s."
 
 #: wp-admin/includes/schema.php:1255
 msgid "My Network"
@@ -5506,7 +5506,7 @@ msgstr "Plugin này không làm việc với phiên bản WordPress và PHP hi�
 
 #. translators: %s: WordPress version number.
 #. translators: %s: WordPress version.
-#: wp-admin/about.php:255 wp-admin/includes/update.php:324
+#: wp-admin/about.php:280 wp-admin/includes/update.php:324
 #: wp-admin/index.php:119 wp-admin/install.php:249 wp-admin/update-core.php:94
 #: wp-admin/upgrade.php:81
 msgid "https://wordpress.org/documentation/wordpress-version/version-%s/"
@@ -5726,7 +5726,7 @@ msgstr "Hướng dẫn chính sách bảo mật"
 #. translators: Default privacy policy text.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:609
 msgid "Visitor comments may be checked through an automated spam detection service."
-msgstr "Các bình luận của khách (không phải là thành viên) có thể được kiểm tra thông qua dịch vụ tự động phát hiện spam."
+msgstr "Các bình luận của khách (không phải là thành viên) có thể được kiểm tra thông qua dịch vụ tự động phát hiện bình luận rác."
 
 #. translators: Privacy policy tutorial.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:557
@@ -5736,7 +5736,7 @@ msgstr "Trong tiểu mục này, bạn nên lưu ý gói phân tích mà bạn s
 #. translators: Privacy policy tutorial.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:514
 msgid "In this subsection you should note what information may be disclosed by users who can upload media files. All uploaded files are usually publicly accessible."
-msgstr "Trong phần con này bạn nên lưu ý thông tin nào có thể được tiết lộ bởi người dùng có thể tải lên các tập tin đa phương tiện. Tất cả các tập tin được tải lên thường có thể được truy cập rộng rãi."
+msgstr "Trong phần con này bạn nên lưu ý thông tin nào có thể được tiết lộ bởi người dùng có thể tải lên các tập tin trong media. Tất cả các tập tin được tải lên thường có thể được truy cập rộng rãi."
 
 #. translators: Privacy policy tutorial.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:501
@@ -5945,7 +5945,7 @@ msgstr "Nội dung nhúng từ website khác"
 #. translators: Default privacy policy text.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:541
 msgid "If you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day."
-msgstr "Nếu bạn sửa hoặc công bố bài viết, một bản cookie bổ sung sẽ được lưu trong trình duyệt. Cookie này không chứa thông tin cá nhân và chỉ đơn giản bao gồm ID của bài viết bạn đã sửa. Nó tự động hết hạn sau 1 ngày."
+msgstr "Nếu bạn sửa hoặc xuất bản bài viết, một bản cookie bổ sung sẽ được lưu trong trình duyệt. Cookie này không chứa thông tin cá nhân và chỉ đơn giản bao gồm ID của bài viết bạn đã sửa. Nó tự động hết hạn sau 1 ngày."
 
 #. translators: Default privacy policy text.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:539
@@ -5980,7 +5980,7 @@ msgstr "Một chuỗi ẩn danh được tạo từ địa chỉ email của b�
 #. translators: Default privacy policy text.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:504
 msgid "When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor&#8217;s IP address and browser user agent string to help spam detection."
-msgstr "Khi khách truy cập để lại bình luận trên trang web, chúng tôi thu thập dữ liệu được hiển thị trong biểu mẫu bình luận và cũng là địa chỉ IP của người truy cập và chuỗi user agent của người dùng trình duyệt để giúp phát hiện spam"
+msgstr "Khi khách truy cập để lại bình luận trên trang web, chúng tôi thu thập dữ liệu được hiển thị trong biểu mẫu bình luận và cũng là địa chỉ IP của người truy cập và chuỗi user agent của người dùng trình duyệt để giúp phát hiện bình luận rác"
 
 #. translators: Privacy policy tutorial.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:524
@@ -6526,7 +6526,7 @@ msgstr "Bản nháp tuỳ chỉnh"
 #. translators: %s: URL to the Customizer.
 #: wp-admin/includes/meta-boxes.php:316
 msgid "This draft comes from your <a href=\"%s\">unpublished customization changes</a>. You can edit, but there is no need to publish now. It will be published automatically with those changes."
-msgstr "Bản nháp này được lưu khi bạn <a href=\"%s\">bỏ công bố các thay đổi tuỳ chỉnh</a> trang web nhưng chưa xuất bản các thay đổi. Bạn có thể sửa bản nháp này những không cần phải đăng ngay. Trang này sẽ được tự động đăng khi bạn xuất bản các thay đổi trong Tuỳ chỉnh."
+msgstr "Bản nháp này được lưu khi bạn <a href=\"%s\">bỏ công bố các thay đổi tuỳ chỉnh</a> trang web nhưng chưa xuất bản các thay đổi. Bạn có thể sửa bản nháp này những không cần phải đăng ngay. Trang này sẽ được tự động xuất bản khi bạn xuất bản các thay đổi trong tuỳ chỉnh."
 
 #: wp-admin/theme-editor.php:278
 msgid "Theme Files"
@@ -6717,7 +6717,7 @@ msgstr "<strong>Thành viên</strong> &mdash; Mục này hiển thị danh sách
 
 #: wp-admin/includes/ms.php:1152
 msgid "<strong>Info</strong> &mdash; The site URL is rarely edited as this can cause the site to not work properly. The Registered date and Last Updated date are displayed. Network admins can mark a site as archived, spam, deleted and mature, to remove from public listings or disable."
-msgstr "<strong>Thông tin</strong> &mdash; Địa chỉ website thường nên hạn chế sửa vì có thể ảnh hưởng tới các website hoạt động. Mục Ngày khởi tạo và Lần cập nhật gần nhất sẽ hiển thị. Quản trị Mạng lưới có thể đánh dấu các website như là Lưu trữ, Spam, Xoá, Gỡ bỏ khỏi danh sách công bố hoặc Tắt."
+msgstr "<strong>Thông tin</strong> &mdash; Địa chỉ website thường nên hạn chế sửa vì có thể ảnh hưởng tới các website hoạt động. Mục Ngày khởi tạo và Lần cập nhật gần nhất sẽ hiển thị. Quản trị Mạng lưới có thể đánh dấu các website như là lưu trữ, bình luận rác, xoá, gỡ bỏ khỏi danh sách công bố hoặc tắt."
 
 #: wp-admin/includes/ms.php:1151
 msgid "The menu is for editing information specific to individual sites, particularly if the admin area of a site is unavailable."
@@ -6779,7 +6779,7 @@ msgstr "Kích hoạt Plugin &amp; Trở lại Press This"
 
 #: wp-admin/customize.php:71
 msgid "Your scheduled changes just published"
-msgstr "Các cập nhật được lên lịch vừa được công bố"
+msgstr "Các cập nhật được lên lịch vừa được xuất bản"
 
 #: wp-admin/includes/class-theme-installer-skin.php:147
 #: wp-admin/includes/class-theme-upgrader-skin.php:113
@@ -6912,7 +6912,7 @@ msgstr "Xin lỗi, bạn không có quyền xóa người dùng."
 msgid "Sorry, you are not allowed to create users."
 msgstr "Xin lỗi, bạn không được phép tạo người dùng."
 
-#: wp-admin/customize.php:270
+#: wp-admin/customize.php:272
 msgctxt "short (~12 characters) label for hide controls button"
 msgid "Hide Controls"
 msgstr "Ẩn tùy chọn"
@@ -6986,9 +6986,9 @@ msgstr "Xin lỗi, bạn không được quyền đính kèm tập tin vào bài
 msgid "https://wordpress.org/plugins/"
 msgstr "https://vi.wordpress.org/plugins/"
 
-#: wp-admin/customize.php:250
+#: wp-admin/customize.php:252
 msgid "The Customizer allows you to preview changes to your site before publishing them. You can navigate to different pages on your site within the preview. Edit shortcuts are shown for some editable elements. The Customizer is intended for use with non-block themes."
-msgstr "Công cụ tùy chỉnh cho phép bạn xem trước các thay đổi đối với trang blog của mình trước khi công bố chúng. Bạn có thể điều hướng đến các trang khác nhau trên trang blog của mình trong phần xem trước. Các phím tắt chỉnh sửa được hiển thị cho một số phần tử có thể chỉnh sửa. Công cụ tùy biến được thiết kế để sử dụng với các chủ đề không phải khối."
+msgstr "Công cụ tùy chỉnh cho phép bạn xem trước các thay đổi đối với trang blog của mình trước khi xuất bản chúng. Bạn có thể điều hướng đến các trang khác nhau trên trang blog của mình trong phần xem trước. Các phím tắt chỉnh sửa được hiển thị cho một số phần tử có thể chỉnh sửa. Công cụ tùy biến được thiết kế để sử dụng với các chủ đề không phải khối."
 
 #: wp-admin/customize.php:72 wp-admin/customize.php:81
 msgid "Customize New Changes"
@@ -7356,7 +7356,7 @@ msgid "You can filter the list of posts by post status using the text links abov
 msgstr "Bạn có thể lọc danh sách các bài viết dựa theo trạng thái bài viết sử dụng liên kết chữ ở trên danh sách bài viết chỉ để xem các bài viết cùng trạng thái. Mặc định sẽ hiển thị tất cả bài viết."
 
 #. translators: Hidden accessibility text.
-#: wp-admin/customize.php:215
+#: wp-admin/customize.php:217
 msgid "Close the Customizer and go back to the previous page"
 msgstr "Đóng Tùy chỉnh và quay lại trang trước"
 
@@ -7397,50 +7397,50 @@ msgstr "Chế độ trực quan cho bạn một trình soạn thảo giống nh�
 
 #: wp-admin/upload.php:117
 msgid "Error saving media file."
-msgstr "Lỗi lưu tập tin đa phương tiện"
+msgstr "Lỗi lưu tập tin đa trong media"
 
 #. translators: %s: Number of media files.
 #: wp-admin/upload.php:106
 msgid "%s media file restored from the Trash."
 msgid_plural "%s media files restored from the Trash."
-msgstr[0] "%s file media được khôi phục từ thùng rác."
+msgstr[0] "%s Tệp của media được khôi phục từ thùng rác."
 
 #. translators: %s: Number of media files.
 #: wp-admin/upload.php:83
 msgid "%s media file moved to the Trash."
 msgid_plural "%s media files moved to the Trash."
-msgstr[0] "%s file media được chuyển vào thùng rác."
+msgstr[0] "%s Tệp của media được chuyển vào thùng rác."
 
 #. translators: %s: Number of media files.
 #: wp-admin/upload.php:66
 msgid "%s media file permanently deleted."
 msgid_plural "%s media files permanently deleted."
-msgstr[0] "%s tệp tin đa phương tiện đã bị xóa vĩnh viễn."
+msgstr[0] "%s tệp của media đã bị xóa vĩnh viễn."
 
 #. translators: %s: Number of media files.
 #: wp-admin/upload.php:49
 msgid "%s media file detached."
 msgid_plural "%s media files detached."
-msgstr[0] "%s tập tin đã phương tiện đã được tách."
+msgstr[0] "%s tập của media đã được tách."
 
 #: wp-admin/upload.php:45
 msgid "Media file detached."
-msgstr "File media đã được bỏ đính kèm."
+msgstr "Tệp của media đã được bỏ đính kèm."
 
 #. translators: %s: Number of media files.
 #: wp-admin/upload.php:32
 msgid "%s media file attached."
 msgid_plural "%s media files attached."
-msgstr[0] "%s file media đã được đính kèm."
+msgstr[0] "%s tệp của media đã được đính kèm."
 
 #: wp-admin/upload.php:28
 msgid "Media file attached."
-msgstr "Đã kèm tập tin đa phương tiện."
+msgstr "Đã kèm tập tin của media."
 
 #: wp-admin/edit-form-advanced.php:210 wp-admin/upload.php:18
 #: wp-admin/upload.php:115
 msgid "Media file updated."
-msgstr "Tập tin đa phương tiện đã được cập nhật."
+msgstr "Tập tin của media đã được cập nhật."
 
 #. translators: 1: Theme name, 2: Version number.
 #. translators: 1: Plugin name, 2: Version number.
@@ -7461,7 +7461,7 @@ msgstr "%1$s, %2$s"
 
 #: wp-admin/edit-form-advanced.php:376
 msgid "<strong>Publish</strong> &mdash; You can set the terms of publishing your post in the Publish box. For Status, Visibility, and Publish (immediately), click on the Edit link to reveal more options. Visibility includes options for password-protecting a post or making it stay at the top of your blog indefinitely (sticky). The Password protected option allows you to set an arbitrary password for each post. The Private option hides the post from everyone except editors and administrators. Publish (immediately) allows you to set a future or past date and time, so you can schedule a post to be published in the future or backdate a post."
-msgstr "<strong>Đăng bài</strong> &mdash; Bạn có thể cài đặt những thông tin xuất bản của bạn ở mục Đăng bài viết. Với Trạng thái, Chế độ xem, và Đăng bài viết (lập tức), click vào đường dẫn Chỉnh sửa để hiển thị tuỳ chọn nâng cao. Chế độ xem bao gồm tuỳ chọn bảo vệ bài viết bằng mật khẩu hoặc đặt bài viết là sticky. Tuỳ chọn bảo vệ bài viết bằng mật khẩu cho phép bạn đặt một mật khẩu bất kỳ cho từng bài viết. Tuỳ chọn Bí mật sẽ ẩn bài viết của bạn khỏi mọi người ngoại trừ biên tập viên và quản lý. Đăng bài viết (lập tức) cho phép bạn đặt ngày giờ đăng bài ở tương lại hoặc quá khứ, vì vậy bạn có thể đặt lịch đăng cho bài viết hoặc lùi ngày về trước của một bài viết."
+msgstr "<strong>Bài viết</strong> &mdash; Bạn có thể cài đặt những thông tin xuất bản của bạn ở mục đăng bài viết. Với trạng thái, chế độ xem, và xuất bản bài viết (lập tức), Nhấp vào đường dẫn chỉnh sửa để hiển thị tuỳ chọn nâng cao. Chế độ xem bao gồm tuỳ chọn bảo vệ bài viết bằng mật khẩu hoặc đặt bài viết là ghim. Tuỳ chọn bảo vệ bài viết bằng mật khẩu cho phép bạn đặt một mật khẩu bất kỳ cho từng bài viết. Tuỳ chọn Bí mật sẽ ẩn bài viết của bạn khỏi mọi người ngoại trừ biên tập viên và quản lý. Xuất bản bài viết (lập tức) cho phép bạn đặt ngày giờ đăng bài ở tương lại hoặc quá khứ, vì vậy bạn có thể đặt lịch xuất bản cho bài viết hoặc lùi ngày về trước của một bài viết."
 
 #. translators: %s: New email.
 #: wp-admin/user-edit.php:556
@@ -7474,7 +7474,7 @@ msgstr "Xảy ra lỗi trong khi lưu địa chỉ email mới. Vui lòng thử 
 
 #: wp-admin/upload.php:371
 msgid "You can narrow the list by file type/status or by date using the dropdown menus above the media table."
-msgstr "Bạn có thể lọc danh sách media thông qua định dạng file/trạng thái hoặc ngày tải lên bằng cách sử dụng menu dropdown ở bên trên danh sách này."
+msgstr "Bạn có thể lọc danh sách media thông qua định dạng tệp tin/trạng thái hoặc ngày tải lên bằng cách sử dụng menu thả xuống ở bên trên danh sách này."
 
 #: wp-admin/themes.php:655 wp-admin/network/themes.php:470
 msgid "The following themes are installed but incomplete."
@@ -7743,7 +7743,7 @@ msgstr "Sửa bình luận này"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:786
 msgid "Restore this comment from the spam"
-msgstr "Phục hồi comment này từ mục spam"
+msgstr "Phục hồi bình luận này từ mục bình luận rác"
 
 #. translators: 1: User login, 2: User email address.
 #: wp-admin/includes/ajax-actions.php:355
@@ -7805,7 +7805,7 @@ msgid "(Currently set to: %s)"
 msgstr "(Hiện tại: %s)"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:303
+#: wp-admin/about.php:328
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>Phiên bản %s</strong> đã giải quyết vấn đề bảo mật."
 
@@ -7817,15 +7817,15 @@ msgstr "https://en.gravatar.com/"
 msgid "Profile Picture"
 msgstr "Ảnh đại diện"
 
-#: wp-admin/about.php:300
+#: wp-admin/about.php:46 wp-admin/about.php:325
 msgid "Maintenance and Security Releases"
 msgstr "Các phiên bản bảo trì và bảo mật"
 
-#: wp-admin/about.php:297
+#: wp-admin/about.php:322
 msgid "Security Releases"
 msgstr "Các phiên bản bảo mật"
 
-#: wp-admin/about.php:294
+#: wp-admin/about.php:319
 msgid "Maintenance Releases"
 msgstr "Các phiên bản bảo trì"
 
@@ -7949,7 +7949,7 @@ msgstr "Giờ qui ước mùa hè bắt đầu từ: %s"
 #. translators: %s: File name.
 #: wp-admin/includes/media.php:1741
 msgid "You are about to delete %s."
-msgstr "Bạn muốn xóa file %s"
+msgstr "Bạn muốn xóa tệp tin %s"
 
 #. translators: %s: mu-plugins directory name.
 #: wp-admin/includes/class-wp-plugins-list-table.php:672
@@ -7982,15 +7982,15 @@ msgstr "Lọc danh sách thành viên"
 
 #: wp-admin/upload.php:409
 msgid "Media items list"
-msgstr "Danh sách các mục"
+msgstr "Danh sách các mục của media"
 
 #: wp-admin/upload.php:408
 msgid "Media items list navigation"
-msgstr "Điều hướng danh sách các mục"
+msgstr "Điều hướng danh sách các mục của media"
 
 #: wp-admin/upload.php:407
 msgid "Filter media items list"
-msgstr "Lọc danh sách các mục phương tiện"
+msgstr "Lọc danh sách các mục của media"
 
 #: wp-admin/themes.php:733
 msgid "Install Parent Theme"
@@ -8237,21 +8237,21 @@ msgstr[0] "Thùng rác <span class=\"count\">(%s)</span>"
 msgctxt "comments"
 msgid "Spam <span class=\"count\">(%s)</span>"
 msgid_plural "Spam <span class=\"count\">(%s)</span>"
-msgstr[0] "Spam <span class=\"count\">(%s)</span>"
+msgstr[0] "Bình luận rác <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of comments.
 #: wp-admin/includes/class-wp-comments-list-table.php:263
 msgctxt "comments"
 msgid "Approved <span class=\"count\">(%s)</span>"
 msgid_plural "Approved <span class=\"count\">(%s)</span>"
-msgstr[0] "Được phê duyệt <span class=\"count\">(%s)</span>"
+msgstr[0] "Đã duyệt <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of comments.
 #: wp-admin/includes/class-wp-comments-list-table.php:256
 msgctxt "comments"
 msgid "Pending <span class=\"count\">(%s)</span>"
 msgid_plural "Pending <span class=\"count\">(%s)</span>"
-msgstr[0] "Đang chờ <span class=\"count\">(%s)</span>"
+msgstr[0] "Chờ duyệt <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of comments.
 #: wp-admin/includes/class-wp-comments-list-table.php:242
@@ -8344,7 +8344,7 @@ msgstr "Ở cột <strong>Đã đăng vào</strong> hiển thị ngày giờ mà
 
 #: wp-admin/edit-comments.php:220
 msgid "In the <strong>Comment</strong> column, hovering over any comment gives you options to approve, reply (and approve), quick edit, edit, spam mark, or trash that comment."
-msgstr "Ở cột <strong>Bình luận</strong>, khi bạn di chuyển chuột lên bất kỳ bình luận nào sẽ hiện ra các tuỳ chọn để bạn chấp nhận, trả lời (kèm với chấp nhận), sửa nhanh, chỉnh sửa, đánh dấu là spam hoặc xoá bình luận đó."
+msgstr "Ở cột <strong>Bình luận</strong>, khi bạn di chuyển chuột lên bất kỳ bình luận nào sẽ hiện ra các tuỳ chọn để bạn chấp nhận, trả lời (kèm với chấp nhận), sửa nhanh, chỉnh sửa, đánh dấu là bình luận rác hoặc xoá bình luận đó."
 
 #. translators: %s: Comments count.
 #: wp-admin/edit-comments.php:194 wp-admin/js/edit-comments.js:196
@@ -8496,7 +8496,7 @@ msgstr "Ngày và giờ"
 
 #: wp-admin/edit-form-advanced.php:362
 msgid "You can also embed media from many popular websites including Twitter, YouTube, Flickr and others by pasting the media URL on its own line into the content of your post/page. <a href=\"https://wordpress.org/documentation/article/embeds/\">Learn more about embeds</a>."
-msgstr "Bạn cũng có thể nhúng phương tiện từ nhiều trang web phổ biến bao gồm Twitter, YouTube, Flickr và các trang khác bằng cách dán URL phương tiện trên dòng riêng của nó vào nội dung bài viết/trang của bạn. <a href=\"https://wordpress.org/documentation/article/embeds/\">Tìm hiểu thêm về nội dung nhúng</a>."
+msgstr "Bạn cũng có thể nhúng phương tiện từ nhiều trang web phổ biến bao gồm Twitter, YouTube, Flickr và các trang khác bằng cách dán URL tệp của media trên dòng riêng của nó vào nội dung bài viết/trang của bạn. <a href=\"https://wordpress.org/documentation/article/embeds/\">Tìm hiểu thêm về nội dung nhúng</a>."
 
 #: wp-admin/includes/class-custom-background.php:110
 msgid "<a href=\"https://codex.wordpress.org/Appearance_Background_Screen\">Documentation on Custom Background</a>"
@@ -8884,7 +8884,7 @@ msgstr "Xem trước không khả dụng trong trình soạn thảo."
 
 #: wp-admin/edit-form-advanced.php:296
 msgid "You can insert media files by clicking the button above the post editor and following the directions. You can align or edit images using the inline formatting toolbar available in Visual mode."
-msgstr "Bạn có thể thêm các file đa phương tiện bằng việc nhấp vào biểu tượng bên trên trình soạn thảo bài viết và làm theo chỉ dẫn. Bạn có thể căn hoặc chỉnh sửa hình ảnh sử dụng thanh công cụ định dạng trong Giao diện trực quan."
+msgstr "Bạn có thể thêm các tệp tin của media bằng việc nhấp vào biểu tượng bên trên trình soạn thảo bài viết và làm theo chỉ dẫn. Bạn có thể căn hoặc chỉnh sửa hình ảnh sử dụng thanh công cụ định dạng trong giao diện trực quan."
 
 #: wp-admin/edit-form-advanced.php:293
 msgid "<strong>Post editor</strong> &mdash; Enter the text for your post. There are two modes of editing: Visual and Text. Choose the mode by clicking on the appropriate tab."
@@ -8932,7 +8932,7 @@ msgstr "Người đứng đầu phiên bản"
 
 #: wp-admin/upload.php:192
 msgid "Use the arrow buttons at the top of the dialog, or the left and right arrow keys on your keyboard, to navigate between media items quickly."
-msgstr "Để  duyệt nhanh giữa các tập tin đa phương tiện, bạn có thể dùng các nút mũi tên nằm ở phần đầu hộp thoại, hoặc nút mũi tên trái, phải trên bàn phím."
+msgstr "Để  duyệt nhanh giữa các tập tin trong media, bạn có thể dùng các nút mũi tên nằm ở phần đầu hộp thoại, hoặc nút mũi tên trái, phải trên bàn phím."
 
 #: wp-admin/upload.php:193
 msgid "You can also delete individual items and access the extended edit screen from the details dialog."
@@ -8940,11 +8940,11 @@ msgstr "Bạn cũng có thể xóa các tập tin đơn lẻ và truy cập vào
 
 #: wp-admin/upload.php:191
 msgid "Clicking an item will display an Attachment Details dialog, which allows you to preview media and make quick edits. Any changes you make to the attachment details will be automatically saved."
-msgstr "Nhấp vào một tập tin đa phương tiện sẽ hiện ra một hộp thoại Thông tin chi tiết Tập tin đính kèm đó. Nó cho phép bạn xem trước tập tin đa phương tiện và chỉnh sửa nhanh nó. Bất kì thay đổi nào bạn thực hiện cho chi tiết tập tin đính kèm này sẽ được tự động lưu lại."
+msgstr "Nhấp vào một tập tin của media sẽ hiện ra một hộp thoại thông tin chi tiết tập tin đính kèm đó. Nó cho phép bạn xem trước tập tin của media và chỉnh sửa nhanh nó. Bất kì thay đổi nào bạn thực hiện cho chi tiết tập tin đính kèm này sẽ được tự động lưu lại."
 
 #: wp-admin/upload.php:182
 msgid "To delete media items, click the Bulk Select button at the top of the screen. Select any items you wish to delete, then click the Delete Selected button. Clicking the Cancel Selection button takes you back to viewing your media."
-msgstr "Để xóa nhiều tệp tin media, nhấp vào nút chọn hàng loạt phía trên cùng màn hình. Chọn bất cứ các tệp tin nào bạn muốn xóa, sau đó nhấp vào nút xóa đã chọn. Nhấp vào nút hủy chọn để quay lại xem phần media."
+msgstr "Để xóa nhiều tệp tin của media, nhấp vào nút chọn hàng loạt phía trên cùng màn hình. Chọn bất cứ các tệp tin nào bạn muốn xóa, sau đó nhấp vào nút xóa đã chọn. Nhấp vào nút hủy chọn để quay lại xem media."
 
 #: wp-admin/upload.php:181 wp-admin/upload.php:372
 msgid "You can view your media in a simple visual grid or a list with columns. Switch between these views using the icons to the left above the media."
@@ -8952,7 +8952,7 @@ msgstr "Bạn có thể xem phần media trong một giao diện lưới hoặc 
 
 #: wp-admin/upload.php:180
 msgid "All the files you&#8217;ve uploaded are listed in the Media Library, with the most recent uploads listed first."
-msgstr "Tất cả các tệp tin bạn tải lên được liệt kê trong thư viện Media, với các tệp tin được tải lên gần đây nhất xuất hiện trước."
+msgstr "Tất cả các tệp tin bạn tải lên được liệt kê trong media Media, với các tệp tin được tải lên gần đây nhất xuất hiện trước."
 
 #: wp-admin/plugin-install.php:113
 msgid "If you just want to get an idea of what&#8217;s available, you can browse Featured and Popular plugins by using the links above the plugins list. These sections rotate regularly."
@@ -8964,7 +8964,7 @@ msgstr "Tìm plugins"
 
 #: wp-admin/plugin-install.php:51
 msgid "Add Plugins"
-msgstr "Cài plugin"
+msgstr "Cài Plugin"
 
 #. translators: 1: WPLANG, 2: wp-config.php
 #: wp-admin/options-general.php:334
@@ -9005,7 +9005,7 @@ msgstr "Thêm người dùng mà không gửi email yêu cầu xác nhận của
 #. translators: %s: List view URL.
 #: wp-admin/upload.php:236
 msgid "The grid view for the Media Library requires JavaScript. <a href=\"%s\">Switch to the list view</a>."
-msgstr "Dạng xem lưới của Thư viện yêu cầu Javascript. <a href=\"%s\">Chuyển qua dạng danh sách</a>."
+msgstr "Dạng xem lưới của media yêu cầu Javascript. <a href=\"%s\">Chuyển qua dạng danh sách</a>."
 
 #: wp-admin/credits.php:27 wp-admin/includes/plugin-install.php:784
 msgid "Contributors"
@@ -9295,7 +9295,7 @@ msgstr "Khi xem trước trên các màn hình nhỏ, bạn có thể sử dụn
 
 #: wp-admin/themes.php:174
 msgid "The theme being previewed is fully interactive &mdash; navigate to different pages to see how the theme handles posts, archives, and other page templates. The settings may differ depending on what theme features the theme being previewed supports. To accept the new settings and activate the theme all in one step, click the Activate &amp; Publish button above the menu."
-msgstr "Giao diện đang xem thử có thể tương tác thỏa mái &mdash; xem các trang khác nhau để xem giao diện hỗ trợ bài viết, trang lưu trữ hay các trang khác. Cấu hình có thể khác nhau tùy theo từng giao diện. Để lưu cấu hình mới và kích hoạt giao diện trong một bước, ấn chuột vào nútKích hoạt &amp; Công bố bên trên menu."
+msgstr "Giao diện đang xem thử có thể tương tác thỏa mái &mdash; xem các trang khác nhau để xem giao diện hỗ trợ bài viết, trang lưu trữ hay các trang khác. Cấu hình có thể khác nhau tùy theo từng giao diện. Để lưu cấu hình mới và kích hoạt giao diện trong một bước, nhấp vào nút Kích hoạt &amp; nút xuất bản phía trên menu."
 
 #: wp-admin/themes.php:173
 msgid "Tap or hover on any theme then click the Live Preview button to see a live preview of that theme and change theme options in a separate, full-screen view. You can also find a Live Preview button at the bottom of the theme details screen. Any installed theme can be previewed and customized in this way."
@@ -9419,11 +9419,11 @@ msgstr "<strong>Bản nháp nhanh</strong> &mdash; Cho phép bạn tạo bài vi
 
 #: wp-admin/index.php:89
 msgid "<strong>Activity</strong> &mdash; Shows the upcoming scheduled posts, recently published posts, and the most recent comments on your posts and allows you to moderate them."
-msgstr "<strong>Hoạt động</strong> - Hiển thị các bài viết sắp đến lịch đăng tải, những bài viết được đăng tải gần nhất, và những bình luận mới nhất cho các bài viết của bạn, đồng thời cho phép bạn điều chỉnh những bài viết và nhận xét đó."
+msgstr "<strong>Hoạt động</strong> - Hiển thị các bài viết sắp đến lịch đăng tải, những bài viết được xuất bản gần nhất, và những bình luận mới nhất cho các bài viết của bạn, đồng thời cho phép bạn điều chỉnh những bài viết và nhận xét đó."
 
 #: wp-admin/index.php:63
 msgid "<strong>Screen Options</strong> &mdash; Use the Screen Options tab to choose which Dashboard boxes to show."
-msgstr "<strong>Tùy chọn hiển thị</strong> - Sử dụng thẻ tùy chọn hiển thị để lựa chọn các hộp thông tin được hiển thị ở bảng tổng quan."
+msgstr "<strong>Tùy chọn màn hình</strong> - Sử dụng thẻ tùy chọn hiển thị để lựa chọn các hộp thông tin được hiển thị ở bảng tổng quan."
 
 #. translators: Hidden accessibility text.
 #: wp-admin/includes/dashboard.php:1683 wp-admin/includes/dashboard.php:1699
@@ -9444,11 +9444,11 @@ msgstr "Không có hoạt động nào!"
 
 #: wp-admin/includes/dashboard.php:953
 msgid "Recently Published"
-msgstr "Bài mới đăng"
+msgstr "Bài mới xuất bản"
 
 #: wp-admin/includes/dashboard.php:944
 msgid "Publishing Soon"
-msgstr "Sắp Đăng Tải"
+msgstr "Sắp xuất bản"
 
 #: wp-admin/includes/dashboard.php:599
 msgid "What&#8217;s on your mind?"
@@ -9660,7 +9660,7 @@ msgstr "Nâng cấp giao diện lên phiên bản mới hơn sẽ đặt lại c
 
 #: wp-admin/options-media.php:56
 msgid "The sizes listed below determine the maximum dimensions in pixels to use when adding an image to the Media Library."
-msgstr "Các kích thước bên dưới xác định khung tối đa theo pixel khi thêm ảnh mới trong Thư viện."
+msgstr "Các kích thước bên dưới xác định khung tối đa theo pixel khi thêm ảnh mới trong media."
 
 #: wp-admin/options-discussion.php:204
 msgid "Comment must be manually approved"
@@ -9939,7 +9939,7 @@ msgstr "Tập tin nén không chứa tập tin nào."
 msgid "To navigate between revisions, <strong>drag the slider handle left or right</strong> or <strong>use the Previous or Next buttons</strong>."
 msgstr "Để xem lại các bản sửa đổi khác nhau, <strong>kéo nút trượt về bên trái hoặc bên phải</strong> hoặc <strong>sử dụng các nút Trước hoặc Sau</strong>."
 
-#: wp-admin/customize.php:153 wp-admin/includes/class-wp-debug-data.php:453
+#: wp-admin/customize.php:155 wp-admin/includes/class-wp-debug-data.php:453
 #: wp-admin/includes/dashboard.php:1172
 msgid "Loading&hellip;"
 msgstr "Đang tải&hellip;"
@@ -10108,11 +10108,11 @@ msgstr "Những thay đổi mới nhất đã được lưu dưới dạng bản
 
 #: wp-admin/includes/media.php:3470
 msgid "Audio Codec:"
-msgstr "Bộ Mã Hóa Audio:"
+msgstr "Bộ mã hóa Audio:"
 
 #: wp-admin/includes/media.php:3469
 msgid "Audio Format:"
-msgstr "Định Dạng Audio:"
+msgstr "Định dạng Audio:"
 
 #. translators: Audio file genre information. %s: Audio genre name.
 #: wp-admin/includes/media.php:387
@@ -10240,7 +10240,7 @@ msgstr "%s đang biên tập"
 
 #: wp-admin/edit-form-advanced.php:361
 msgid "You can upload and insert media (images, audio, documents, etc.) by clicking the Add Media button. You can select from the images and files already uploaded to the Media Library, or upload new media to add to your page or post. To create an image gallery, select the images to add and click the &#8220;Create a new gallery&#8221; button."
-msgstr "Bạn có thể tải lên và chèn nội dung đa phương tiện (ảnh, âm thanh, tài liệu, v.v.) bằng cách bấm vào nút Thêm Nội Dung Đa Phương Tiện. Bạn có thể chọn từ những ảnh và tập tin đã được tải lên Thư Viện Nội Dung Đa Phương Tiện, hoặc tải lên nội dung mới để thêm vào trang tĩnh hoặc bài viết của bạn. Để tạo một bộ sưu tập ảnh, chọn những ảnh bạn muốn và bấm vào nút &#8220;Tạo một bộ sưu tập mới&#8221;."
+msgstr "Bạn có thể tải lên và chèn media (ảnh, âm thanh, tài liệu, v.v.) bằng cách bấm vào nút thêm Media. Bạn có thể chọn từ những ảnh và tập tin đã được tải lên thư viện media, hoặc tải lên nội dung mới để thêm vào trang tĩnh hoặc bài viết của bạn. Để tạo một thư viện ảnh, chọn những ảnh bạn muốn và bấm vào nút &#8220;Tạo một thư viện ảnh mới&#8221;."
 
 #: wp-admin/includes/image-edit.php:83
 msgid "Image rotation is not supported by your web host."
@@ -10261,7 +10261,7 @@ msgstr "<strong>Chuyên mục Cha</strong> - Không giống như Thẻ, Chuyên 
 
 #: wp-admin/edit-form-advanced.php:374
 msgid "Several boxes on this screen contain settings for how your content will be published, including:"
-msgstr "Một số khung tại màn hình này chứa tùy chỉnh về cách nội dung của bạn sẽ được đăng tải, bao gồm:"
+msgstr "Một số khung tại màn hình này chứa tùy chỉnh về cách nội dung của bạn sẽ được xuất bản, bao gồm:"
 
 #: wp-admin/edit-form-advanced.php:367
 msgid "Inserting Media"
@@ -10277,7 +10277,7 @@ msgstr "Đừng quên nhấp vào &#8220;Lưu Thay đổi&#8221; khi nào bạn 
 
 #: wp-admin/includes/class-custom-background.php:102
 msgid "To use a background image, simply upload it or choose an image that has already been uploaded to your Media Library by clicking the &#8220;Choose Image&#8221; button. You can display a single instance of your image, or tile it to fill the screen. You can have your background fixed in place, so your site content moves on top of it, or you can have it scroll with your site."
-msgstr "Để sử dụng ảnh nền, tải ảnh lên hoặc chọn một ảnh có sẵn trong Thư Viện Nội Dung Đa Phương Tiện bằng cách bấm vào nút &#8220;Chọn Ảnh&#8221;. Bạn có thể hiển thị ảnh đơn lẻ, hoặc hiển thị lặp đi lặp lại để phủ kín màn hình. Bạn có thể cố định ảnh nền, để nội dung của bạn trượt bên trên ảnh, hoặc bạn có thể để ảnh nền trượt cùng với nội dung."
+msgstr "Để sử dụng ảnh nền, tải ảnh lên hoặc chọn một ảnh có sẵn trong media Nội Dung Đa Phương Tiện bằng cách bấm vào nút &#8220;Chọn Ảnh&#8221;. Bạn có thể hiển thị ảnh đơn lẻ, hoặc hiển thị lặp đi lặp lại để phủ kín màn hình. Bạn có thể cố định ảnh nền, để nội dung của bạn trượt bên trên ảnh, hoặc bạn có thể để ảnh nền trượt cùng với nội dung."
 
 #. translators: 1: URL to browser uploader, 2: Additional link attributes.
 #: wp-admin/includes/media.php:3045
@@ -10506,7 +10506,7 @@ msgstr "Tạo Trang rất giống với tạo bài viết và các màn hình c�
 
 #: wp-admin/includes/class-custom-image-header.php:595
 msgid "You can select an image to be shown at the top of your site by uploading from your computer or choosing from your media library. After selecting an image you will be able to crop it."
-msgstr "Bạn có thể chọn một ảnh ở phần phía trên trang mạng của bạn bằng cách tải lên từ máy tính của bạn hoặc chọn từ thư viện nội dung đa phương tiện. Sau khi chọn ảnh bạn sẽ có thể cắt nhỏ nó."
+msgstr "Bạn có thể chọn một ảnh ở phần phía trên trang mạng của bạn bằng cách tải lên từ máy tính của bạn hoặc chọn từ media nội dung đa phương tiện. Sau khi chọn ảnh bạn sẽ có thể cắt nhỏ nó."
 
 #: wp-admin/menu-header.php:290
 msgid "Skip to main content"
@@ -10514,11 +10514,11 @@ msgstr "Chuyển đến nội dung chính"
 
 #: wp-admin/includes/class-custom-image-header.php:120
 msgid "You can set a custom image header for your site. Simply upload the image and crop it, and the new header will go live immediately. Alternatively, you can use an image that has already been uploaded to your Media Library by clicking the &#8220;Choose Image&#8221; button."
-msgstr "Bạn có thể đặt hình ảnh đầu trang tùy chỉnh cho trang web của mình. Chỉ cần tải hình ảnh lên và cắt nó, tiêu đề mới sẽ xuất hiện ngay lập tức. Ngoài ra, bạn có thể sử dụng hình ảnh đã được tải lên thư viện media của mình bằng cách nhấp vào nút &#8220;Chọn hình&#8221;t."
+msgstr "Bạn có thể đặt hình ảnh đầu trang tùy chỉnh cho trang web của mình. Chỉ cần tải hình ảnh lên và cắt nó, tiêu đề mới sẽ xuất hiện ngay lập tức. Ngoài ra, bạn có thể sử dụng hình ảnh đã được tải lên media media của mình bằng cách nhấp vào nút &#8220;Chọn hình&#8221;t."
 
 #: wp-admin/includes/class-custom-image-header.php:958
 msgid "Skip Cropping, Publish Image as Is"
-msgstr "Bỏ quả thao tác cắt ảnh, sử dụng ảnh nguyên bản"
+msgstr "Bỏ quả thao tác cắt ảnh, xuất bản hình ảnh nguyên bản"
 
 #: wp-admin/includes/class-custom-background.php:363
 #: wp-admin/includes/class-custom-image-header.php:684
@@ -10528,7 +10528,7 @@ msgstr "Chọn Ảnh"
 #: wp-admin/includes/class-custom-background.php:360
 #: wp-admin/includes/class-custom-image-header.php:680
 msgid "Or choose an image from your media library:"
-msgstr "Hoặc chọn một ảnh từ thư viện của bạn:"
+msgstr "Hoặc chọn một ảnh từ media của bạn:"
 
 #: wp-admin/includes/class-custom-background.php:350
 #: wp-admin/includes/class-custom-image-header.php:593
@@ -10586,7 +10586,7 @@ msgstr "Danh mục có cấu trúc phân cấp, nghĩa là bạn có thể tạo
 #. translators: %s: URL to General Settings screen.
 #: wp-admin/includes/class-custom-image-header.php:134
 msgid "For most themes, the header text is your Site Title and Tagline, as defined in the <a href=\"%s\">General Settings</a> section."
-msgstr "Với phần lớn các giao diện, phần đầu trang sẽ hiển thị nội dung là Tên website và slogan của bạn, có thể sửa tại menu <a href=\"%s\">Cài đặt | Tổng quan</a>."
+msgstr "Với phần lớn các giao diện, phần đầu trang sẽ hiển thị nội dung là tiêu đề trang web và dòng mô tả của bạn, có thể sửa tại menu <a href=\"%s\">Cài đặt | Cài đặt chung</a>."
 
 #: wp-admin/includes/class-custom-image-header.php:122
 msgid "If your theme has more than one default header image, or you have uploaded more than one custom header image, you have the option of having WordPress display a randomly different image on each page of your site. Click the &#8220;Random&#8221; radio button next to the Uploaded Images or Default Images section to enable this feature."
@@ -10598,7 +10598,7 @@ msgstr "Một số chủ đề đi kèm với các hình ảnh tiêu đề bổ 
 
 #: wp-admin/includes/class-custom-image-header.php:111
 msgid "You can choose from the theme&#8217;s default header images, or use one of your own. You can also customize how your Site Title and Tagline are displayed."
-msgstr "Bạn có thể chọn từ các ảnh đầu trang mặc định của giao diện, hoặc sử dụng ảnh của bạn. Bạn còn có thể tuỳ biến cách hiển thị Tên website và Khẩu hiệu."
+msgstr "Bạn có thể chọn từ các ảnh đầu trang mặc định của giao diện, hoặc sử dụng ảnh của bạn. Bạn còn có thể tuỳ biến cách hiển thị tiêu đề trang web và dòng mô tả."
 
 #: wp-admin/includes/class-custom-image-header.php:110
 msgid "This screen is used to customize the header section of your theme."
@@ -10683,12 +10683,12 @@ msgstr "Chọn toàn bộ"
 
 #: wp-admin/includes/meta-boxes.php:186 wp-admin/js/post.js:905
 msgid "Public, Sticky"
-msgstr "Công khai, Chú ý"
+msgstr "Công khai, ghim"
 
 #: wp-admin/includes/meta-boxes.php:109 wp-admin/includes/meta-boxes.php:154
 #: wp-admin/js/post.js:825 wp-admin/js/post.js:827
 msgid "Privately Published"
-msgstr "Được đăng ở chế độ riêng tư"
+msgstr "Được xuất bản ở chế độ riêng tư"
 
 #: wp-admin/includes/meta-boxes.php:59 wp-admin/js/post.js:859
 msgid "Save as Pending"
@@ -11061,7 +11061,7 @@ msgstr "Trang của plugin &#187;"
 
 #: wp-admin/export.php:52
 msgid "You can export a file of your site&#8217;s content in order to import it into another installation or platform. The export file will be an XML file format called WXR. Posts, pages, comments, custom fields, categories, and tags can be included. You can choose for the WXR file to include only certain posts or pages by setting the dropdown filters to limit the export by category, author, date range by month, or publishing status."
-msgstr "Bạn có thể xuất một tập tin chứa nội dung trang mạng của bạn để nhập vào bản cài đặt WordPress hoặc nền tảng khác. Tệp tin được xuất ra sẽ có định dạng XML được gọi là WXR. Bài viết, trang tĩnh, bình luận, trường dữ liệu tùy chỉnh, nhóm phân loại, và thẻ đánh dấu đều có thể được xuất ra. Bạn có thể lựa chọn để tập tin WXR chỉ bao gồm những bài viết hoặc trang tĩnh nhất định bằng cách sử dụng bộ lọc xổ xuống để giới hạn việc xuất nội dung theo nhóm phân loại, tác giả, khoảng thời gian theo tháng, hoặc trạng thái đăng tải."
+msgstr "Bạn có thể xuất một tập tin chứa nội dung trang mạng của bạn để nhập vào bản cài đặt WordPress hoặc nền tảng khác. Tệp tin được xuất ra sẽ có định dạng XML được gọi là WXR. Bài viết, trang tĩnh, bình luận, trường dữ liệu tùy chỉnh, nhóm phân loại, và thẻ đánh dấu đều có thể được xuất ra. Bạn có thể lựa chọn để tập tin WXR chỉ bao gồm những bài viết hoặc trang tĩnh nhất định bằng cách sử dụng bộ lọc xổ xuống để giới hạn việc xuất nội dung theo nhóm phân loại, tác giả, khoảng thời gian theo tháng, hoặc trạng thái xuất bản."
 
 #. translators: 1: Table name, 2: Error message.
 #: wp-admin/maint/repair.php:129
@@ -11134,44 +11134,44 @@ msgstr "Hiển thị thanh công cụ khi xem trang"
 
 #. translators: %s: HelpHub URL.
 #. translators: %s: Documentation URL.
-#: wp-admin/about.php:63 wp-admin/about.php:326
+#: wp-admin/about.php:63 wp-admin/about.php:88 wp-admin/about.php:351
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Để biết thêm thông tin, xem <a href=\"%s\">thông báo phát hành</a>."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:320
+#: wp-admin/about.php:345
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>Phiên bản %1$s</strong> đã giải quyết một số vấn đề về bảo mật và sửa %2$s lỗi."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:314
+#: wp-admin/about.php:339
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>Phiên bản %1$s</strong> đã giải quyết một vấn đề về bảo mật và sửa %2$s lỗi."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
-#: wp-admin/about.php:51 wp-admin/about.php:308
+#: wp-admin/about.php:51 wp-admin/about.php:76 wp-admin/about.php:333
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>Phiên bản %1$s</strong> đã giải quyết %2$s lỗi."
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:305
+#: wp-admin/about.php:330
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>Phiên bản %1$s</strong> đã giải quyết một số vấn đề về bảo mật."
 
-#: wp-admin/about.php:46 wp-admin/about.php:299
+#: wp-admin/about.php:324
 msgid "Maintenance and Security Release"
 msgstr "Các bản Bảo Mật và Bảo Trì"
 
-#: wp-admin/about.php:296
+#: wp-admin/about.php:321
 msgid "Security Release"
 msgstr "Các bản Bảo Mật"
 
-#: wp-admin/about.php:293
+#: wp-admin/about.php:318
 msgid "Maintenance Release"
 msgstr "Các bản Bảo Trì"
 
@@ -11265,7 +11265,7 @@ msgstr "Người Mua Định Kỳ có thể đọc bình luận, viết bình lu
 
 #: wp-admin/user-new.php:292
 msgid "Authors can publish and manage their own posts, and are able to upload files."
-msgstr "Tác Giả có thể đăng tải và quản lý bài viết của chính họ, và cũng có thể tải tập tin lên."
+msgstr "Tác giả có thể xuất bản và quản lý bài viết của chính họ, và cũng có thể tải tập tin lên."
 
 #: wp-admin/user-new.php:288
 msgid "Here is a basic overview of the different user roles and the permissions associated with each one:"
@@ -11297,7 +11297,7 @@ msgstr "Đường dẫn cố định là những địa chỉ mạng cố địn
 
 #: wp-admin/options-writing.php:24
 msgid "You can submit content in several different ways; this screen holds the settings for all of them. The top section controls the editor within the dashboard, while the rest control external publishing methods. For more information on any of these methods, use the documentation links."
-msgstr "Bạn có thể cập nhật nội dung theo một số cách khác nhau; màn hình này liệt kê các cài đặt cho tất cả các cách đó. Phần phía trên điều chỉnh công cụ biên tập tại bảng thống kê, phần còn lại điều chỉnh các phương pháp đăng tải bên ngoài. Để có thêm thông tin về bất kỳ phương pháp nào, hãy sử dụng các liên kết tài liệu."
+msgstr "Bạn có thể cập nhật nội dung theo một số cách khác nhau; màn hình này liệt kê các cài đặt cho tất cả các cách đó. Phần phía trên điều chỉnh công cụ biên tập tại bảng thống kê, phần còn lại điều chỉnh các phương pháp xuất bản bên ngoài. Để có thêm thông tin về bất kỳ phương pháp nào, hãy sử dụng các liên kết tài liệu."
 
 #: wp-admin/options-media.php:26
 msgid "Uploading Files allows you to choose the folder and path for storing your uploaded files."
@@ -11361,7 +11361,7 @@ msgstr "Nếu một tập tin đa phương tiện không được sử dụng tr
 
 #: wp-admin/upload.php:370
 msgid "All the files you&#8217;ve uploaded are listed in the Media Library, with the most recent uploads listed first. You can use the Screen Options tab to customize the display of this screen."
-msgstr "Tất cả các tệp bạn đã tải lên đều được liệt kê trong Thư viện media, với các tệp tải lên gần đây nhất được liệt kê đầu tiên. Bạn có thể sử dụng tab tùy chọn màn hình để tùy chỉnh cách hiển thị của màn hình này."
+msgstr "Tất cả các tệp bạn đã tải lên đều được liệt kê trong media media, với các tệp tải lên gần đây nhất được liệt kê đầu tiên. Bạn có thể sử dụng tab tùy chọn màn hình để tùy chỉnh cách hiển thị của màn hình này."
 
 #: wp-admin/edit.php:320
 msgid "You can also perform the same types of actions, including narrowing the list by using the filters, acting on a page using the action links that appear when you hover over a row, or using the Bulk actions menu to edit the metadata for multiple pages at once."
@@ -11426,7 +11426,7 @@ msgstr "Quản Lý Trang Tĩnh"
 
 #: wp-admin/edit.php:281
 msgid "<strong>Preview</strong> will show you what your draft post will look like if you publish it. View will take you to your live site to view the post. Which link is available depends on your post&#8217;s status."
-msgstr "<strong>Xem Trước</strong> cho bạn thấy bản nháp của bạn sẽ hiển thị như thế nào khi bạn đăng tải nó. Xem sẽ đưa bạn tới mặt trước trang mạng của bạn để xem bài viết. Liên kết nào được hiển thị phụ thuộc vào trạng thái bài viết của bạn."
+msgstr "<strong>Xem trước</strong> cho bạn thấy bản nháp của bạn sẽ hiển thị như thế nào khi bạn xuất bản nó. Xem sẽ đưa bạn tới mặt trước trang mạng của bạn để xem bài viết. Liên kết nào được hiển thị phụ thuộc vào trạng thái bài viết của bạn."
 
 #: wp-admin/edit.php:280
 msgid "<strong>Trash</strong> removes your post from this list and places it in the Trash, from which you can permanently delete it."
@@ -11445,15 +11445,15 @@ msgid "Because this is a multisite installation, you may add accounts that alrea
 msgstr "Do đây là một bản cài đặt đa mạng, bạn có thể thêm tài khoản đã tồn tại trong Mạng Lưới bằng cách chỉ định tên truy cập hoặc địa chỉ thư điện tử, và lựa chọn một vai trò người dùng. Để có thêm lựa chọn, như chỉ định mật khẩu, bạn phải là Quản Trị Viên Mạng Lưới và sử dụng liên kết hiển thị phía dưới tên người dùng khi di chuột lên để Biên Tập hồ sơ người dùng tại Quản Trị Mạng Lưới > Tất Cả Người Dùng."
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:81
+#: wp-admin/about.php:106
 msgid "Welcome to WordPress %s"
 msgstr "Chào mừng đến với WordPress %s"
 
-#: wp-admin/about.php:280
+#: wp-admin/about.php:305
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Đến Bảng tin &rarr; Trang chủ"
 
-#: wp-admin/about.php:273
+#: wp-admin/about.php:298
 msgid "Go to Dashboard &rarr; Updates"
 msgstr "Tới Bảng tin &rarr; Cập nhật"
 
@@ -11710,7 +11710,7 @@ msgstr "Phiên bản %s"
 #: wp-admin/includes/class-wp-plugins-list-table.php:565
 msgid "Update Available <span class=\"count\">(%s)</span>"
 msgid_plural "Update Available <span class=\"count\">(%s)</span>"
-msgstr[0] "Nâng Cấp Hữu Dụng <span class=\"count\">(%s)</span>"
+msgstr[0] "Có bản cập nhật <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:806
 #: wp-admin/includes/class-wp-plugins-list-table.php:896
@@ -12211,7 +12211,7 @@ msgstr "Chỉ dành cho hình ảnh, bạn có thể bấm vào Biên Tập Ản
 
 #: wp-admin/edit-form-advanced.php:346
 msgid "This screen allows you to edit fields for metadata in a file within the media library."
-msgstr "Màn hình này cho phép bạn biên tập năm trường dữ liệu cho mỗi file trong thư viện media."
+msgstr "Màn hình này cho phép bạn biên tập năm trường dữ liệu cho mỗi file trong media media."
 
 #: wp-admin/user-new.php:441
 msgid "Email or Username"
@@ -12232,7 +12232,7 @@ msgstr "<strong>Xin lưu ý:</strong> Mọi tùy chỉnh bạn đã thực hiệ
 msgctxt "posts"
 msgid "Sticky <span class=\"count\">(%s)</span>"
 msgid_plural "Sticky <span class=\"count\">(%s)</span>"
-msgstr[0] "Dính <span class=\"count\">(%s)</span>"
+msgstr[0] "Ghim <span class=\"count\">(%s)</span>"
 
 #: wp-admin/update-core.php:1117
 msgid "Check again."
@@ -12369,7 +12369,7 @@ msgstr "Ảnh có kích thước <strong>%1$d &times; %2$d điểm ảnh</strong
 
 #: wp-admin/includes/class-custom-image-header.php:952
 msgid "Crop and Publish"
-msgstr "Cắt và Đăng"
+msgstr "Cắt và xuất bản"
 
 #: wp-admin/edit-link-form.php:70
 msgid "XFN stands for <a href=\"https://gmpg.org/xfn/\">XHTML Friends Network</a>, which is optional. WordPress allows the generation of XFN attributes to show how you are related to the authors/owners of the site to which you are linking."
@@ -12428,7 +12428,7 @@ msgstr "Bạn có thể chỉ định kích thước lớn nhất cho ảnh đư
 
 #: wp-admin/options-general.php:28
 msgid "Most themes show the site title at the top of every page, in the title bar of the browser, and as the identifying name for syndicated feeds. Many themes also show the tagline."
-msgstr "Hầu hết các chủ đề đều hiển thị tiêu đề trang web ở đầu mỗi trang, trong thanh tiêu đề của trình duyệt và làm tên nhận dạng cho các nguồn cấp dữ liệu được cung cấp. Nhiều chủ đề cũng hiển thị khẩu hiệu."
+msgstr "Hầu hết các giao diện đều hiển thị tiêu đề trang web ở đầu mỗi trang, trong thanh tiêu đề của trình duyệt và làm tên nhận dạng cho các nguồn cấp dữ liệu được cung cấp. Nhiều giao diện cũng hiển thị dòng mô tả."
 
 #: wp-admin/edit-form-advanced.php:414
 msgid "<strong>Order</strong> &mdash; Pages are usually ordered alphabetically, but you can choose your own order by entering a number (1 for first, etc.) in this field."
@@ -12461,7 +12461,7 @@ msgstr "<strong>Gửi Tham Chiếu</strong> - Tham chiếu là cách thông báo
 
 #: wp-admin/user-new.php:291
 msgid "Contributors can write and manage their posts but not publish posts or upload media files."
-msgstr "Cộng Tác Viên có thể viết và quản lý bài viết của họ nhưng không thể đăng tải hoặc tải nội dung đa phương tiện lên."
+msgstr "Cộng tác viên có thể viết và quản lý bài viết của họ nhưng không thể xuất bản hoặc tải tệp tin lên media."
 
 #: wp-admin/user-new.php:294
 msgid "Administrators have access to all the administration features."
@@ -12499,7 +12499,7 @@ msgstr "Bạn có thể tuỳ biến giao diện website mà không cần sửa 
 
 #: wp-admin/user-new.php:293
 msgid "Editors can publish posts, manage posts as well as manage other people&#8217;s posts, etc."
-msgstr "Biên Tập Viên có thể đăng tải bài viết, quản lý bài viết của chính họ cũng như của người khác, v.v."
+msgstr "Biên tập viên có thể xuất bản bài viết, quản lý bài viết của chính họ cũng như của người khác, v.v."
 
 #: wp-admin/user-edit.php:66
 msgid "Remember to click the Update Profile button when you are finished."
@@ -12543,7 +12543,7 @@ msgstr "Các trường tại màn hình này chỉ định cấu hình cơ bản
 #: wp-admin/options-permalink.php:46 wp-admin/options-permalink.php:55
 #: wp-admin/options-reading.php:37 wp-admin/options-writing.php:25
 msgid "You must click the Save Changes button at the bottom of the screen for new settings to take effect."
-msgstr "Bạn phải bấm vào nút Lưu Lại Thay Đổi ở phía dưới màn hình để áp dụng các cài đặt mới."
+msgstr "Bạn phải bấm vào nút lưu lại thay đổi ở phía dưới màn hình để áp dụng các cài đặt mới."
 
 #: wp-admin/edit-link-form.php:69
 msgid "The boxes for link name, web address, and description have fixed positions, while the others may be repositioned using drag and drop. You can also hide boxes you do not use in the Screen Options tab, or minimize boxes by clicking on the title bar of the box."
@@ -12763,7 +12763,7 @@ msgstr "Bạn có thể tùy chỉnh cách hiển thị của màn hình này th
 
 #: wp-admin/plugins.php:793
 msgid "Search installed plugins"
-msgstr "Tìm kiếm các plugin đã cài đặt"
+msgstr "Tìm kiếm plugin đã cài đặt"
 
 #: wp-admin/nav-menus.php:832
 msgid "Your theme supports one menu. Select which menu you would like to use."
@@ -12806,7 +12806,7 @@ msgstr "Xóa"
 #: wp-admin/includes/class-wp-comments-list-table.php:371
 msgctxt "comment"
 msgid "Mark as spam"
-msgstr "Đánh dấu là spam"
+msgstr "Đánh dấu là bình luận rác"
 
 #: wp-admin/includes/class-custom-background.php:327
 msgid "Remove Background Image"
@@ -12845,7 +12845,7 @@ msgstr "Bật"
 #: wp-admin/includes/class-wp-comments-list-table.php:787
 msgctxt "comment"
 msgid "Not Spam"
-msgstr "Không Phải Bình Luận Rác"
+msgstr "Không phải bình luận rác"
 
 #: wp-admin/includes/class-custom-background.php:342
 msgid "This will restore the original background image. You will not be able to restore any customizations."
@@ -13187,7 +13187,7 @@ msgstr "Cập nhật WordPress"
 msgid "Edit menu item"
 msgstr "Sửa mục trong menu"
 
-#: wp-admin/about.php:280
+#: wp-admin/about.php:305
 msgid "Go to Dashboard"
 msgstr "Xem bảng tin"
 
@@ -13280,7 +13280,7 @@ msgstr "Tập tin rỗng. Hãy tải lên tập tin có nội dung."
 
 #: wp-admin/edit-comments.php:410
 msgid "This comment is already marked as spam."
-msgstr "Bình luận này đã được đánh dấu là rác."
+msgstr "Bình luận này đã được đánh dấu là bình luận rác."
 
 #: wp-admin/edit-comments.php:406
 msgid "View Trash"
@@ -13300,7 +13300,7 @@ msgstr "Bình luận này hiện đang ở trong Thùng Rác."
 
 #: wp-admin/comment.php:158
 msgid "This comment is currently marked as spam."
-msgstr "Phản hồi này bị đánh dấu là spam."
+msgstr "Bình luận này bị đánh dấu là bình luận rác."
 
 #: wp-admin/comment.php:155
 msgid "This comment is currently approved."
@@ -13504,11 +13504,11 @@ msgstr "Sửa tài khoản"
 
 #: wp-admin/upload.php:102 wp-admin/upload.php:123
 msgid "Media file restored from the Trash."
-msgstr "File media đã được khôi phục từ Thùng rác."
+msgstr "Tệp của media đã được khôi phục từ thùng rác."
 
 #: wp-admin/upload.php:79 wp-admin/upload.php:118
 msgid "Media file moved to the Trash."
-msgstr "File media đã được chuyển vào Thùng rác."
+msgstr "Tệp tin của media đã được chuyển vào thùng rác."
 
 #: wp-admin/upload.php:62 wp-admin/upload.php:116
 msgid "Media file permanently deleted."
@@ -13808,7 +13808,7 @@ msgstr "Định dạng"
 
 #: wp-admin/options-writing.php:17
 msgid "Writing Settings"
-msgstr "Tùy chọn viết bài"
+msgstr "Cài đặt viết"
 
 #: wp-admin/options-reading.php:68
 msgid "Encoding for pages and feeds"
@@ -13846,7 +13846,7 @@ msgstr "Một <a href=\"%s\">trang tĩnh</a> (chọn dưới đây)"
 
 #: wp-admin/options-reading.php:17
 msgid "Reading Settings"
-msgstr "Tùy chọn hiển thị"
+msgstr "Cài đặt đọc"
 
 #: wp-admin/options-privacy.php:191
 msgid "Privacy Settings"
@@ -13957,7 +13957,7 @@ msgstr "Kích thước ảnh"
 
 #: wp-admin/options-media.php:17
 msgid "Media Settings"
-msgstr "Tuỳ chỉnh thư viện"
+msgstr "Cài đặt media"
 
 #: wp-admin/options-general.php:548
 msgid "Week Starts On"
@@ -14069,7 +14069,7 @@ msgstr "Nếu nội dung chứa tên, liên kết, thư điện tử hay IP, bì
 #. translators: %s: Number of links.
 #: wp-admin/options-discussion.php:221
 msgid "Hold a comment in the queue if it contains %s or more links. (A common characteristic of comment spam is a large number of hyperlinks.)"
-msgstr "Giữ lại một bình luận nếu nó chứa %s liên kết hoặc nhiều hơn. (Đặc điểm chung của các bình luận spam là chèn nhiều liên kết)."
+msgstr "Giữ lại một bình luận nếu nó chứa %s liên kết hoặc nhiều hơn. (Đặc điểm chung của các bình luận bình luận rác là chèn nhiều liên kết)."
 
 #. translators: Hidden accessibility text.
 #: wp-admin/options-discussion.php:210 wp-admin/options-discussion.php:214
@@ -14150,7 +14150,7 @@ msgstr "Tùy chọn bình luận khác"
 
 #: wp-admin/edit-form-advanced.php:407 wp-admin/options-discussion.php:16
 msgid "Discussion Settings"
-msgstr "Tùy chọn thảo luận"
+msgstr "Cài đặt thảo luận"
 
 #: wp-admin/includes/class-wp-users-list-table.php:158
 #: wp-admin/includes/deprecated.php:579
@@ -14426,7 +14426,7 @@ msgstr "Chủ đề"
 
 #: wp-admin/includes/theme.php:345
 msgid "Sticky Post"
-msgstr "Bài viết đáng chú ý"
+msgstr "Bài viết ghim"
 
 #: wp-admin/includes/theme.php:348
 msgid "Theme Options"
@@ -14470,7 +14470,7 @@ msgstr "Bộ lọc theo đặc điểm"
 
 #: wp-admin/includes/class-wp-screen.php:972
 msgid "Screen Options"
-msgstr "Tùy chọn hiển thị"
+msgstr "Tùy chọn màn hình"
 
 #: wp-admin/widgets-form.php:401
 msgid "Disable accessibility mode"
@@ -14521,7 +14521,7 @@ msgstr "Khóa"
 #. translators: %s: Comment author, filled by Ajax.
 #: wp-admin/includes/template.php:570
 msgid "Comment by %s marked as spam."
-msgstr "Bình luận của %s bị đánh dấu là spam."
+msgstr "Bình luận của %s bị đánh dấu là bình luận rác."
 
 #. translators: %s: Comment author, filled by Ajax.
 #: wp-admin/includes/template.php:561
@@ -14542,11 +14542,11 @@ msgstr "Lịch trình bị bỏ lỡ"
 
 #: wp-admin/includes/class-wp-posts-list-table.php:2011
 msgid "Make this post sticky"
-msgstr "Dán bài này lên đầu"
+msgstr "Ghim bài viết này lên đầu"
 
 #: wp-admin/includes/class-wp-posts-list-table.php:2003
 msgid "Not Sticky"
-msgstr "Không dán"
+msgstr "Không ghim"
 
 #: wp-admin/includes/class-wp-posts-list-table.php:1961
 msgid "Allow Pings"
@@ -14973,7 +14973,7 @@ msgstr "+ Thêm chuyên mục"
 
 #: wp-admin/includes/meta-boxes.php:246 wp-admin/includes/meta-boxes.php:260
 msgid "Publish <b>immediately</b>"
-msgstr "Đăng <b>ngay lập tức</b>"
+msgstr "Xuất bản <b>ngay lập tức</b>"
 
 #: wp-admin/includes/meta-boxes.php:214
 msgid "Stick this post to the front page"
@@ -15021,11 +15021,11 @@ msgstr "Tìm kiếm"
 
 #: wp-admin/includes/media.php:2691
 msgid "Update gallery settings"
-msgstr "Cập nhật cài đặt cho thư viện"
+msgstr "Cập nhật cài đặt thư viện ảnh"
 
 #: wp-admin/includes/media.php:2670
 msgid "Gallery columns:"
-msgstr "Số cột:"
+msgstr "Cột thư viện ảnh:"
 
 #: wp-admin/includes/media.php:2655
 msgid "Order:"
@@ -15049,7 +15049,7 @@ msgstr "Xếp ảnh theo:"
 
 #: wp-admin/includes/media.php:2629
 msgid "Image File"
-msgstr "Tập tin ảnh"
+msgstr "Tệp hình ảnh"
 
 #: wp-admin/includes/media.php:2624
 msgid "Link thumbnails to:"
@@ -15122,7 +15122,7 @@ msgstr "Tải lên"
 #. translators: %s: Number of attachments.
 #: wp-admin/includes/media.php:64
 msgid "Gallery (%s)"
-msgstr "Gallery (%s)"
+msgstr "Thư viện ảnh (%s)"
 
 #: wp-admin/includes/media.php:19
 msgid "From URL"
@@ -15451,12 +15451,12 @@ msgstr "Cho bình luận này vào thùng rác"
 #: wp-admin/includes/dashboard.php:775
 msgctxt "verb"
 msgid "Spam"
-msgstr "Spam"
+msgstr "Bình luận rác"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:777
 #: wp-admin/includes/dashboard.php:773
 msgid "Mark this comment as spam"
-msgstr "Đánh dấu bình luận là spam"
+msgstr "Đánh dấu bình luận là rác"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:845
 #: wp-admin/includes/dashboard.php:765
@@ -15787,7 +15787,7 @@ msgstr "Khi bạn nhấn nút dưới đây, WordPress sẽ tạo cho bạn mộ
 
 #: wp-admin/export.php:20 wp-admin/menu.php:365
 msgid "Export"
-msgstr "Xuất ra"
+msgstr "Xuất dữ liệu"
 
 #. translators: %s: Number of posts.
 #: wp-admin/includes/class-wp-posts-list-table.php:345
@@ -15934,7 +15934,7 @@ msgstr "Dọn sạch thùng rác"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:429
 msgid "Empty Spam"
-msgstr "Xóa hết spam"
+msgstr "Xóa hết bình luận rác"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:421
 #: wp-admin/includes/class-wp-links-list-table.php:123
@@ -15987,13 +15987,13 @@ msgstr[0] "%s bình luận đã bị xóa."
 #: wp-admin/edit-comments.php:356
 msgid "%s comment restored from the spam."
 msgid_plural "%s comments restored from the spam."
-msgstr[0] "%s bình luận được bỏ đánh dấu spam."
+msgstr[0] "%s bình luận được bỏ đánh dấu bình luận rác."
 
 #. translators: %s: Number of comments.
 #: wp-admin/edit-comments.php:344
 msgid "%s comment marked as spam."
 msgid_plural "%s comments marked as spam."
-msgstr[0] "%s bình luận bị đánh dấu là spam."
+msgstr[0] "%s bình luận bị đánh dấu là rác."
 
 #. translators: %s: Number of comments.
 #: wp-admin/edit-comments.php:334
@@ -16014,7 +16014,7 @@ msgstr "(Không được sử dụng)"
 #: wp-admin/includes/class-wp-media-list-table.php:540
 #: wp-admin/includes/class-wp-posts-list-table.php:1192
 msgid "Unpublished"
-msgstr "Không được đăng"
+msgstr "Không được xuất bản"
 
 #. translators: %s: Attachment title.
 #. translators: %s: Post title.
@@ -16108,7 +16108,7 @@ msgstr "Bạn sắp chuyển bình luận sau vào thùng rác:"
 
 #: wp-admin/comment.php:134
 msgid "You are about to mark the following comment as spam:"
-msgstr "Bạn đánh dấu bình luận sau là spam:"
+msgstr "Bạn đánh dấu bình luận sau là rác:"
 
 #: wp-admin/comment.php:88
 msgid "This comment is in the Trash. Please move it out of the Trash if you want to edit it."
@@ -16130,7 +16130,7 @@ msgstr "Sửa bình luận"
 
 #: wp-admin/admin.php:338 wp-admin/import.php:19 wp-admin/menu.php:364
 msgid "Import"
-msgstr "Nhập vào"
+msgstr "Nhập dữ liệu"
 
 #. translators: %s: Admin page generated by a plugin.
 #: wp-admin/admin.php:269

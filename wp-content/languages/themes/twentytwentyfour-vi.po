@@ -11,47 +11,17 @@ msgstr ""
 "Language: vi_VN\n"
 "Project-Id-Version: Themes - Twenty Twenty-Four\n"
 
-#. Theme Name of the theme
-#: style.css
-#, gp-priority: high
-msgid "Twenty Twenty-Four"
-msgstr "Twenty Twenty-Four"
-
 #. Description of the theme
 #: style.css
 #, gp-priority: high
 msgid "Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4."
 msgstr "Twenty Twenty-Four được thiết kế linh hoạt, đa năng và phù hợp với mọi trang web. Bộ sưu tập mẫu và bố cục của theme đáp ứng nhiều nhu cầu khác nhau, chẳng hạn như giới thiệu doanh nghiệp, viết blog, sáng tác nội dung hoặc trưng bày tác phẩm. Vô số khả năng mở ra chỉ với một vài điều chỉnh về màu sắc và kiểu chữ. Twenty Twenty-Four đi kèm với các biến thể phong cách và thiết kế trang đầy đủ giúp tăng tốc quá trình xây dựng website, hoàn toàn tương thích với trình soạn thảo website và tận dụng các công cụ thiết kế mới được giới thiệu trong WordPress 6.4."
 
-#: patterns/text-feature-grid-3-col.php
-msgctxt "Pattern description"
-msgid "A feature grid of 2 rows and 3 columns with headings and text."
-msgstr "Lưới tính năng gồm 2 hàng và 3 cột với tiêu đề và văn bản."
-
-#: patterns/page-home-portfolio-gallery.php
-msgctxt "Pattern description"
-msgid "A porfolio home page that features a gallery."
-msgstr "Trang chủ danh mục đầu tư có thư viện ảnh."
-
-#: patterns/gallery-project-layout.php
-msgctxt "Pattern description"
-msgid "A gallery section with a project layout with 2 images."
-msgstr "Phần thư viện ảnh với bố cục dự án với 2 hình ảnh."
-
-#: patterns/gallery-full-screen-image.php
-msgctxt "Pattern description"
-msgid "A cover image section that covers the entire width."
-msgstr "Phần ảnh bìa bao phủ toàn bộ chiều rộng."
-
-#: patterns/cta-pricing.php
-msgctxt "Pattern description"
-msgid "A pricing section with a title, a paragraph and three pricing levels."
-msgstr "Phần định giá với tiêu đề, đoạn văn bản và ba mức giá."
-
-#: patterns/banner-project-description.php
-msgctxt "Pattern description"
-msgid "Project description section with title, paragraph, and an image."
-msgstr "Phần mô tả dự án với tiêu đề, đoạn văn bản và hình ảnh."
+#. Theme Name of the theme
+#: style.css
+#, gp-priority: high
+msgid "Twenty Twenty-Four"
+msgstr "Twenty Twenty-Four"
 
 #: patterns/text-title-left-image-right.php
 msgctxt "Pattern description"
@@ -62,6 +32,11 @@ msgstr "Tiêu đề, đoạn văn và nút kêu gọi hành động (CTA) ở b�
 msgctxt "Pattern description"
 msgid "A text only section for project details."
 msgstr "Phần chỉ chứa văn bản dành cho thông tin chi tiết dự án."
+
+#: patterns/text-feature-grid-3-col.php
+msgctxt "Pattern description"
+msgid "A feature grid of 2 rows and 3 columns with headings and text."
+msgstr "Lưới tính năng gồm 2 hàng và 3 cột với tiêu đề và văn bản."
 
 #: patterns/text-faq.php:35
 msgctxt "Question in the FAQ pattern"
@@ -143,6 +118,11 @@ msgctxt "Pattern description"
 msgid "A portfolio home page with a description and a 4-column post section with only feature images."
 msgstr "Trang chủ danh mục đầu tư với phần mô tả và phần bài viết 4 cột chỉ có hình ảnh nổi bật."
 
+#: patterns/page-home-portfolio-gallery.php
+msgctxt "Pattern description"
+msgid "A porfolio home page that features a gallery."
+msgstr "Trang chủ danh mục đầu tư có thư viện ảnh."
+
 #: patterns/page-home-business.php
 msgctxt "Pattern description"
 msgid "A business home page with a hero section, a text section, a services section, a team section, a clients section, a FAQ section, and a CTA section."
@@ -158,6 +138,11 @@ msgctxt "Pattern description"
 msgid "A business about page with a hero section, a text section, a services section, a team section, a clients section, a FAQ section, and a CTA section."
 msgstr "Trang giới thiệu doanh nghiệp với phần hero, phần văn bản, phần dịch vụ, phần nhóm, phần khách hàng, phần Câu hỏi thường gặp và phần kêu gọi hành động (CTA)."
 
+#: patterns/gallery-project-layout.php
+msgctxt "Pattern description"
+msgid "A gallery section with a project layout with 2 images."
+msgstr "Phần thư viện ảnh với bố cục dự án với 2 hình ảnh."
+
 #: patterns/gallery-offset-images-grid-4-col.php
 msgctxt "Pattern description"
 msgid "A gallery section with 4 columns and offset images."
@@ -172,6 +157,11 @@ msgstr "Phần thư viện ảnh với 3 cột và hình ảnh lệch nhau."
 msgctxt "Pattern description"
 msgid "A gallery section with 2 columns and offset images."
 msgstr "Phần thư viện ảnh với 2 cột và hình ảnh lệch nhau."
+
+#: patterns/gallery-full-screen-image.php
+msgctxt "Pattern description"
+msgid "A cover image section that covers the entire width."
+msgstr "Phần ảnh bìa bao phủ toàn bộ chiều rộng."
 
 #: patterns/footer.php
 msgctxt "Pattern description"
@@ -203,27 +193,29 @@ msgctxt "Pattern description"
 msgid "A large RSVP heading sideways, a description, and a CTA button."
 msgstr "Tiêu đề RSVP lớn ở bên cạnh, phần mô tả và nút kêu gọi hành động (CTA)."
 
+#: patterns/cta-pricing.php
+msgctxt "Pattern description"
+msgid "A pricing section with a title, a paragraph and three pricing levels."
+msgstr "Phần định giá với tiêu đề, đoạn văn bản và ba mức giá."
+
 #: patterns/cta-content-image-on-right.php
 msgctxt "Pattern description"
 msgid "A title, paragraph, two CTA buttons, and an image for a general CTA section."
 msgstr "Tiêu đề, đoạn văn bản, hai nút kêu gọi hành động (CTA) và hình ảnh cho phần CTA chung."
+
+#: patterns/banner-project-description.php
+msgctxt "Pattern description"
+msgid "Project description section with title, paragraph, and an image."
+msgstr "Phần mô tả dự án với tiêu đề, đoạn văn bản và hình ảnh."
 
 #: patterns/banner-hero.php
 msgctxt "Pattern description"
 msgid "A hero section with a title, a paragraph, a CTA button, and an image."
 msgstr "Phần hero với tiêu đề, đoạn văn bản, nút kêu gọi hành động (CTA) và hình ảnh."
 
-#: patterns/footer.php:50
-msgid "History"
-msgstr "Lịch sử"
-
 #: patterns/footer.php:96
 msgid "Twitter/X"
 msgstr "Twitter/X"
-
-#: patterns/footer.php:49
-msgid "Team"
-msgstr "Đội ngũ"
 
 #: patterns/footer.php:74
 msgid "Contact Us"
@@ -241,23 +233,51 @@ msgstr "Chính sách Quyền riêng tư"
 msgid "Careers"
 msgstr "Nghề nghiệp"
 
+#: patterns/footer.php:50
+msgid "History"
+msgstr "Lịch sử"
+
+#: patterns/footer.php:49
+msgid "Team"
+msgstr "Đội ngũ"
+
 #: patterns/posts-list.php
 msgctxt "Pattern title"
 msgid "List of posts without images, 1 column"
 msgstr "Danh sách bài viết không có hình ảnh, 1 cột"
 
-#: functions.php:200
-msgid "A collection of full page layouts."
-msgstr "Bộ sưu tập bố cục trang đầy đủ."
-
 #: patterns/hidden-portfolio-hero.php:16
 msgid "I’m <em>Leia Acosta</em>, a passionate photographer who finds inspiration in capturing the fleeting beauty of life."
 msgstr "Tôi là <em>Leia Acosta</em>, một nhiếp ảnh gia đam mê, tìm thấy nguồn cảm hứng trong việc nắm bắt vẻ đẹp thoáng qua của cuộc sống."
+
+#: functions.php:200
+msgid "A collection of full page layouts."
+msgstr "Bộ sưu tập bố cục trang đầy đủ."
 
 #: functions.php:199
 msgctxt "Block pattern category"
 msgid "Pages"
 msgstr "Các trang"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single with Sidebar"
+msgstr "Bài viết đơn với thanh bên"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page with Wide Image"
+msgstr "Trang với hình ảnh rộng"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page with Sidebar"
+msgstr "Trang với thanh bên"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page No Title"
+msgstr "Trang không có tiêu đề"
 
 #: theme.json
 msgctxt "Template part name"
@@ -626,6 +646,16 @@ msgstr "Băng"
 
 #: styles/fossil.json styles/ice.json styles/maelstrom.json theme.json
 msgctxt "Font size name"
+msgid "Extra Extra Large"
+msgstr "Cực lớn"
+
+#: styles/fossil.json styles/ice.json styles/maelstrom.json theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr "Rất lớn"
+
+#: styles/fossil.json styles/ice.json styles/maelstrom.json theme.json
+msgctxt "Font size name"
 msgid "Large"
 msgstr "Lớn"
 
@@ -665,6 +695,18 @@ msgstr "Tương phản / Hai"
 msgctxt "Style variation name"
 msgid "Fossil"
 msgstr "Hóa thạch"
+
+#: styles/ember.json styles/fossil.json styles/ice.json styles/maelstrom.json
+#: styles/mint.json theme.json
+msgctxt "Font family name"
+msgid "System Serif"
+msgstr "Phông chữ Serif Hệ thống"
+
+#: styles/ember.json styles/fossil.json styles/ice.json styles/maelstrom.json
+#: styles/mint.json theme.json
+msgctxt "Font family name"
+msgid "System Sans-serif"
+msgstr "Phông chữ Sans-serif Hệ thống"
 
 #: styles/ember.json styles/ice.json styles/maelstrom.json styles/mint.json
 msgctxt "Font family name"
@@ -774,6 +816,31 @@ msgctxt "Description for the About pattern"
 msgid "Leaving an indelible mark on the landscape of tomorrow."
 msgstr "Để lại dấu ấn không thể phai mờ trên bối cảnh của ngày mai."
 
+#: patterns/text-title-left-image-right.php:21
+msgctxt "Headline for the About pattern"
+msgid "Études offers comprehensive consulting, management, design, and research solutions. Every architectural endeavor is an opportunity to shape the future."
+msgstr "Études cung cấp các giải pháp tư vấn, quản lý, thiết kế và nghiên cứu toàn diện. Mỗi nỗ lực kiến trúc là một cơ hội để định hình tương lai."
+
+#: patterns/text-title-left-image-right.php
+msgctxt "Pattern title"
+msgid "Title text and button on left with image on right"
+msgstr "Văn bản tiêu đề và nút ở bên trái, hình ảnh ở bên phải"
+
+#: patterns/text-project-details.php:35 patterns/text-project-details.php:43
+msgctxt "Descriptive text for the feature area"
+msgid "The revitalized Art Gallery is set to redefine the cultural landscape of Toronto, serving as a nexus of artistic expression, community engagement, and architectural marvel. The expansion and renovation project pay homage to the Art Gallery's rich history while embracing the future, ensuring that the gallery remains a beacon of inspiration."
+msgstr "Phòng trưng bày nghệ thuật được hồi sinh sẽ tái định nghĩa bối cảnh văn hóa của Toronto, đóng vai trò là một trung tâm kết nối giữa biểu hiện nghệ thuật, sự tham gia của cộng đồng và kỳ quan kiến trúc. Dự án mở rộng và cải tạo bày tỏ lòng kính trọng đối với lịch sử phong phú của Phòng trưng bày Nghệ thuật đồng thời hướng tới tương lai, đảm bảo rằng phòng trưng bày vẫn là ngọn hải đăng của nguồn cảm hứng."
+
+#: patterns/text-project-details.php:27
+msgctxt "Descriptive title for the feature area"
+msgid "With meticulous attention to detail and a commitment to excellence, we create spaces that inspire, elevate, and enrich the lives of those who inhabit them."
+msgstr "Với sự chú ý tỉ mỉ đến từng chi tiết và cam kết với sự xuất sắc, chúng tôi tạo ra những không gian truyền cảm hứng, nâng cao và làm phong phú thêm cuộc sống của những người sử dụng chúng."
+
+#: patterns/text-project-details.php:18
+msgctxt "Title text for the feature area"
+msgid "The revitalized art gallery is set to redefine cultural landscape."
+msgstr "Phòng trưng bày nghệ thuật được hồi sinh sẽ tái định nghĩa bối cảnh văn hóa."
+
 #: patterns/text-project-details.php
 msgctxt "Pattern title"
 msgid "Project details"
@@ -783,6 +850,16 @@ msgstr "Chi tiết dự án"
 msgctxt "Sample content"
 msgid "Experience the fusion of imagination and expertise with Études Architectural Solutions."
 msgstr "Trải nghiệm sự kết hợp giữa trí tưởng tượng và chuyên môn với Giải pháp Kiến trúc Études."
+
+#: patterns/text-feature-grid-3-col.php:108
+msgctxt "Sample heading"
+msgid "Architectural Solutions"
+msgstr "Giải pháp kiến trúc"
+
+#: patterns/text-feature-grid-3-col.php:96
+msgctxt "Sample feature heading"
+msgid "Project Management"
+msgstr "Quản lý dự án"
 
 #: patterns/text-feature-grid-3-col.php:84
 msgctxt "Sample feature heading"
@@ -808,6 +885,16 @@ msgctxt "Sample feature content"
 msgid "Experience the fusion of imagination and expertise with Études Architectural Solutions."
 msgstr "Trải nghiệm sự kết hợp giữa trí tưởng tượng và chuyên môn với Giải pháp Kiến trúc Études."
 
+#: patterns/text-feature-grid-3-col.php:39
+msgctxt "Sample feature heading"
+msgid "Renovation and restoration"
+msgstr "Cải tạo và Phục hồi"
+
+#: patterns/text-feature-grid-3-col.php:24
+msgctxt "Sub-heading of the features"
+msgid "Our comprehensive suite of professional services caters to a diverse clientele, ranging from homeowners to commercial developers."
+msgstr "Bộ dịch vụ chuyên nghiệp toàn diện của chúng tôi phục vụ đa dạng khách hàng, từ chủ nhà đến nhà phát triển thương mại."
+
 #: patterns/text-feature-grid-3-col.php:16
 msgctxt "Heading of the features"
 msgid "A passion for creating spaces"
@@ -822,6 +909,17 @@ msgstr "Lưới tính năng, 3 cột"
 msgctxt "Question in the FAQ pattern"
 msgid "Can I apply to be a part of the team or work as a contractor?"
 msgstr "Tôi có thể nộp đơn xin trở thành một phần của nhóm hoặc làm việc như một nhà thầu không?"
+
+#: patterns/text-faq.php:46
+msgctxt "Question in the FAQ pattern"
+msgid "I'd like to get to meet fellow architects, how can I do that?"
+msgstr "Tôi muốn gặp gỡ các kiến trúc sư đồng nghiệp, tôi có thể làm điều đó như thế nào?"
+
+#: patterns/text-faq.php:27 patterns/text-faq.php:38 patterns/text-faq.php:49
+#: patterns/text-faq.php:60
+msgctxt "Answer in the FAQ pattern"
+msgid "Études offers comprehensive consulting, management, design, and research solutions. Our vision is to be at the forefront of architectural innovation, fostering a global community of architects and enthusiasts united by a passion for creating spaces. Every architectural endeavor is an opportunity to shape the future."
+msgstr "Études cung cấp các giải pháp tư vấn, quản lý, thiết kế và nghiên cứu toàn diện. Tầm nhìn của chúng tôi là đi đầu trong đổi mới kiến trúc, thúc đẩy một cộng đồng kiến trúc sư và những người đam mê toàn cầu, đoàn kết bởi niềm đam mê tạo ra không gian. Mỗi nỗ lực kiến trúc là một cơ hội để định hình tương lai."
 
 #: patterns/text-faq.php:24
 msgctxt "Question in the FAQ pattern"
@@ -843,6 +941,15 @@ msgctxt "Pattern title"
 msgid "FAQ"
 msgstr "Câu hỏi thường gặp"
 
+#: patterns/text-centered-statement.php:21
+msgid "<em>Études</em> is not confined to the past—we are passionate about the cutting edge designs shaping our world today."
+msgstr "<em>Études</em> không bị giới hạn bởi quá khứ—chúng tôi đam mê những thiết kế tiên tiến đang định hình thế giới ngày nay."
+
+#: patterns/text-centered-statement.php
+msgctxt "Pattern title"
+msgid "Centered statement"
+msgstr "Câu khẳng định trung tâm"
+
 #. Translators: About text placeholder
 #: patterns/text-centered-statement-small.php:23
 msgid "I write about finance, management and economy, my book “%1$s” is out now."
@@ -853,10 +960,25 @@ msgstr "Tôi viết về tài chính, quản lý và kinh tế, cuốn sách “
 msgid "Money Studies"
 msgstr "Nghiên cứu Tiền tệ"
 
+#: patterns/text-centered-statement-small.php
+msgctxt "Pattern title"
+msgid "Centered statement, small"
+msgstr "Câu khẳng định trung tâm, nhỏ"
+
 #: patterns/text-alternating-images.php:105
 msgctxt "Sample list item"
 msgid "Exclusive access to design insights."
 msgstr "Truy cập độc quyền vào thông tin chi tiết về thiết kế."
+
+#: patterns/text-alternating-images.php:101
+msgctxt "Sample list item"
+msgid "Case studies that celebrate architecture."
+msgstr "Các nghiên cứu điển hình tôn vinh kiến trúc."
+
+#: patterns/text-alternating-images.php:97
+msgctxt "Sample list item"
+msgid "A world of thought-provoking articles."
+msgstr "Thế giới bài viết kích thích tư duy."
 
 #: patterns/text-alternating-images.php:91
 msgctxt "Sample heading"
@@ -875,6 +997,16 @@ msgstr "Khách du lịch chụp ảnh một tòa nhà"
 msgctxt "Sample list heading"
 msgid "Études Architect App"
 msgstr "Ứng dụng Kiến trúc sư Études"
+
+#: patterns/text-alternating-images.php:23
+msgctxt "Sample subheading content"
+msgid "Our comprehensive suite of professional services caters to a diverse clientele, ranging from homeowners to commercial developers."
+msgstr "Bộ dịch vụ chuyên nghiệp toàn diện của chúng tôi phục vụ đa dạng khách hàng, từ chủ nhà đến nhà phát triển thương mại."
+
+#: patterns/text-alternating-images.php:19
+msgctxt "Sample heading content"
+msgid "An array of resources"
+msgstr "Hàng loạt tài nguyên"
 
 #: patterns/text-alternating-images.php
 msgctxt "Pattern title"
@@ -911,6 +1043,16 @@ msgctxt "Pattern title"
 msgid "Centered testimonial"
 msgstr "Lời chứng thực trung tâm"
 
+#: patterns/template-single-portfolio.php
+msgctxt "Pattern title"
+msgid "Portfolio single post template"
+msgstr "Mẫu bài đăng đơn danh mục đầu tư"
+
+#: patterns/template-search-blogging.php
+msgctxt "Pattern title"
+msgid "Blogging search template"
+msgstr "Mẫu tìm kiếm blog"
+
 #: patterns/template-search-portfolio.php
 msgctxt "Pattern title"
 msgid "Portfolio search template"
@@ -920,6 +1062,11 @@ msgstr "Mẫu tìm kiếm danh mục đầu tư"
 msgctxt "Pattern title"
 msgid "Portfolio index template"
 msgstr "Mẫu chỉ mục danh mục đầu tư"
+
+#: patterns/template-index-blogging.php
+msgctxt "Pattern title"
+msgid "Blogging index template"
+msgstr "Mẫu chỉ mục blog"
 
 #: patterns/template-home-portfolio.php
 msgctxt "Pattern title"
@@ -931,10 +1078,25 @@ msgctxt "Pattern title"
 msgid "Business home template"
 msgstr "Mẫu trang chủ doanh nghiệp"
 
+#: patterns/template-home-blogging.php
+msgctxt "Pattern title"
+msgid "Blogging home template"
+msgstr "Mẫu trang chủ blog"
+
 #: patterns/template-archive-portfolio.php
 msgctxt "Pattern title"
 msgid "Portfolio archive template"
 msgstr "Mẫu lưu trữ danh mục đầu tư"
+
+#: patterns/template-archive-blogging.php
+msgctxt "Pattern title"
+msgid "Blogging archive template"
+msgstr "Mẫu lưu trữ blog"
+
+#: patterns/team-4-col.php:121
+msgctxt "Sample role of a team member"
+msgid "Project Manager"
+msgstr "Quản lý Dự án"
 
 #: patterns/team-4-col.php:116
 msgctxt "Sample name of a team member"
@@ -970,6 +1132,11 @@ msgstr "Người sáng lập, Giám đốc điều hành & Kiến trúc sư"
 msgctxt "Sample name of a team member"
 msgid "Francesca Piovani"
 msgstr "Francesca Piovani"
+
+#: patterns/team-4-col.php:20
+msgctxt "Sample descriptive text of the team pattern"
+msgid "Our comprehensive suite of professionals caters to a diverse team, ranging from seasoned architects to renowned engineers."
+msgstr "Đội ngũ chuyên gia toàn diện của chúng tôi phục vụ một nhóm đa dạng, từ các kiến trúc sư dày dạn kinh nghiệm đến các kỹ sư nổi tiếng."
 
 #: patterns/team-4-col.php:16
 msgctxt "Sample heading for the team pattern"
@@ -1050,6 +1217,11 @@ msgctxt "Pattern title"
 msgid "Newsletter landing"
 msgstr "Trang đích bản tin"
 
+#: patterns/page-home-portfolio.php
+msgctxt "Pattern title"
+msgid "Portfolio home with post featured images"
+msgstr "Trang chủ danh mục đầu tư với hình ảnh nổi bật bài đăng"
+
 #: patterns/page-home-portfolio-gallery.php
 msgctxt "Pattern title"
 msgid "Portfolio home image gallery"
@@ -1074,6 +1246,10 @@ msgstr "Giới thiệu"
 msgctxt "search form placeholder"
 msgid "Search..."
 msgstr "Tìm kiếm..."
+
+#: patterns/hidden-sidebar.php:72
+msgid "Search the website"
+msgstr "Tìm kiếm trên trang web"
 
 #: patterns/hidden-sidebar.php:60
 msgid "Financial apps for families"
@@ -1154,6 +1330,11 @@ msgctxt "Pattern title"
 msgid "Post meta"
 msgstr "Siêu dữ liệu bài viết"
 
+#: patterns/hidden-portfolio-hero.php
+msgctxt "Pattern title"
+msgid "Portfolio hero"
+msgstr "Hero danh mục đầu tư"
+
 #: patterns/hidden-no-results.php:9
 msgctxt "Message explaining that there are no results returned from a search"
 msgid "No posts were found."
@@ -1173,6 +1354,11 @@ msgctxt "Pattern title"
 msgid "Comments"
 msgstr "Bình luận"
 
+#: patterns/hidden-404.php:13
+msgctxt "Message to convey that a webpage could not be found"
+msgid "The page you are looking for does not exist, or it has been moved. Please try searching using the form below."
+msgstr "Trang bạn đang tìm kiếm không tồn tại hoặc đã được chuyển đi. Vui lòng thử tìm kiếm bằng biểu mẫu bên dưới."
+
 #: patterns/hidden-404.php:10
 msgctxt "Heading for a webpage that is not found"
 msgid "Page Not Found"
@@ -1186,6 +1372,21 @@ msgstr "404"
 #: patterns/gallery-project-layout.php:54
 msgid "Art Gallery of Ontario, Toronto, Canada"
 msgstr "Bảo tàng Nghệ thuật Ontario, Toronto, Canada"
+
+#: patterns/gallery-project-layout.php:49
+msgctxt "Sample text for the feature area"
+msgid "2. Case studies that celebrate the artistry can fuel curiosity and ignite inspiration."
+msgstr "2. Các nghiên cứu điển hình tôn vinh nghệ thuật có thể khơi dậy sự tò mò và truyền cảm hứng."
+
+#: patterns/gallery-project-layout.php:38
+msgctxt "Sample text for the feature area"
+msgid "Our comprehensive suite of professional services caters to a diverse clientele, ranging from homeowners to commercial developers. With a commitment to innovation and sustainability, Études is the bridge that transforms architectural dreams into remarkable built realities."
+msgstr "Bộ dịch vụ chuyên nghiệp toàn diện của chúng tôi phục vụ đa dạng khách hàng, từ chủ nhà đến nhà phát triển thương mại. Với cam kết đổi mới và bền vững, Études là cầu nối biến những giấc mơ kiến trúc thành hiện thực được xây dựng đáng chú ý."
+
+#: patterns/gallery-project-layout.php:26
+msgctxt "Sample text for the feature area"
+msgid "1. Through Études, we aspire to redefine architectural boundaries and usher in a new era of design excellence that leaves an indelible mark on the built environment."
+msgstr "1. Thông qua Études, chúng tôi khao khát tái định nghĩa ranh giới kiến trúc và mở ra một kỷ nguyên mới về sự xuất sắc trong thiết kế, để lại dấu ấn không thể phai mờ trong môi trường xây dựng."
 
 #: patterns/gallery-project-layout.php:21
 msgid "An empty staircase under an angular roof in Darling Harbour, Sydney, Australia"
@@ -1216,6 +1417,14 @@ msgctxt "Pattern title"
 msgid "Full screen image"
 msgstr "Hình ảnh toàn màn hình"
 
+#: patterns/footer.php:92
+msgid "Social Media"
+msgstr "Mạng xã hội"
+
+#: patterns/footer.php:86
+msgid "Social"
+msgstr "Kết nối"
+
 #: patterns/footer.php:64 patterns/footer.php:70
 msgid "Privacy"
 msgstr "Riêng tư"
@@ -1228,6 +1437,10 @@ msgstr "Giới thiệu"
 msgctxt "Pattern title"
 msgid "Footer with colophon, 4 columns"
 msgstr "Chân trang có colophon, 4 cột"
+
+#: patterns/footer-colophon-3-col.php:82
+msgid "&copy;"
+msgstr "&copy;"
 
 #: patterns/footer-colophon-3-col.php:60 patterns/footer.php:94
 msgid "Facebook"
@@ -1275,15 +1488,30 @@ msgctxt "Sample text for Sign Up Button"
 msgid "Sign up"
 msgstr "Đăng ký"
 
+#: patterns/cta-subscribe-centered.php:24
+msgctxt "Sample text for Subscriber Description"
+msgid "Stay in the loop with everything you need to know."
+msgstr "Luôn cập nhật mọi thứ bạn cần biết."
+
 #: patterns/cta-subscribe-centered.php:20
 msgctxt "Sample text for Subscriber Heading with numbers"
 msgid "Join 900+ subscribers"
 msgstr "Tham gia cùng hơn 900 người đăng ký"
 
+#: patterns/cta-subscribe-centered.php
+msgctxt "Pattern title"
+msgid "Centered call to action"
+msgstr "Kêu gọi hành động trung tâm"
+
 #: patterns/cta-services-image-left.php:39
 msgctxt "Sample button text to view the services"
 msgid "Our services"
 msgstr "Dịch vụ của chúng tôi"
+
+#: patterns/cta-services-image-left.php:32
+msgctxt "Sample description of the services pattern"
+msgid "Experience the fusion of imagination and expertise with Études—the catalyst for architectural transformations that enrich the world around us."
+msgstr "Trải nghiệm sự kết hợp giữa trí tưởng tượng và chuyên môn với Études—chất xúc tác cho những thay đổi kiến trúc làm phong phú thêm thế giới xung quanh chúng ta."
 
 #: patterns/cta-services-image-left.php:28
 msgctxt "Sample heading of the services pattern"
@@ -1435,11 +1663,28 @@ msgctxt "Button text of this section"
 msgid "Download app"
 msgstr "Tải xuống ứng dụng"
 
+#: patterns/cta-content-image-on-right.php:32
+#: patterns/text-alternating-images.php:52
+msgctxt "Sample list item"
+msgid "Experience the world of architecture."
+msgstr "Trải nghiệm thế giới kiến trúc."
+
 #: patterns/cta-content-image-on-right.php:28
 #: patterns/text-alternating-images.php:48
 msgctxt "Sample list item"
 msgid "Showcase your projects."
 msgstr "Trưng bày các dự án của bạn."
+
+#: patterns/cta-content-image-on-right.php:24
+#: patterns/text-alternating-images.php:44
+msgctxt "Sample list item"
+msgid "Collaborate with fellow architects."
+msgstr "Cộng tác với các kiến trúc sư đồng nghiệp."
+
+#: patterns/cta-content-image-on-right.php:18
+msgctxt "Sample heading"
+msgid "Enhance your architectural journey with the Études Architect app."
+msgstr "Nâng cao hành trình kiến trúc của bạn với ứng dụng Kiến trúc sư Études."
 
 #: patterns/cta-content-image-on-right.php
 msgctxt "Pattern title"
@@ -1455,6 +1700,11 @@ msgctxt "Sample descriptive text for a project or post."
 msgid "This transformative project seeks to enhance the gallery's infrastructure, accessibility, and exhibition spaces while preserving its rich cultural heritage."
 msgstr "Dự án chuyển đổi này nhằm mục đích nâng cao cơ sở hạ tầng, khả năng tiếp cận và không gian triển lãm của phòng trưng bày đồng thời bảo tồn di sản văn hóa phong phú của nó."
 
+#: patterns/banner-project-description.php:17
+msgctxt "Sample title for a project or post"
+msgid "Art Gallery — Overview"
+msgstr "Tổng quan về Phòng trưng bày Nghệ thuật"
+
 #: patterns/banner-project-description.php
 msgctxt "Pattern title"
 msgid "Project description"
@@ -1469,10 +1719,20 @@ msgctxt "Button text of the hero section"
 msgid "About us"
 msgstr "Về chúng tôi"
 
+#: patterns/banner-hero.php:26
+msgctxt "Content of the hero section"
+msgid "Études is a pioneering firm that seamlessly merges creativity and functionality to redefine architectural excellence."
+msgstr "Études là một công ty tiên phong, kết hợp liền mạch giữa sáng tạo và chức năng để tái định nghĩa sự xuất sắc trong kiến trúc."
+
 #: patterns/banner-hero.php:18
 msgctxt "Heading of the hero section"
 msgid "A commitment to innovation and sustainability"
 msgstr "Cam kết đổi mới và bền vững"
+
+#: patterns/banner-hero.php
+msgctxt "Pattern title"
+msgid "Hero"
+msgstr "Hero"
 
 #: functions.php:111
 msgid "With asterisk"
@@ -1501,274 +1761,14 @@ msgstr "Biểu tượng mũi tên"
 msgid "https://wordpress.org"
 msgstr "https://wordpress.org"
 
-#: patterns/footer-colophon-3-col.php:82
-msgid "&copy;"
-msgstr "&copy;"
-
-#: styles/fossil.json styles/ice.json styles/maelstrom.json theme.json
-msgctxt "Font size name"
-msgid "Extra Extra Large"
-msgstr "Cực lớn"
-
-#: styles/fossil.json styles/ice.json styles/maelstrom.json theme.json
-msgctxt "Font size name"
-msgid "Extra Large"
-msgstr "Rất lớn"
-
-#: styles/ember.json styles/fossil.json styles/ice.json styles/maelstrom.json
-#: styles/mint.json theme.json
-msgctxt "Font family name"
-msgid "System Serif"
-msgstr "Phông chữ Serif Hệ thống"
-
-#: styles/ember.json styles/fossil.json styles/ice.json styles/maelstrom.json
-#: styles/mint.json theme.json
-msgctxt "Font family name"
-msgid "System Sans-serif"
-msgstr "Phông chữ Sans-serif Hệ thống"
-
-#: patterns/text-title-left-image-right.php:21
-msgctxt "Headline for the About pattern"
-msgid "Études offers comprehensive consulting, management, design, and research solutions. Every architectural endeavor is an opportunity to shape the future."
-msgstr "Études cung cấp các giải pháp tư vấn, quản lý, thiết kế và nghiên cứu toàn diện. Mỗi nỗ lực kiến trúc là một cơ hội để định hình tương lai."
-
-#: patterns/text-title-left-image-right.php
-msgctxt "Pattern title"
-msgid "Title text and button on left with image on right"
-msgstr "Văn bản tiêu đề và nút ở bên trái, hình ảnh ở bên phải"
-
-#: patterns/text-project-details.php:35 patterns/text-project-details.php:43
-msgctxt "Descriptive text for the feature area"
-msgid "The revitalized Art Gallery is set to redefine the cultural landscape of Toronto, serving as a nexus of artistic expression, community engagement, and architectural marvel. The expansion and renovation project pay homage to the Art Gallery's rich history while embracing the future, ensuring that the gallery remains a beacon of inspiration."
-msgstr "Phòng trưng bày nghệ thuật được hồi sinh sẽ tái định nghĩa bối cảnh văn hóa của Toronto, đóng vai trò là một trung tâm kết nối giữa biểu hiện nghệ thuật, sự tham gia của cộng đồng và kỳ quan kiến trúc. Dự án mở rộng và cải tạo bày tỏ lòng kính trọng đối với lịch sử phong phú của Phòng trưng bày Nghệ thuật đồng thời hướng tới tương lai, đảm bảo rằng phòng trưng bày vẫn là ngọn hải đăng của nguồn cảm hứng."
-
-#: patterns/text-project-details.php:27
-msgctxt "Descriptive title for the feature area"
-msgid "With meticulous attention to detail and a commitment to excellence, we create spaces that inspire, elevate, and enrich the lives of those who inhabit them."
-msgstr "Với sự chú ý tỉ mỉ đến từng chi tiết và cam kết với sự xuất sắc, chúng tôi tạo ra những không gian truyền cảm hứng, nâng cao và làm phong phú thêm cuộc sống của những người sử dụng chúng."
-
-#: patterns/text-project-details.php:18
-msgctxt "Title text for the feature area"
-msgid "The revitalized art gallery is set to redefine cultural landscape."
-msgstr "Phòng trưng bày nghệ thuật được hồi sinh sẽ tái định nghĩa bối cảnh văn hóa."
-
-#: patterns/text-feature-grid-3-col.php:39
-msgctxt "Sample feature heading"
-msgid "Renovation and restoration"
-msgstr "Cải tạo và Phục hồi"
-
-#: patterns/text-feature-grid-3-col.php:24
-msgctxt "Sub-heading of the features"
-msgid "Our comprehensive suite of professional services caters to a diverse clientele, ranging from homeowners to commercial developers."
-msgstr "Bộ dịch vụ chuyên nghiệp toàn diện của chúng tôi phục vụ đa dạng khách hàng, từ chủ nhà đến nhà phát triển thương mại."
-
-#: patterns/text-faq.php:46
-msgctxt "Question in the FAQ pattern"
-msgid "I'd like to get to meet fellow architects, how can I do that?"
-msgstr "Tôi muốn gặp gỡ các kiến trúc sư đồng nghiệp, tôi có thể làm điều đó như thế nào?"
-
-#: patterns/text-centered-statement.php:21
-msgid "<em>Études</em> is not confined to the past—we are passionate about the cutting edge designs shaping our world today."
-msgstr "<em>Études</em> không bị giới hạn bởi quá khứ—chúng tôi đam mê những thiết kế tiên tiến đang định hình thế giới ngày nay."
-
-#: patterns/text-centered-statement.php
-msgctxt "Pattern title"
-msgid "Centered statement"
-msgstr "Câu khẳng định trung tâm"
-
-#: patterns/text-centered-statement-small.php
-msgctxt "Pattern title"
-msgid "Centered statement, small"
-msgstr "Câu khẳng định trung tâm, nhỏ"
-
-#: patterns/text-alternating-images.php:101
-msgctxt "Sample list item"
-msgid "Case studies that celebrate architecture."
-msgstr "Các nghiên cứu điển hình tôn vinh kiến trúc."
-
-#: patterns/text-faq.php:27 patterns/text-faq.php:38 patterns/text-faq.php:49
-#: patterns/text-faq.php:60
-msgctxt "Answer in the FAQ pattern"
-msgid "Études offers comprehensive consulting, management, design, and research solutions. Our vision is to be at the forefront of architectural innovation, fostering a global community of architects and enthusiasts united by a passion for creating spaces. Every architectural endeavor is an opportunity to shape the future."
-msgstr "Études cung cấp các giải pháp tư vấn, quản lý, thiết kế và nghiên cứu toàn diện. Tầm nhìn của chúng tôi là đi đầu trong đổi mới kiến trúc, thúc đẩy một cộng đồng kiến trúc sư và những người đam mê toàn cầu, đoàn kết bởi niềm đam mê tạo ra không gian. Mỗi nỗ lực kiến trúc là một cơ hội để định hình tương lai."
-
-#: patterns/text-alternating-images.php:97
-msgctxt "Sample list item"
-msgid "A world of thought-provoking articles."
-msgstr "Thế giới bài viết kích thích tư duy."
-
-#: patterns/text-alternating-images.php:23
-msgctxt "Sample subheading content"
-msgid "Our comprehensive suite of professional services caters to a diverse clientele, ranging from homeowners to commercial developers."
-msgstr "Bộ dịch vụ chuyên nghiệp toàn diện của chúng tôi phục vụ đa dạng khách hàng, từ chủ nhà đến nhà phát triển thương mại."
-
-#: patterns/text-alternating-images.php:19
-msgctxt "Sample heading content"
-msgid "An array of resources"
-msgstr "Hàng loạt tài nguyên"
-
-#: patterns/template-single-portfolio.php
-msgctxt "Pattern title"
-msgid "Portfolio single post template"
-msgstr "Mẫu bài đăng đơn danh mục đầu tư"
-
-#: patterns/template-search-blogging.php
-msgctxt "Pattern title"
-msgid "Blogging search template"
-msgstr "Mẫu tìm kiếm blog"
-
-#: patterns/template-index-blogging.php
-msgctxt "Pattern title"
-msgid "Blogging index template"
-msgstr "Mẫu chỉ mục blog"
-
-#: patterns/template-home-blogging.php
-msgctxt "Pattern title"
-msgid "Blogging home template"
-msgstr "Mẫu trang chủ blog"
-
-#: patterns/template-archive-blogging.php
-msgctxt "Pattern title"
-msgid "Blogging archive template"
-msgstr "Mẫu lưu trữ blog"
-
-#: patterns/team-4-col.php:121
-msgctxt "Sample role of a team member"
-msgid "Project Manager"
-msgstr "Quản lý Dự án"
-
-#: patterns/team-4-col.php:20
-msgctxt "Sample descriptive text of the team pattern"
-msgid "Our comprehensive suite of professionals caters to a diverse team, ranging from seasoned architects to renowned engineers."
-msgstr "Đội ngũ chuyên gia toàn diện của chúng tôi phục vụ một nhóm đa dạng, từ các kiến trúc sư dày dạn kinh nghiệm đến các kỹ sư nổi tiếng."
-
-#: patterns/page-home-portfolio.php
-msgctxt "Pattern title"
-msgid "Portfolio home with post featured images"
-msgstr "Trang chủ danh mục đầu tư với hình ảnh nổi bật bài đăng"
-
-#: patterns/hidden-sidebar.php:72
-msgid "Search the website"
-msgstr "Tìm kiếm trên trang web"
-
-#: patterns/hidden-portfolio-hero.php
-msgctxt "Pattern title"
-msgid "Portfolio hero"
-msgstr "Hero danh mục đầu tư"
-
-#: patterns/hidden-404.php:13
-msgctxt "Message to convey that a webpage could not be found"
-msgid "The page you are looking for does not exist, or it has been moved. Please try searching using the form below."
-msgstr "Trang bạn đang tìm kiếm không tồn tại hoặc đã được chuyển đi. Vui lòng thử tìm kiếm bằng biểu mẫu bên dưới."
-
-#: patterns/gallery-project-layout.php:49
-msgctxt "Sample text for the feature area"
-msgid "2. Case studies that celebrate the artistry can fuel curiosity and ignite inspiration."
-msgstr "2. Các nghiên cứu điển hình tôn vinh nghệ thuật có thể khơi dậy sự tò mò và truyền cảm hứng."
-
-#: patterns/gallery-project-layout.php:38
-msgctxt "Sample text for the feature area"
-msgid "Our comprehensive suite of professional services caters to a diverse clientele, ranging from homeowners to commercial developers. With a commitment to innovation and sustainability, Études is the bridge that transforms architectural dreams into remarkable built realities."
-msgstr "Bộ dịch vụ chuyên nghiệp toàn diện của chúng tôi phục vụ đa dạng khách hàng, từ chủ nhà đến nhà phát triển thương mại. Với cam kết đổi mới và bền vững, Études là cầu nối biến những giấc mơ kiến trúc thành hiện thực được xây dựng đáng chú ý."
-
-#: patterns/gallery-project-layout.php:26
-msgctxt "Sample text for the feature area"
-msgid "1. Through Études, we aspire to redefine architectural boundaries and usher in a new era of design excellence that leaves an indelible mark on the built environment."
-msgstr "1. Thông qua Études, chúng tôi khao khát tái định nghĩa ranh giới kiến trúc và mở ra một kỷ nguyên mới về sự xuất sắc trong thiết kế, để lại dấu ấn không thể phai mờ trong môi trường xây dựng."
-
-#: patterns/footer.php:92
-msgid "Social Media"
-msgstr "Mạng xã hội"
-
-#: patterns/footer.php:86
-msgid "Social"
-msgstr "Kết nối"
-
-#: patterns/cta-subscribe-centered.php:24
-msgctxt "Sample text for Subscriber Description"
-msgid "Stay in the loop with everything you need to know."
-msgstr "Luôn cập nhật mọi thứ bạn cần biết."
-
-#: patterns/cta-subscribe-centered.php
-msgctxt "Pattern title"
-msgid "Centered call to action"
-msgstr "Kêu gọi hành động trung tâm"
-
-#: patterns/cta-services-image-left.php:32
-msgctxt "Sample description of the services pattern"
-msgid "Experience the fusion of imagination and expertise with Études—the catalyst for architectural transformations that enrich the world around us."
-msgstr "Trải nghiệm sự kết hợp giữa trí tưởng tượng và chuyên môn với Études—chất xúc tác cho những thay đổi kiến trúc làm phong phú thêm thế giới xung quanh chúng ta."
-
-#: patterns/cta-content-image-on-right.php:32
-#: patterns/text-alternating-images.php:52
-msgctxt "Sample list item"
-msgid "Experience the world of architecture."
-msgstr "Trải nghiệm thế giới kiến trúc."
-
-#: patterns/cta-content-image-on-right.php:24
-#: patterns/text-alternating-images.php:44
-msgctxt "Sample list item"
-msgid "Collaborate with fellow architects."
-msgstr "Cộng tác với các kiến trúc sư đồng nghiệp."
-
-#: patterns/cta-content-image-on-right.php:18
-msgctxt "Sample heading"
-msgid "Enhance your architectural journey with the Études Architect app."
-msgstr "Nâng cao hành trình kiến trúc của bạn với ứng dụng Kiến trúc sư Études."
-
-#: patterns/banner-project-description.php:17
-msgctxt "Sample title for a project or post"
-msgid "Art Gallery — Overview"
-msgstr "Tổng quan về Phòng trưng bày Nghệ thuật"
-
-#: patterns/banner-hero.php:26
-msgctxt "Content of the hero section"
-msgid "Études is a pioneering firm that seamlessly merges creativity and functionality to redefine architectural excellence."
-msgstr "Études là một công ty tiên phong, kết hợp liền mạch giữa sáng tạo và chức năng để tái định nghĩa sự xuất sắc trong kiến trúc."
-
-#: patterns/banner-hero.php
-msgctxt "Pattern title"
-msgid "Hero"
-msgstr "Hero"
-
-#: theme.json
-msgctxt "Custom template name"
-msgid "Single with Sidebar"
-msgstr "Bài viết đơn với thanh bên"
-
-#: theme.json
-msgctxt "Custom template name"
-msgid "Page with Wide Image"
-msgstr "Trang với hình ảnh rộng"
-
-#: theme.json
-msgctxt "Custom template name"
-msgid "Page No Title"
-msgstr "Trang không có tiêu đề"
-
-#: theme.json
-msgctxt "Custom template name"
-msgid "Page with Sidebar"
-msgstr "Trang với thanh bên"
-
-#: patterns/text-feature-grid-3-col.php:96
-msgctxt "Sample feature heading"
-msgid "Project Management"
-msgstr "Quản lý dự án"
-
-#: patterns/text-feature-grid-3-col.php:108
-msgctxt "Sample heading"
-msgid "Architectural Solutions"
-msgstr "Giải pháp kiến trúc"
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "the WordPress team"
+msgstr "nhóm WordPress"
 
 #. Theme URI of the theme
 #: style.css
 #, gp-priority: low
 msgid "https://wordpress.org/themes/twentytwentyfour/"
 msgstr "https://wordpress.org/themes/twentytwentyfour/"
-
-#. Author of the theme
-#: style.css
-#, gp-priority: low
-msgid "the WordPress team"
-msgstr "nhóm WordPress"

@@ -1,7 +1,7 @@
 <?php
 function university_post_types()
 {
-    // Đăng ký post type cho sự kiện
+    // Đăng ký custom post type cho sự kiện
     register_post_type('event', array(
         'labels' => array(
             'name' => 'Events',
@@ -20,8 +20,7 @@ function university_post_types()
         'menu_icon' => 'dashicons-calendar-alt',
     ));
 
-
-    // Đăng ký post type cho program
+    // Đăng ký custom post type cho chương trình
     register_post_type('program', array(
         'labels' => array(
             'name' => 'Programs',
@@ -29,17 +28,88 @@ function university_post_types()
             'add_new_item' => 'Add New Program',
             'edit_item' => 'Edit Program',
             'all_items' => 'All Programs',
-            'view_item' => 'View program',
+            'view_item' => 'View Program',
             'not_found' => 'No programs found',
-            'not_found_in_trash' => 'No Programs found in Trash'
+            'not_found_in_trash' => 'No programs found in Trash'
         ),
         'public' => true,
+        'has_archive' => true,
+        'rewrite' => array('slug' => 'programs'),
         'supports' => array('title', 'editor', 'thumbnail', 'excerpt'),
         'menu_icon' => 'dashicons-format-aside',
     ));
 }
 
 add_action('init', 'university_post_types');
+
+function add_program_meta_boxes()
+{
+    add_meta_box(
+        'program_details',
+        'Chi tiết chương trình',
+        'render_program_meta_box',
+        'program',
+        'normal',
+        'high'
+    );
+}
+add_action('add_meta_boxes', 'add_program_meta_boxes');
+
+function create_program_post_type()
+{
+    register_post_type(
+        'program',
+        array(
+            'labels' => array(
+                'name' => __('Chương Trình'),
+                'singular_name' => __('Chương Trình'),
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'supports' => array('title', 'editor', 'custom-fields'),
+        )
+    );
+}
+add_action('init', 'create_program_post_type');
+
+
+function render_program_meta_box($post)
+{
+    $program_date = get_post_meta($post->ID, 'program_date', true);
+    $program_location = get_post_meta($post->ID, 'program_location', true);
+
+    wp_nonce_field('program_meta_box', 'program_meta_box_nonce');
+?>
+    <p>
+        <label for="program_date">Ngày chương trình:</label>
+        <input type="date" id="program_date" name="program_date" value="<?php echo esc_attr($program_date); ?>">
+    </p>
+    <p>
+        <label for="program_location">Địa điểm:</label>
+        <input type="text" id="program_location" name="program_location" value="<?php echo esc_attr($program_location); ?>">
+    </p>
+<?php
+}
+
+function save_program_meta($post_id)
+{
+    if (!isset($_POST['program_meta_box_nonce']) || !wp_verify_nonce($_POST['program_meta_box_nonce'], 'program_meta_box')) {
+        return;
+    }
+
+    if (!current_user_can('edit_post', $post_id)) {
+        return;
+    }
+
+    if (isset($_POST['program_date'])) {
+        update_post_meta($post_id, 'program_date', sanitize_text_field($_POST['program_date']));
+    }
+    if (isset($_POST['program_location'])) {
+        update_post_meta($post_id, 'program_location', sanitize_text_field($_POST['program_location']));
+    }
+}
+add_action('save_post', 'save_program_meta');
+
 
 // Thêm taxonomy cho sự kiện
 function university_event_taxonomy()
@@ -131,4 +201,111 @@ function display_event_date()
     } else {
         echo '<p>Event Date: Not Set</p>';
     }
+}
+
+// Register Slider Custom Post Type
+function create_slider_post_type()
+{
+    register_post_type(
+        'slider',
+        array(
+            'labels' => array(
+                'name' => __('Sliders'),
+                'singular_name' => __('Slider'),
+                'add_new' => __('Add New'),
+                'add_new_item' => __('Add New Slider'),
+                'edit_item' => __('Edit Slider'),
+                'new_item' => __('New Slider'),
+                'view_item' => __('View Slider'),
+                'search_items' => __('Search Sliders'),
+                'not_found' => __('No sliders found'),
+                'not_found_in_trash' => __('No sliders found in Trash'),
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'menu_icon' => 'dashicons-images-alt2',
+            'supports' => array('title', 'thumbnail', 'editor'),
+        )
+    );
+}
+add_action('init', 'create_slider_post_type');
+
+// Add Meta Box for Slider Details
+function add_slider_meta_boxes()
+{
+    add_meta_box(
+        'slider_details',
+        'Slider Details',
+        'render_slider_meta_box',
+        'slider',
+        'normal',
+        'high'
+    );
+}
+add_action('add_meta_boxes', 'add_slider_meta_boxes');
+
+// Render Meta Box Content
+function render_slider_meta_box($post)
+{
+    $slider_link = get_post_meta($post->ID, 'slider_link', true);
+    wp_nonce_field('slider_meta_box', 'slider_meta_box_nonce');
+?>
+    <p>
+        <label for="slider_link">Slider Link:</label>
+        <input type="url" id="slider_link" name="slider_link" value="<?php echo esc_attr($slider_link); ?>" style="width: 100%;">
+    </p>
+    <?php
+}
+
+// Save Slider Meta Data
+function save_slider_meta($post_id)
+{
+    if (!isset($_POST['slider_meta_box_nonce']) || !wp_verify_nonce($_POST['slider_meta_box_nonce'], 'slider_meta_box')) {
+        return;
+    }
+
+    if (!current_user_can('edit_post', $post_id)) {
+        return;
+    }
+
+    if (isset($_POST['slider_link'])) {
+        update_post_meta($post_id, 'slider_link', esc_url_raw($_POST['slider_link']));
+    }
+}
+add_action('save_post', 'save_slider_meta');
+
+// Display Sliders (You can customize this function to display sliders on the front-end)
+function display_sliders()
+{
+    $args = array(
+        'post_type' => 'slider',
+        'posts_per_page' => -1,
+        'orderby' => 'date',
+        'order' => 'DESC',
+    );
+
+    $sliders = new WP_Query($args);
+
+    if ($sliders->have_posts()) {
+        echo '<div class="slider-container">';
+        while ($sliders->have_posts()) {
+            $sliders->the_post();
+            $slider_link = get_post_meta(get_the_ID(), 'slider_link', true);
+    ?>
+            <div class="slider-item">
+                <?php if ($slider_link) : ?>
+                    <a href="<?php echo esc_url($slider_link); ?>">
+                    <?php endif; ?>
+                    <?php the_post_thumbnail('full'); ?>
+                    <?php if ($slider_link) : ?>
+                    </a>
+                <?php endif; ?>
+                <h2><?php the_title(); ?></h2>
+                <?php the_content(); ?>
+            </div>
+<?php
+        }
+        echo '</div>';
+    }
+    wp_reset_postdata();
 }

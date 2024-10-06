@@ -92,25 +92,71 @@ function save_event_meta($post_id)
 }
 add_action('save_post', 'save_event_meta');
 
-// Tùy chỉnh cột trong danh sách quản lý events
 function custom_event_columns($columns)
 {
     $columns['event_date'] = 'Ngày sự kiện';
-    $columns['event_location'] = 'Địa điểm';
     return $columns;
 }
 add_filter('manage_event_posts_columns', 'custom_event_columns');
 
-// Hiển thị dữ liệu trong các cột tùy chỉnh
 function custom_event_column_data($column, $post_id)
 {
     switch ($column) {
         case 'event_date':
             echo get_post_meta($post_id, '_event_date', true);
             break;
-        case 'event_location':
-            echo get_post_meta($post_id, '_event_location', true);
-            break;
     }
 }
 add_action('manage_event_posts_custom_column', 'custom_event_column_data', 10, 2);
+
+
+function custom_login_logo()
+{
+    $logo_url = get_theme_mod('custom_login_logo', get_template_directory_uri() . '/images/default-logo.png');
+?>
+    <style type="text/css">
+        #login h1 a {
+            background-image: url('<?php echo esc_url($logo_url); ?>');
+            background-size: cover;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+    </style>
+<?php
+}
+add_action('login_enqueue_scripts', 'custom_login_logo');
+
+
+function custom_login_logo_url()
+{
+    return home_url();
+}
+add_filter('login_headerurl', 'custom_login_logo_url');
+
+function custom_login_logo_url_title()
+{
+    return get_bloginfo('name');
+}
+add_filter('login_headertitle', 'custom_login_logo_url_title');
+
+function custom_theme_customizer($wp_customize)
+{
+    $wp_customize->add_section('custom_login_logo_section', array(
+        'title' => __('Custom Login Logo', 'university'),
+        'priority' => 30,
+    ));
+
+    $wp_customize->add_setting('custom_login_logo', array(
+        'default' => get_template_directory_uri() . '/images/default-logo.png',
+        'sanitize_callback' => 'esc_url',
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'custom_login_logo', array(
+        'label' => __('Upload Logo for Login Page', 'university'),
+        'section' => 'custom_login_logo_section',
+        'settings' => 'custom_login_logo',
+    )));
+}
+add_action('customize_register', 'custom_theme_customizer');

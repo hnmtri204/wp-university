@@ -17,54 +17,54 @@ get_header();
       <h2 class="headline headline--small-plus t-center">Upcoming Events</h2>
       <?php
       $homepageEvents = new WP_Query(array(
-        'posts_per_page' => '2',
-        'post_type' => 'event'
+        'posts_per_page' => 2, // Số lượng sự kiện cần hiển thị
+        'post_type' => 'event' // Custom post type cho sự kiện
       ));
 
       while ($homepageEvents->have_posts()) {
         $homepageEvents->the_post();
 
-        // Get the event date stored in a custom field
-        $eventDate = get_post_meta(get_the_ID(), 'event_date', true); // Assuming 'event_date' is your custom field
+        // Lấy ngày sự kiện từ custom field 'event_date'
+        $eventDate = get_post_meta(get_the_ID(), 'event_date', true);
 
-        $eventDate = get_post_meta(get_the_ID(), 'event_date', true);
-        $eventDate = get_post_meta(get_the_ID(), 'event_date', true);
         if ($eventDate) {
-          // Format the event date
+          // Định dạng ngày tháng
           $eventDateFormatted = date('F j, Y', strtotime($eventDate));
         } else {
-          $eventDateFormatted = 'Event Date Not Set';  // Handle cases where the event date is not available
+          $eventDateFormatted = 'Event Date Not Set'; // Xử lý nếu không có ngày
         }
-
       ?>
         <div class="event-summary">
-          <a class="event-summary__date t-center" href="#">
-            <?php if ($eventDateFormatted !== 'N/A') { ?>
-              <span class="event-summary__month"><?php echo date("M", strtotime($eventDateFormatted)); ?></span>
-              <span class="event-summary__day"><?php echo date("d", strtotime($eventDateFormatted)); ?></span>
-            <?php } else { ?>
-              <span class="event-summary__month">N/A</span>
-              <span class="event-summary__day">N/A</span>
-            <?php } ?>
+          <a class="event-summary__date event-summary__date--beige t-center" href="<?php the_permalink(); ?>">
+            <span class="event-summary__month"><?php echo date("M", strtotime($eventDateFormatted)); ?></span>
+            <span class="event-summary__day"><?php echo date("d", strtotime($eventDateFormatted)); ?></span>
           </a>
           <div class="event-summary__content">
-            <h5 class="event-summary__title headline headline--tiny"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-            <p><?php
-                if (has_excerpt()) {
-                  echo get_the_excerpt();
-                } else {
-                  echo wp_trim_words(get_the_content(), 18);
-                }
-                ?>
-              <a href="<?php echo esc_url(get_the_permalink()); ?>" class="nu gray">Read more</a>
+            <h5 class="event-summary__title headline headline--tiny">
+              <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+            </h5>
+            <p>
+              <?php
+              if (has_excerpt()) {
+                echo get_the_excerpt();
+              } else {
+                echo wp_trim_words(get_the_content(), 18);
+              }
+              ?>
+              <a href="<?php the_permalink(); ?>" class="nu gray">Read more</a>
             </p>
           </div>
         </div>
-      <?php } ?>
-      <p class="t-center no-margin"><a href="<?php echo get_post_type_archive_link('event'); ?>" class="btn btn--blue">View All Events</a></p>
+      <?php }
+      wp_reset_postdata(); // Đảm bảo reset dữ liệu post
+      ?>
+      <p class="t-center no-margin">
+        <a href="<?php echo get_post_type_archive_link('event'); ?>" class="btn btn--blue">View All Events</a>
+      </p>
     </div>
-
   </div>
+
+
 
   <div class="full-width-split__two">
     <div class="full-width-split__inner">
@@ -109,19 +109,24 @@ get_header();
     <div class="glide__slides">
       <?php
       $slider_posts = new WP_Query(array(
-        'post_type' => 'post',
-        'posts_per_page' => 3,
+        'post_type' => 'slider',
+        'posts_per_page' => -1, // Fetch all slider posts
+        'orderby' => 'date',
+        'order' => 'DESC',
       ));
 
       while ($slider_posts->have_posts()) {
         $slider_posts->the_post();
+        $slider_link = get_post_meta(get_the_ID(), 'slider_link', true);
       ?>
-        <div class="hero-slider__slide" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>)">
+        <div class="hero-slider__slide" style="background-image: url(<?php echo get_the_post_thumbnail_url(null, 'full'); ?>)">
           <div class="hero-slider__interior container">
             <div class="hero-slider__overlay">
               <h2 class="headline headline--medium t-center"><?php the_title(); ?></h2>
-              <p class="t-center"><?php echo wp_trim_words(get_the_excerpt(), 15); ?></p>
-              <p class="t-center no-margin"><a href="<?php the_permalink(); ?>" class="btn btn--blue">Learn more</a></p>
+              <p class="t-center"><?php echo wp_trim_words(get_the_content(), 15); ?></p>
+              <?php if ($slider_link) : ?>
+                <p class="t-center no-margin"><a href="<?php echo esc_url($slider_link); ?>" class="btn btn--blue">Learn more</a></p>
+              <?php endif; ?>
             </div>
           </div>
         </div>
